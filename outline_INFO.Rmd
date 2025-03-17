@@ -11,6 +11,18 @@ if (!require(tidyverse)) {install.packages("tidyverse")}
 library(readr)
 library(stringr)
 ```
+## Lakes
+14	Tishomingo\
+21	Goose Creek\
+96	Fellows\
+18 & 112	Capri /Shayne\
+274	Alpine Lake\
+120	Winnebago\
+169	Gopher\
+411	Cedar Lake (HOA)\
+11	Peaceful Valley\
+134	Jamesport City Lake\
+
 
 ## Introduction
 copy from previous ind lake reports
