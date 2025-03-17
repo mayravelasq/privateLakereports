@@ -1,0 +1,628 @@
+parameterType,parameterType & Tube#,,,Tube/Filter#,MULakeNumber,Depth,Date,Time,beginDepth,endDepth,Replicate,unit,parameterValue,Rerun?,still too high?,waterBody,samplingSite,parameterValueQCCodeDesc,,Project
+ANA_tox,RA1 ,,,1,088,,2024-05-15,12:43:00 PM,0,0.50,,ug/L,0.145,,,Marceline_South,Marceline (South) 1,Below detection limit,,SLAP
+ANA_tox,RA1 ,,,1,088,,2024-05-15,12:43:00 PM,0,0.50,,ug/L,0.194,,,Marceline_South,Marceline (South) 1,,,SLAP
+ANA_tox,RA2 ,,,2,438,,2024-05-17,10:15:00 AM,0,0.50,,ug/L,0.154,,,Bethel,Bethel 1,,,SLAP
+ANA_tox,RA2 ,,,2,438,,2024-05-17,10:15:00 AM,0,0.50,,ug/L,0.154,,,Bethel,Bethel 1,,,SLAP
+ANA_tox,RA3 ,,,3,139,,2024-05-15,12:20:00 PM,0,0.50,,ug/L,0.146,,,Marceline_North,Marceline (North) 1,Below detection limit,,SLAP
+ANA_tox,RA3 ,,,3,139,,2024-05-15,12:20:00 PM,0,0.50,,ug/L,0.147,,,Marceline_North,Marceline (North) 1,Below detection limit,,SLAP
+ANA_tox,RA4 ,,,4,228,,2024-05-20,12:15:00 PM,0,0.50,,ug/L,0.228,,,Jamesport_Community,Jamesport Community 1,,,SLAP
+ANA_tox,RA4 ,,,4,228,,2024-05-20,12:15:00 PM,0,0.50,,ug/L,0.243,,,Jamesport_Community,Jamesport Community 1,,,SLAP
+ANA_tox,RA5 ,,,5,163,,2024-05-20,1:58:00 PM,0,0.50,,ug/L,0.117,,,King,King 1,Below detection limit,,SLAP
+ANA_tox,RA5 ,,,5,163,,2024-05-20,1:58:00 PM,0,0.50,,ug/L,0.173,,,King,King 1,,,SLAP
+ANA_tox,RA6 ,,,6,195,,2024-05-20,2:56:00 PM,0,0.50,,ug/L,0.168,,,Limpp,Limpp 1,,,SLAP
+ANA_tox,RA6 ,,,6,195,,2024-05-20,2:56:00 PM,0,0.50,,ug/L,0.147,,,Limpp,Limpp 1,Below detection limit,,SLAP
+ANA_tox,RA7 ,,,7,224,,2024-05-20,3:57:00 PM,0,0.50,,ug/L,0.185,,,Happy_Holler,Happy Holler 1,,,SLAP
+ANA_tox,RA7 ,,,7,224,,2024-05-20,3:57:00 PM,0,0.50,,ug/L,0.176,,,Happy_Holler,Happy Holler 1,,,SLAP
+ANA_tox,RA8 ,,,8,180,,2024-05-20,5:50:00 PM,0,0.50,,ug/L,0.211,,,Bilby_Ranch,Bilby Ranch 1,,,SLAP
+ANA_tox,RA8 ,,,8,180,,2024-05-20,5:50:00 PM,0,0.50,,ug/L,0.215,,,Bilby_Ranch,Bilby Ranch 1,,,SLAP
+ANA_tox,RA9 ,,,9,179,,2024-05-21,6:55:00 AM,0,0.50,,ug/L,0.207,,,Nodaway_County,Nodaway County 1,,,SLAP
+ANA_tox,RA9 ,,,9,179,,2024-05-21,6:55:00 AM,0,0.50,,ug/L,0.162,,,Nodaway_County,Nodaway County 1,,,SLAP
+ANA_tox,RA10 ,,,10,181,,2024-05-21,8:36:00 AM,0,0.50,,ug/L,0.221,,,Mozingo,Mozingo 1,,,SLAP
+ANA_tox,RA10 ,,,10,181,,2024-05-21,8:36:00 AM,0,0.50,,ug/L,0.216,,,Mozingo,Mozingo 1,,,SLAP
+ANA_tox,RA11 ,,,11,185,,2024-05-21,10:45:00 AM,0,0.50,,ug/L,0.143,,,Harrison_County,Harrison County 1,Below detection limit,,SLAP
+ANA_tox,RA11 ,,,11,185,,2024-05-21,10:45:00 AM,0,0.50,,ug/L,0.154,,,Harrison_County,Harrison County 1,,,SLAP
+ANA_tox,RA12 ,,,12,164,,2024-05-21,1:17:00 PM,0,0.50,,ug/L,0.166,,,Elmwood,Elmwood 1,,,SLAP
+ANA_tox,RA12 ,,,12,164,,2024-05-21,1:17:00 PM,0,0.50,,ug/L,0.165,,,Elmwood,Elmwood 1,,,SLAP
+ANA_tox,RA13 ,,,13,237,,2024-05-21,2:04:00 PM,0,0.50,,ug/L,0.220,,,Milan_North,Milan (North) 1,,,SLAP
+ANA_tox,RA13 ,,,13,237,,2024-05-21,2:04:00 PM,0,0.50,,ug/L,0.185,,,Milan_North,Milan (North) 1,,,SLAP
+ANA_tox,RA14 ,,,14,133,,2024-05-22,7:36:00 AM,0,0.50,,ug/L,0.201,,,Forest,Forest 1,,,SLAP
+ANA_tox,RA14 ,,,14,133,,2024-05-22,7:36:00 AM,0,0.50,,ug/L,0.132,,,Forest,Forest 1,Below detection limit,,SLAP
+ANA_tox,RA15 ,,,15,053,,2024-05-22,9:45:00 AM,0,0.50,,ug/L,0.171,,,Memphis_City,Memphis City 1,,,SLAP
+ANA_tox,RA15 ,,,15,053,,2024-05-22,9:45:00 AM,0,0.50,,ug/L,0.182,,,Memphis_City,Memphis City 1,,,SLAP
+ANA_tox,RA16 ,,,16,182,,2024-05-22,11:15:00 AM,0,0.50,,ug/L,0.153,,,Fox_Valley,Fox Valley 1,,,SLAP
+ANA_tox,RA16 ,,,16,182,,2024-05-22,11:15:00 AM,0,0.50,,ug/L,0.144,,,Fox_Valley,Fox Valley 1,Below detection limit,,SLAP
+ANA_tox,RA17 ,,,17,057,,2024-05-22,1:24:00 PM,0,0.50,,ug/L,0.206,,,Deer_Ridge,Deer Ridge 1,,,SLAP
+ANA_tox,RA17 ,,,17,057,,2024-05-22,1:24:00 PM,0,0.50,,ug/L,0.196,,,Deer_Ridge,Deer Ridge 1,,,SLAP
+ANA_tox,RA18 ,,,18,114,,2024-05-22,2:52:00 PM,0,0.50,,ug/L,0.205,,,Henry_Sever,Henry Sever 1,,,SLAP
+ANA_tox,RA18 ,,,18,114,,2024-05-22,2:52:00 PM,0,0.50,,ug/L,0.179,,,Henry_Sever,Henry Sever 1,,,SLAP
+ANA_tox,RA19 ,,,19,048,,2024-05-22,4:55:00 PM,0,0.50,,ug/L,0.113,,,Long_Branch,Long Branch 1,Below detection limit,,SLAP
+ANA_tox,RA19 ,,,19,048,,2024-05-22,4:55:00 PM,0,0.50,,ug/L,0.098,,,Long_Branch,Long Branch 1,Below detection limit,,SLAP
+ANA_tox,RA20 ,,,20,134,,2024-05-23,11:30:00 AM,0,0.50,,ug/L,0.167,,,Jamesport_City,Jamesport City 1,,,SLAP
+ANA_tox,RA20 ,,,20,134,,2024-05-23,11:30:00 AM,0,0.50,,ug/L,0.227,,,Jamesport_City,Jamesport City 1,,,SLAP
+ANA_tox,RA21 ,,,21,184,,2024-05-28,10:15:00 AM,0,0.50,,ug/L,0.341,,,Manito,Manito 1,,,SLAP
+ANA_tox,RA21 ,,,21,184,,2024-05-28,10:15:00 AM,0,0.50,,ug/L,0.358,,,Manito,Manito 1,,,SLAP
+ANA_tox,RA22 ,,,22,092,,2024-05-28,12:47:00 PM,0,0.50,,ug/L,0.166,,,Pomme_De_Terre,Pomme de Terre 1,,,SLAP
+ANA_tox,RA22 ,,,22,092,,2024-05-28,12:47:00 PM,0,0.50,,ug/L,0.175,,,Pomme_De_Terre,Pomme de Terre 1,,,SLAP
+ANA_tox,RA23 ,,,23,098,,2024-05-23,1:51:00 PM,0,0.50,,ug/L,0.135,,,Table_Rock,Table Rock 1,Below detection limit,,SLAP
+ANA_tox,RA23 ,,,23,098,,2024-05-23,1:51:00 PM,0,0.50,,ug/L,0.147,,,Table_Rock,Table Rock 1,Below detection limit,,SLAP
+ANA_tox,RA24 ,,,24,049,,2024-06-05,10:10:00 AM,0,0.50,,ug/L,0.240,,,Macon,Macon 1,,,SLAP
+ANA_tox,RA24 ,,,24,049,,2024-06-05,10:10:00 AM,0,0.50,,ug/L,0.204,,,Macon,Macon 1,,,SLAP
+ANA_tox,RA25 ,,,25,096,,2024-05-28,3:12:00 PM,0,0.50,,ug/L,0.163,,,Fellows,Fellows 1,,,SLAP
+ANA_tox,RA25 ,,,25,096,,2024-05-28,3:12:00 PM,0,0.50,,ug/L,0.213,,,Fellows,Fellows 1,,,SLAP
+ANA_tox,RA26 ,,,26,096-FD,,2024-05-28,3:12:00 PM,0,0.50,,ug/L,0.166,,,Fellows,Fellows 1,,,SLAP
+ANA_tox,RA26 ,,,26,096-FD,,2024-05-28,3:12:00 PM,0,0.50,,ug/L,0.117,,,Fellows,Fellows 1,Below detection limit,,SLAP
+ANA_tox,RA27 ,,,27,091,,2024-05-28,6:07:00 PM,0,0.50,,ug/L,0.165,,,Atkinson,Atkinson 1,,,SLAP
+ANA_tox,RA27 ,,,27,091,,2024-05-28,6:07:00 PM,0,0.50,,ug/L,0.168,,,Atkinson,Atkinson 1,,,SLAP
+ANA_tox,RA28 ,,,28,070,,2024-05-29,7:50:00 AM,0,0.50,,ug/L,0.097,,,North,North 1,Below detection limit,,SLAP
+ANA_tox,RA28 ,,,28,070,,2024-05-29,7:50:00 AM,0,0.50,,ug/L,0.153,,,North,North 1,,,SLAP
+ANA_tox,RA29 ,,,29,120,,2024-05-29,9:15:00 AM,0,0.50,,ug/L,0.218,,,Winnebago,Winnebago 1,,,SLAP
+ANA_tox,RA29 ,,,29,120,,2024-05-29,9:15:00 AM,0,0.50,,ug/L,0.261,,,Winnebago,Winnebago 1,,,SLAP
+ANA_tox,RA30 ,,,30,169,,2024-05-29,10:34:00 AM,0,0.50,,ug/L,0.309,,,Gopher,Gopher 1,,,SLAP
+ANA_tox,RA30 ,,,30,169,,2024-05-29,10:34:00 AM,0,0.50,,ug/L,0.310,,,Gopher,Gopher 1,,,SLAP
+ANA_tox,RA31 ,,,31,183,,2024-05-29,11:57:00 AM,0,0.50,,ug/L,0.153,,,Hazel_Hill,Hazel Hill 1,,,SLAP
+ANA_tox,RA31 ,,,31,183,,2024-05-29,11:57:00 AM,0,0.50,,ug/L,0.221,,,Hazel_Hill,Hazel Hill 1,,,SLAP
+ANA_tox,RA32 ,,,32,150,,2024-05-29,1:44:00 PM,0,0.50,,ug/L,0.135,,,Blind_Pony,Blind Pony 1,Below detection limit,,SLAP
+ANA_tox,RA32 ,,,32,150,,2024-05-29,1:44:00 PM,0,0.50,,ug/L,0.131,,,Blind_Pony,Blind Pony 1,Below detection limit,,SLAP
+ANA_tox,RA33 ,,,33,121,,2024-05-29,3:17:00 PM,0,0.50,,ug/L,0.278,,,Higginsville,Higginsville 1,,,SLAP
+ANA_tox,RA33 ,,,33,121,,2024-05-29,3:17:00 PM,0,0.50,,ug/L,0.307,,,Higginsville,Higginsville 1,,,SLAP
+ANA_tox,RA33 ,,,33,121,,2024-05-29,3:17:00 PM,0,0.50,,ug/L,0.232,,,Higginsville,Higginsville 1,,,SLAP
+ANA_tox,RA33 ,,,33,121,,2024-05-29,3:17:00 PM,0,0.50,,ug/L,0.271,,,Higginsville,Higginsville 1,,,SLAP
+ANA_tox,RA34 ,,,34,074,,2024-05-30,8:00:00 AM,0,0.50,,ug/L,0.131,,,Watkins_Mill,Watkins Mill 1,Below detection limit,,SLAP
+ANA_tox,RA34 ,,,34,074,,2024-05-30,8:00:00 AM,0,0.50,,ug/L,0.140,,,Watkins_Mill,Watkins Mill 1,Below detection limit,,SLAP
+ANA_tox,RA35 ,,,35,081,,2024-05-30,9:53:00 AM,0,0.50,,ug/L,0.107,,,Pony_Express,Pony Express 1,Below detection limit,,SLAP
+ANA_tox,RA35 ,,,35,081,,2024-05-30,9:53:00 AM,0,0.50,,ug/L,0.196,,,Pony_Express,Pony Express 1,,,SLAP
+ANA_tox,RA36 ,,,36,317,,2024-05-30,10:47:00 AM,0,0.50,,ug/L,0.140,,,Buffalo_Bill,Buffalo Bill 1,Below detection limit,,SLAP
+ANA_tox,RA36 ,,,36,317,,2024-05-30,10:47:00 AM,0,0.50,,ug/L,0.135,,,Buffalo_Bill,Buffalo Bill 1,Below detection limit,,SLAP
+ANA_tox,RA37 ,,,37,192,,2024-05-30,12:45:00 PM,0,0.50,,ug/L,0.133,,,Jo_Shelby,Jo Shelby 1,Below detection limit,,SLAP
+ANA_tox,RA37 ,,,37,192,,2024-05-30,12:45:00 PM,0,0.50,,ug/L,0.134,,,Jo_Shelby,Jo Shelby 1,Below detection limit,,SLAP
+ANA_tox,RA38 ,,,38,087,,2024-05-30,1:57:00 PM,0,0.50,,ug/L,0.078,,,Brookfield,Brookfield 1,Below detection limit,,SLAP
+ANA_tox,RA38 ,,,38,087,,2024-05-30,1:57:00 PM,0,0.50,,ug/L,0.102,,,Brookfield,Brookfield 1,Below detection limit,,SLAP
+ANA_tox,RA39 ,,,39,115,,2024-06-05,11:54:00 AM,0,0.50,,ug/L,0.144,,,Hunnewell,Hunnewell 1,Below detection limit,,SLAP
+ANA_tox,RA39 ,,,39,115,,2024-06-05,11:54:00 AM,0,0.50,,ug/L,0.057,,,Hunnewell,Hunnewell 1,Below detection limit,,SLAP
+ANA_tox,RA40 ,,,40,272,,2024-06-05,1:39:00 PM,0,0.50,,ug/L,0.171,,,Perry,Perry 1,,,SLAP
+ANA_tox,RA40 ,,,40,272,,2024-06-05,1:39:00 PM,0,0.50,,ug/L,0.161,,,Perry,Perry 1,,,SLAP
+ANA_tox,RA41 ,,,41,003,,2024-06-05,3:18:00 PM,0,0.50,,ug/L,0.186,,,Bowling_Green_East,Bowling Green (East) 1,,,SLAP
+ANA_tox,RA41 ,,,41,003,,2024-06-05,3:18:00 PM,0,0.50,,ug/L,0.097,,,Bowling_Green_East,Bowling Green (East) 1,Below detection limit,,SLAP
+ANA_tox,RA42 ,,,42,005,,2024-06-05,4:52:00 PM,0,0.50,,ug/L,0.173,,,Lincoln,Lincoln 1,,,SLAP
+ANA_tox,RA42 ,,,42,005,,2024-06-05,4:52:00 PM,0,0.50,,ug/L,0.155,,,Lincoln,Lincoln 1,,,SLAP
+ANA_tox,RA43 ,,,43,197,,2024-06-05,6:21:00 PM,0,0.50,,ug/L,0.167,,,Prairie,Prairie 1,,,SLAP
+ANA_tox,RA43 ,,,43,197,,2024-06-05,6:21:00 PM,0,0.50,,ug/L,0.206,,,Prairie,Prairie 1,,,SLAP
+ANA_tox,RA44 ,,,44,454,,2024-06-06,7:35:00 AM,0,0.50,,ug/L,0.432,,,Cedar_Hill_Lake_1,Cedar Hill (Lake 1) 1,,,SLAP
+ANA_tox,RA44 ,,,44,454,,2024-06-06,7:35:00 AM,0,0.50,,ug/L,0.428,,,Cedar_Hill_Lake_1,Cedar Hill (Lake 1) 1,,,SLAP
+ANA_tox,RA45 ,,,45,014,,2024-06-06,8:51:00 AM,0,0.50,,ug/L,0.186,,,Tishomingo,Tishomingo 1,,,SLAP
+ANA_tox,RA45 ,,,45,014,,2024-06-06,8:51:00 AM,0,0.50,,ug/L,0.174,,,Tishomingo,Tishomingo 1,,,SLAP
+ANA_tox,RA46 ,,,46,021,,2024-06-06,10:57:00 AM,0,0.50,,ug/L,0.207,,,Goose_Creek,Goose Creek 1,,,SLAP
+ANA_tox,RA46 ,,,46,021,,2024-06-06,10:57:00 AM,0,0.50,,ug/L,0.174,,,Goose_Creek,Goose Creek 1,,,SLAP
+ANA_tox,RA47 ,,,47,018,,2024-06-06,1:33:00 PM,0,0.50,,ug/L,0.250,,,Capri,Capri 1,,,SLAP
+ANA_tox,RA47 ,,,47,018,,2024-06-06,1:33:00 PM,0,0.50,,ug/L,0.172,,,Capri,Capri 1,,,SLAP
+ANA_tox,RA48 ,,,48,112,,2024-06-06,2:41:00 PM,0,0.50,,ug/L,0.204,,,Shayne,Shayne 1,,,SLAP
+ANA_tox,RA48 ,,,48,112,,2024-06-06,2:41:00 PM,0,0.50,,ug/L,0.195,,,Shayne,Shayne 1,,,SLAP
+ANA_tox,RA49 ,,,49,186,,2024-06-06,4:30:00 PM,0,0.50,,ug/L,0.147,,,Carl_DiSalvo,Carl DiSalvo 1,Below detection limit,,SLAP
+ANA_tox,RA49 ,,,49,186,,2024-06-06,4:30:00 PM,0,0.50,,ug/L,0.144,,,Carl_DiSalvo,Carl DiSalvo 1,Below detection limit,,SLAP
+ANA_tox,RA50 ,,,50,030,,2024-06-07,8:44:00 AM,0,0.50,,ug/L,0.166,,,Wappapello,Wappapello 1,,,SLAP
+ANA_tox,RA50 ,,,50,030,,2024-06-07,8:44:00 AM,0,0.50,,ug/L,0.176,,,Wappapello,Wappapello 1,,,SLAP
+ANA_tox,RA51 ,,,51,048,,2024-06-12,4:10:00 PM,0,0.50,,ug/L,0.193,,,Long_Branch,Long Branch 1,,,SLAP
+ANA_tox,RA51 ,,,51,048,,2024-06-12,4:10:00 PM,0,0.50,,ug/L,0.186,,,Long_Branch,Long Branch 1,,,SLAP
+ANA_tox,RA52 ,,,52,036,,2024-06-07,11:35:00 AM,0,0.50,,ug/L,0.264,,,Clearwater,Clearwater 1,,,SLAP
+ANA_tox,RA52 ,,,52,036,,2024-06-07,11:35:00 AM,0,0.50,,ug/L,0.207,,,Clearwater,Clearwater 1,,,SLAP
+ANA_tox,RA53 ,,,53,039,,2024-06-07,3:22:00 PM,0,0.50,,ug/L,0.241,,,Council_Bluff,Council Bluff 1,,,SLAP
+ANA_tox,RA53 ,,,53,039,,2024-06-07,3:22:00 PM,0,0.50,,ug/L,0.133,,,Council_Bluff,Council Bluff 1,Below detection limit,,SLAP
+ANA_tox,RA54 ,,,54,110,,2024-06-07,6:34:00 PM,0,0.50,,ug/L,0.128,,,Little_Prairie,Little Prairie 1,Below detection limit,,SLAP
+ANA_tox,RA54 ,,,54,110,,2024-06-07,6:34:00 PM,0,0.50,,ug/L,0.205,,,Little_Prairie,Little Prairie 1,,,SLAP
+ANA_tox,RA55 ,,,55,134,,2024-06-10,12:37:00 PM,0,0.50,,ug/L,0.570,,,Jamesport_City,Jamesport City 1,,,SLAP
+ANA_tox,RA55 ,,,55,134,,2024-06-10,12:37:00 PM,0,0.50,,ug/L,0.603,,,Jamesport_City,Jamesport City 1,,,SLAP
+ANA_tox,RA56 ,,,56,411,,2024-06-06,11:22:00 AM,0,0.50,,ug/L,0.128,,,Cedar,Cedar 1,Below detection limit,,SLAP
+ANA_tox,RA56 ,,,56,411,,2024-06-06,11:22:00 AM,0,0.50,,ug/L,0.178,,,Cedar,Cedar 1,,,SLAP
+ANA_tox,RA57 ,,,57,274,,2024-06-07,10:55:00 AM,0,0.50,,ug/L,0.146,,,Alpine,Alpine 1,Below detection limit,,SLAP
+ANA_tox,RA57 ,,,57,274,,2024-06-07,10:55:00 AM,0,0.50,,ug/L,0.139,,,Alpine,Alpine 1,Below detection limit,,SLAP
+ANA_tox,RA58 ,,,58,117,,2024-06-07,2:12:00 PM,0,0.50,,ug/L,0.147,,,Little_Dixie,Little Dixie 1,Below detection limit,,SLAP
+ANA_tox,RA58 ,,,58,117,,2024-06-07,2:12:00 PM,0,0.50,,ug/L,0.213,,,Little_Dixie,Little Dixie 1,,,SLAP
+ANA_tox,RA59 ,,,59,228,,2024-06-10,1:17:00 PM,0,0.50,,ug/L,0.493,,,Jamesport_Community,Jamesport Community 1,,,SLAP
+ANA_tox,RA59 ,,,59,228,,2024-06-10,1:17:00 PM,0,0.50,,ug/L,0.476,,,Jamesport_Community,Jamesport Community 1,,,SLAP
+ANA_tox,RA60 ,,,60,163,,2024-06-10,2:53:00 PM,0,0.50,,ug/L,0.756,,,King,King 1,,,SLAP
+ANA_tox,RA60 ,,,60,163,,2024-06-10,2:53:00 PM,0,0.50,,ug/L,0.785,,,King,King 1,,,SLAP
+ANA_tox,RA61 ,,,61,195,,2024-06-10,3:57:00 PM,0,0.50,,ug/L,0.244,,,Limpp,Limpp 1,,,SLAP
+ANA_tox,RA61 ,,,61,195,,2024-06-10,3:57:00 PM,0,0.50,,ug/L,0.268,,,Limpp,Limpp 1,,,SLAP
+ANA_tox,RA62 ,,,62,224,,2024-06-10,5:02:00 PM,0,0.50,,ug/L,0.418,,,Happy_Holler,Happy Holler 1,,,SLAP
+ANA_tox,RA62 ,,,62,224,,2024-06-10,5:02:00 PM,0,0.50,,ug/L,0.446,,,Happy_Holler,Happy Holler 1,,,SLAP
+ANA_tox,RA63 ,,,63,180,,2024-06-10,6:52:00 PM,0,0.50,,ug/L,0.440,,,Bilby_Ranch,Bilby Ranch 1,,,SLAP
+ANA_tox,RA63 ,,,63,180,,2024-06-10,6:52:00 PM,0,0.50,,ug/L,0.348,,,Bilby_Ranch,Bilby Ranch 1,,,SLAP
+ANA_tox,RA64 ,,,64,179,,2024-06-11,7:55:00 AM,0,0.50,,ug/L,0.329,,,Nodaway_County,Nodaway County 1,,,SLAP
+ANA_tox,RA64 ,,,64,179,,2024-06-11,7:55:00 AM,0,0.50,,ug/L,0.325,,,Nodaway_County,Nodaway County 1,,,SLAP
+ANA_tox,RA65 ,,,65,181,,2024-06-11,9:03:00 AM,0,0.50,,ug/L,0.515,,,Mozingo,Mozingo 1,,,SLAP
+ANA_tox,RA65 ,,,65,181,,2024-06-11,9:03:00 AM,0,0.50,,ug/L,0.534,,,Mozingo,Mozingo 1,,,SLAP
+ANA_tox,RA66 ,,,66,185,,2024-06-11,11:05:00 AM,0,0.50,,ug/L,0.317,,,Harrison_County,Harrison County 1,,,SLAP
+ANA_tox,RA66 ,,,66,185,,2024-06-11,11:05:00 AM,0,0.50,,ug/L,0.376,,,Harrison_County,Harrison County 1,,,SLAP
+ANA_tox,RA67 ,,,67,164,,2024-06-11,1:26:00 PM,0,0.50,,ug/L,0.347,,,Elmwood,Elmwood 1,,,SLAP
+ANA_tox,RA67 ,,,67,164,,2024-06-11,1:26:00 PM,0,0.50,,ug/L,0.391,,,Elmwood,Elmwood 1,,,SLAP
+ANA_tox,RA68 ,,,68,237,,2024-06-11,2:18:00 PM,0,0.50,,ug/L,0.348,,,Milan_North,Milan (North) 1,,,SLAP
+ANA_tox,RA68 ,,,68,237,,2024-06-11,2:18:00 PM,0,0.50,,ug/L,0.373,,,Milan_North,Milan (North) 1,,,SLAP
+ANA_tox,RA69 ,,,69,133,,2024-06-12,7:19:00 AM,0,0.50,,ug/L,0.397,,,Forest,Forest 1,,,SLAP
+ANA_tox,RA69 ,,,69,133,,2024-06-12,7:19:00 AM,0,0.50,,ug/L,0.359,,,Forest,Forest 1,,,SLAP
+ANA_tox,RA70 ,,,70,053,,2024-06-12,9:19:00 AM,0,0.50,,ug/L,0.438,,,Memphis_City,Memphis City 1,,,SLAP
+ANA_tox,RA70 ,,,70,053,,2024-06-12,9:19:00 AM,0,0.50,,ug/L,0.421,,,Memphis_City,Memphis City 1,,,SLAP
+ANA_tox,RA71 ,,,71,182,,2024-06-12,10:42:00 AM,0,0.50,,ug/L,0.360,,,Fox_Valley,Fox Valley 1,,,SLAP
+ANA_tox,RA71 ,,,71,182,,2024-06-12,10:42:00 AM,0,0.50,,ug/L,0.350,,,Fox_Valley,Fox Valley 1,,,SLAP
+ANA_tox,RA72 ,,,72,057,,2024-06-12,12:49:00 PM,0,0.50,,ug/L,0.360,,,Deer_Ridge,Deer Ridge 1,,,SLAP
+ANA_tox,RA72 ,,,72,057,,2024-06-12,12:49:00 PM,0,0.50,,ug/L,0.383,,,Deer_Ridge,Deer Ridge 1,,,SLAP
+ANA_tox,RA73 ,,,73,114,,2024-06-12,2:19:00 PM,0,0.50,,ug/L,0.334,,,Henry_Sever,Henry Sever 1,,,SLAP
+ANA_tox,RA73 ,,,73,114,,2024-06-12,2:19:00 PM,0,0.50,,ug/L,0.270,,,Henry_Sever,Henry Sever 1,,,SLAP
+ANA_tox,RA74 ,,,74,440,,2024-06-11,2:27:00 PM,0,0.50,,ug/L,0.277,,,Crow_Pond,Crow Pond 1,,,SLAP
+ANA_tox,RA74 ,,,74,440,,2024-06-11,2:27:00 PM,0,0.50,,ug/L,0.273,,,Crow_Pond,Crow Pond 1,,,SLAP
+ANA_tox,RA75 ,,,75,219,,2024-06-12,10:21:00 AM,0,0.50,,ug/L,0.263,,,Dairy_1,Dairy 1 1,,,SLAP
+ANA_tox,RA75 ,,,75,219,,2024-06-12,10:21:00 AM,0,0.50,,ug/L,0.281,,,Dairy_1,Dairy 1 1,,,SLAP
+ANA_tox,RA76 ,,,76,139,,2024-06-14,11:52:00 AM,0,0.50,,ug/L,0.287,,,Marceline_North,Marceline (North) 1,,,SLAP
+ANA_tox,RA76 ,,,76,139,,2024-06-14,11:52:00 AM,0,0.50,,ug/L,0.347,,,Marceline_North,Marceline (North) 1,,,SLAP
+ANA_tox,RA77 ,,,77,046,,2024-06-13,11:22:00 PM,0,0.50,,ug/L,0.312,,,Thomas_Hill,Thomas Hill 1,,,SLAP
+ANA_tox,RA77 ,,,77,046,,2024-06-13,11:22:00 PM,0,0.50,,ug/L,0.221,,,Thomas_Hill,Thomas Hill 1,,,SLAP
+ANA_tox,RA78 ,,,78,184,,2024-06-18,10:22:00 AM,0,0.50,,ug/L,0.227,,,Manito,Manito 1,,,SLAP
+ANA_tox,RA78 ,,,78,184,,2024-06-18,10:22:00 AM,0,0.50,,ug/L,0.255,,,Manito,Manito 1,,,SLAP
+ANA_tox,RA79 ,,,79,438,,2024-06-14,10:40:00 AM,0,0.50,,ug/L,0.306,,,Bethel,Bethel 1,,,SLAP
+ANA_tox,RA79 ,,,79,438,,2024-06-14,10:40:00 AM,0,0.50,,ug/L,0.344,,,Bethel,Bethel 1,,,SLAP
+ANA_tox,RA80 ,,,80,184-FD,,2024-06-18,10:22:00 AM,0,0.50,,ug/L,0.312,,,Manito,Manito 1,,,SLAP
+ANA_tox,RA80 ,,,80,184-FD,,2024-06-18,10:22:00 AM,0,0.50,,ug/L,0.314,,,Manito,Manito 1,,,SLAP
+ANA_tox,RA81 ,,,81,096,,2024-06-18,3:04:00 PM,0,0.50,,ug/L,0.294,,,Fellows,Fellows 1,,,SLAP
+ANA_tox,RA81 ,,,81,096,,2024-06-18,3:04:00 PM,0,0.50,,ug/L,0.337,,,Fellows,Fellows 1,,,SLAP
+ANA_tox,RA82 ,,,82,091,,2024-06-18,5:33:00 PM,0,0.50,,ug/L,0.329,,,Atkinson,Atkinson 1,,,SLAP
+ANA_tox,RA82 ,,,82,091,,2024-06-18,5:33:00 PM,0,0.50,,ug/L,0.323,,,Atkinson,Atkinson 1,,,SLAP
+ANA_tox,RA83 ,,,83,070,,2024-06-19,7:37:00 AM,0,0.50,,ug/L,0.268,,,North,North 1,,,SLAP
+ANA_tox,RA83 ,,,83,070,,2024-06-19,7:37:00 AM,0,0.50,,ug/L,0.322,,,North,North 1,,,SLAP
+ANA_tox,RA84 ,,,84,169,,2024-06-19,8:54:00 AM,0,0.50,,ug/L,0.507,,,Gopher,Gopher 1,,,SLAP
+ANA_tox,RA84 ,,,84,169,,2024-06-19,8:54:00 AM,0,0.50,,ug/L,0.496,,,Gopher,Gopher 1,,,SLAP
+ANA_tox,RA85 ,,,85,183,,2024-06-19,10:40:00 AM,0,0.50,,ug/L,0.358,,,Hazel_Hill,Hazel Hill 1,,,SLAP
+ANA_tox,RA85 ,,,85,183,,2024-06-19,10:40:00 AM,0,0.50,,ug/L,0.356,,,Hazel_Hill,Hazel Hill 1,,,SLAP
+ANA_tox,RA86 ,,,86,150,,2024-06-19,12:23:00 PM,0,0.50,,ug/L,0.314,,,Blind_Pony,Blind Pony 1,,,SLAP
+ANA_tox,RA86 ,,,86,150,,2024-06-19,12:23:00 PM,0,0.50,,ug/L,0.312,,,Blind_Pony,Blind Pony 1,,,SLAP
+ANA_tox,RA87 ,,,87,121,,2024-06-19,1:46:00 PM,0,0.50,,ug/L,0.332,,,Higginsville,Higginsville 1,,,SLAP
+ANA_tox,RA87 ,,,87,121,,2024-06-19,1:46:00 PM,0,0.50,,ug/L,0.430,,,Higginsville,Higginsville 1,,,SLAP
+ANA_tox,RA88 ,,,88,074,,2024-06-20,8:02:00 AM,0,0.50,,ug/L,0.702,,,Watkins_Mill,Watkins Mill 1,,,SLAP
+ANA_tox,RA88 ,,,88,074,,2024-06-20,8:02:00 AM,0,0.50,,ug/L,0.634,,,Watkins_Mill,Watkins Mill 1,,,SLAP
+ANA_tox,RA89 ,,,89,081,,2024-06-20,9:04:00 AM,0,0.50,,ug/L,0.327,,,Pony_Express,Pony Express 1,,,SLAP
+ANA_tox,RA89 ,,,89,081,,2024-06-20,9:04:00 AM,0,0.50,,ug/L,0.274,,,Pony_Express,Pony Express 1,,,SLAP
+ANA_tox,RA90 ,,,90,317,,2024-06-20,10:33:00 AM,0,0.50,,ug/L,0.294,,,Buffalo_Bill,Buffalo Bill 1,,,SLAP
+ANA_tox,RA90 ,,,90,317,,2024-06-20,10:33:00 AM,0,0.50,,ug/L,0.298,,,Buffalo_Bill,Buffalo Bill 1,,,SLAP
+ANA_tox,RA91 ,,,91,078,,2024-06-20,11:39:00 AM,0,0.50,,ug/L,0.353,,,Hamilton_City,Hamilton City 1,,,SLAP
+ANA_tox,RA91 ,,,91,078,,2024-06-20,11:39:00 AM,0,0.50,,ug/L,0.334,,,Hamilton_City,Hamilton City 1,,,SLAP
+ANA_tox,RA92 ,,,92,192,,2024-06-20,2:02:00 PM,0,0.50,,ug/L,0.331,,,Jo_Shelby,Jo Shelby 1,,,SLAP
+ANA_tox,RA92 ,,,92,192,,2024-06-20,2:02:00 PM,0,0.50,,ug/L,0.336,,,Jo_Shelby,Jo Shelby 1,,,SLAP
+ANA_tox,RA93 ,,,93,087,,2024-06-20,3:12:00 PM,0,0.50,,ug/L,0.342,,,Brookfield,Brookfield 1,,,SLAP
+ANA_tox,RA93 ,,,93,087,,2024-06-20,3:12:00 PM,0,0.50,,ug/L,0.404,,,Brookfield,Brookfield 1,,,SLAP
+ANA_tox,RA94 ,,,94,011,,2024-06-21,10:45:00 AM,0,0.50,,ug/L,0.334,,,Peaceful_Valley,Peaceful Valley 1,,,SLAP
+ANA_tox,RA94 ,,,94,011,,2024-06-21,10:45:00 AM,0,0.50,,ug/L,0.359,,,Peaceful_Valley,Peaceful Valley 1,,,SLAP
+ANA_tox,RA95 ,,,95,098,,2024-06-27,6:50:00 AM,0,0.50,,ug/L,0.297,,,Table_Rock,0,,,SLAP
+ANA_tox,RA95 ,,,95,098,,2024-06-27,6:50:00 AM,0,0.50,,ug/L,0.283,,,Table_Rock,0,,,SLAP
+ANA_tox,RA96 ,,,96,120,,2024-06-21,11:10:00 AM,0,0.50,,ug/L,0.409,,,Winnebago,Winnebago 1,,,SLAP
+ANA_tox,RA96 ,,,96,120,,2024-06-21,11:10:00 AM,0,0.50,,ug/L,0.329,,,Winnebago,Winnebago 1,,,SLAP
+ANA_tox,RA97 ,,,97,098,,2024-06-27,7:45:00 AM,0,0.50,,ug/L,0.307,,,Table_Rock,Table Rock 1,,,SLAP
+ANA_tox,RA97 ,,,97,098,,2024-06-27,7:45:00 AM,0,0.50,,ug/L,0.307,,,Table_Rock,Table Rock 1,,,SLAP
+ANA_tox,RA98 ,,,98,049,,2024-06-24,9:29:00 AM,0,0.50,,ug/L,0.233,,,Macon,Macon 1,,,SLAP
+ANA_tox,RA98 ,,,98,049,,2024-06-24,9:29:00 AM,0,0.50,,ug/L,0.228,,,Macon,Macon 1,,,SLAP
+ANA_tox,RA99 ,,,99,115,,2024-06-24,11:15:00 AM,0,0.50,,ug/L,0.279,,,Hunnewell,Hunnewell 1,,,SLAP
+ANA_tox,RA99 ,,,99,115,,2024-06-24,11:15:00 AM,0,0.50,,ug/L,0.459,,,Hunnewell,Hunnewell 1,,,SLAP
+ANA_tox,RA100 ,,,100,272,,2024-06-24,12:54:00 PM,0,0.50,,ug/L,0.278,,,Perry,Perry 1,,,SLAP
+ANA_tox,RA100 ,,,100,272,,2024-06-24,12:54:00 PM,0,0.50,,ug/L,0.284,,,Perry,Perry 1,,,SLAP
+ANA_tox,RA101 ,,,101,003,,2024-06-24,2:41:00 PM,0,0.50,,ug/L,0.242,,,Bowling_Green_East,Bowling Green (East) 1,,,SLAP
+ANA_tox,RA101 ,,,101,003,,2024-06-24,2:41:00 PM,0,0.50,,ug/L,0.164,,,Bowling_Green_East,Bowling Green (East) 1,,,SLAP
+ANA_tox,RA102 ,,,102,005,,2024-06-24,4:18:00 PM,0,0.50,,ug/L,0.325,,,Lincoln,Lincoln 1,,,SLAP
+ANA_tox,RA102 ,,,102,005,,2024-06-24,4:18:00 PM,0,0.50,,ug/L,0.350,,,Lincoln,Lincoln 1,,,SLAP
+ANA_tox,RA103 ,,,103,197,,2024-06-24,5:55:00 PM,0,0.50,,ug/L,0.152,,,Prairie,Prairie 1,,,SLAP
+ANA_tox,RA103 ,,,103,197,,2024-06-24,5:55:00 PM,0,0.50,,ug/L,0.113,,,Prairie,Prairie 1,Below detection limit,,SLAP
+ANA_tox,RA104 ,,,104,454,,2024-06-25,7:32:00 AM,0,0.50,,ug/L,0.209,,,Cedar_Hill_Lake_1,Cedar Hill (Lake 1) 1,,,SLAP
+ANA_tox,RA104 ,,,104,454,,2024-06-25,7:32:00 AM,0,0.50,,ug/L,0.201,,,Cedar_Hill_Lake_1,Cedar Hill (Lake 1) 1,,,SLAP
+ANA_tox,RA105 ,,,105,014,,2024-06-25,8:53:00 AM,0,0.50,,ug/L,0.174,,,Tishomingo,Tishomingo 1,,,SLAP
+ANA_tox,RA105 ,,,105,014,,2024-06-25,8:53:00 AM,0,0.50,,ug/L,0.103,,,Tishomingo,Tishomingo 1,Below detection limit,,SLAP
+ANA_tox,RA106 ,,,106,021,,2024-06-25,11:03:00 AM,0,0.50,,ug/L,0.110,,,Goose_Creek,Goose Creek 1,Below detection limit,,SLAP
+ANA_tox,RA106 ,,,106,021,,2024-06-25,11:03:00 AM,0,0.50,,ug/L,0.123,,,Goose_Creek,Goose Creek 1,Below detection limit,,SLAP
+ANA_tox,RA107 ,,,107,018,,2024-06-25,1:52:00 PM,0,0.50,,ug/L,0.074,,,Capri,Capri 1,Below detection limit,,SLAP
+ANA_tox,RA107 ,,,107,018,,2024-06-25,1:52:00 PM,0,0.50,,ug/L,0.153,,,Capri,Capri 1,,,SLAP
+ANA_tox,RA108 ,,,108,112,,2024-06-25,2:57:00 PM,0,0.50,,ug/L,0.152,,,Shayne,Shayne 1,,,SLAP
+ANA_tox,RA108 ,,,108,112,,2024-06-25,2:57:00 PM,0,0.50,,ug/L,0.158,,,Shayne,Shayne 1,,,SLAP
+ANA_tox,RA109 ,,,109,186,,2024-06-25,4:21:00 PM,0,0.50,,ug/L,0.207,,,Carl_DiSalvo,Carl DiSalvo 1,,,SLAP
+ANA_tox,RA109 ,,,109,186,,2024-06-25,4:21:00 PM,0,0.50,,ug/L,0.229,,,Carl_DiSalvo,Carl DiSalvo 1,,,SLAP
+ANA_tox,RA110 ,,,110,036,,2024-06-26,9:37:00 AM,0,0.50,,ug/L,0.128,,,Clearwater,Clearwater 1,Below detection limit,,SLAP
+ANA_tox,RA110 ,,,110,036,,2024-06-26,9:37:00 AM,0,0.50,,ug/L,0.124,,,Clearwater,Clearwater 1,Below detection limit,,SLAP
+ANA_tox,RA111 ,,,111,039,,2024-06-26,1:19:00 PM,0,0.50,,ug/L,0.113,,,Council_Bluff,Council Bluff 1,Below detection limit,,SLAP
+ANA_tox,RA111 ,,,111,039,,2024-06-26,1:19:00 PM,0,0.50,,ug/L,0.118,,,Council_Bluff,Council Bluff 1,Below detection limit,,SLAP
+ANA_tox,RA112 ,,,112,110,,2024-06-26,4:07:00 PM,0,0.50,,ug/L,0.108,,,Little_Prairie,Little Prairie 1,Below detection limit,,SLAP
+ANA_tox,RA112 ,,,112,110,,2024-06-26,4:07:00 PM,0,0.50,,ug/L,0.122,,,Little_Prairie,Little Prairie 1,Below detection limit,,SLAP
+ANA_tox,RA113 ,,,113,092,,2024-06-27,10:50:00 AM,0,0.50,,ug/L,0.154,,,Pomme_De_Terre,Pomme de Terre 1,,,SLAP
+ANA_tox,RA113 ,,,113,092,,2024-06-27,10:50:00 AM,0,0.50,,ug/L,0.139,,,Pomme_De_Terre,Pomme de Terre 1,Below detection limit,,SLAP
+ANA_tox,RA114 ,,,114,274,,2024-06-27,3:13:00 PM,0,0.50,,ug/L,0.183,,,Alpine,Alpine 1,,,SLAP
+ANA_tox,RA114 ,,,114,274,,2024-06-27,3:13:00 PM,0,0.50,,ug/L,0.153,,,Alpine,Alpine 1,,,SLAP
+ANA_tox,RA115 ,,,115,030,,2024-06-28,2:40:00 PM,0,0.50,,ug/L,0.121,,,Wappapello,Wappapello 1,Below detection limit,,SLAP
+ANA_tox,RA115 ,,,115,030,,2024-06-28,2:40:00 PM,0,0.50,,ug/L,0.190,,,Wappapello,Wappapello 1,,,SLAP
+ANA_tox,RA116 ,,,116,117,,2024-06-27,5:26:00 PM,0,0.50,,ug/L,0.285,,,Little_Dixie,Little Dixie 1,,,SLAP
+ANA_tox,RA116 ,,,116,117,,2024-06-27,5:26:00 PM,0,0.50,,ug/L,0.293,,,Little_Dixie,Little Dixie 1,,,SLAP
+ANA_tox,RA117 ,,,117,134,,2024-07-08,11:20:00 AM,0,0.50,,ug/L,0.575,,,Jamesport_City,Jamesport City 1,,,SLAP
+ANA_tox,RA117 ,,,117,134,,2024-07-08,11:20:00 AM,0,0.50,,ug/L,0.463,,,Jamesport_City,Jamesport City 1,,,SLAP
+ANA_tox,RA117 ,,,117,134,,2024-07-08,11:20:00 AM,0,0.50,,ug/L,0.482,,,Jamesport_City,Jamesport City 1,,,SLAP
+ANA_tox,RA118 ,,,118,088,,2024-06-28,11:10:00 AM,0,0.50,,ug/L,0.139,,,Marceline_South,Marceline (South) 1,Below detection limit,,SLAP
+ANA_tox,RA118 ,,,118,088,,2024-06-28,11:10:00 AM,0,0.50,,ug/L,0.132,,,Marceline_South,Marceline (South) 1,Below detection limit,,SLAP
+ANA_tox,RA119 ,,,119,411,,2024-06-28,2:41:00 PM,0,0.50,,ug/L,0.204,,,Cedar,Cedar 1,,,SLAP
+ANA_tox,RA119 ,,,119,411,,2024-06-28,2:41:00 PM,0,0.50,,ug/L,0.149,,,Cedar,Cedar 1,Below detection limit,,SLAP
+ANA_tox,RA120 ,,,120,228,,2024-07-08,12:02:00 PM,0,0.50,,ug/L,0.220,,,Jamesport_Community,Jamesport Community 1,,,SLAP
+ANA_tox,RA120 ,,,120,228,,2024-07-08,12:02:00 PM,0,0.50,,ug/L,0.216,,,Jamesport_Community,Jamesport Community 1,,,SLAP
+ANA_tox,RA121 ,,,121,163,,2024-07-08,1:35:00 PM,0,0.50,,ug/L,0.149,,,King,King 1,Below detection limit,,SLAP
+ANA_tox,RA121 ,,,121,163,,2024-07-08,1:35:00 PM,0,0.50,,ug/L,0.145,,,King,King 1,Below detection limit,,SLAP
+ANA_tox,RA122 ,,,122,195,,2024-07-08,2:29:00 PM,0,0.50,,ug/L,0.265,,,Limpp,Limpp 1,,,SLAP
+ANA_tox,RA122 ,,,122,195,,2024-07-08,2:29:00 PM,0,0.50,,ug/L,0.230,,,Limpp,Limpp 1,,,SLAP
+ANA_tox,RA123 ,,,123,224,,2024-07-08,3:24:00 PM,0,0.50,,ug/L,0.124,,,Happy_Holler,Happy Holler 1,Below detection limit,,SLAP
+ANA_tox,RA123 ,,,123,224,,2024-07-08,3:24:00 PM,0,0.50,,ug/L,0.196,,,Happy_Holler,Happy Holler 1,,,SLAP
+ANA_tox,RA124 ,,,124,180,,2024-07-08,5:07:00 PM,0,0.50,,ug/L,0.241,,,Bilby_Ranch,Bilby Ranch 1,,,SLAP
+ANA_tox,RA124 ,,,124,180,,2024-07-08,5:07:00 PM,0,0.50,,ug/L,0.241,,,Bilby_Ranch,Bilby Ranch 1,,,SLAP
+ANA_tox,RA125 ,,,125,179,,2024-07-09,6:55:00 AM,0,0.50,,ug/L,0.160,,,Nodaway_County,Nodaway County 1,,,SLAP
+ANA_tox,RA125 ,,,125,179,,2024-07-09,6:55:00 AM,0,0.50,,ug/L,0.143,,,Nodaway_County,Nodaway County 1,Below detection limit,,SLAP
+ANA_tox,RA126 ,,,126,181,,2024-07-09,8:05:00 AM,0,0.50,,ug/L,0.161,,,Mozingo,Mozingo 1,,,SLAP
+ANA_tox,RA126 ,,,126,181,,2024-07-09,8:05:00 AM,0,0.50,,ug/L,0.123,,,Mozingo,Mozingo 1,Below detection limit,,SLAP
+ANA_tox,RA127 ,,,127,185,,2024-07-09,10:15:00 AM,0,0.50,,ug/L,0.138,,,Harrison_County,Harrison County 1,Below detection limit,,SLAP
+ANA_tox,RA127 ,,,127,185,,2024-07-09,10:15:00 AM,0,0.50,,ug/L,0.124,,,Harrison_County,Harrison County 1,Below detection limit,,SLAP
+ANA_tox,RA128 ,,,128,164,,2024-07-09,12:39:00 PM,0,0.50,,ug/L,0.132,,,Elmwood,Elmwood 1,Below detection limit,,SLAP
+ANA_tox,RA128 ,,,128,164,,2024-07-09,12:39:00 PM,0,0.50,,ug/L,0.163,,,Elmwood,Elmwood 1,,,SLAP
+ANA_tox,RA129 ,,,129,237,,2024-07-09,1:30:00 PM,0,0.50,,ug/L,0.162,,,Milan_North,Milan (North) 1,,,SLAP
+ANA_tox,RA129 ,,,129,237,,2024-07-09,1:30:00 PM,0,0.50,,ug/L,0.172,,,Milan_North,Milan (North) 1,,,SLAP
+ANA_tox,RA130 ,,,130,133,,2024-07-10,7:30:00 AM,0,0.50,,ug/L,0.215,,,Forest,Forest 1,,,SLAP
+ANA_tox,RA130 ,,,130,133,,2024-07-10,7:30:00 AM,0,0.50,,ug/L,0.146,,,Forest,Forest 1,Below detection limit,,SLAP
+ANA_tox,RA131 ,,,131,133-FD,,2024-07-10,7:30:00 AM,0,0.50,,ug/L,0.182,,,Forest,Forest 1,,,SLAP
+ANA_tox,RA131 ,,,131,133-FD,,2024-07-10,7:30:00 AM,0,0.50,,ug/L,0.134,,,Forest,Forest 1,Below detection limit,,SLAP
+ANA_tox,RA132 ,,,132,053,,2024-07-10,9:57:00 AM,0,0.50,,ug/L,0.518,,,Memphis_City,Memphis City 1,,,SLAP
+ANA_tox,RA132 ,,,132,053,,2024-07-10,9:57:00 AM,0,0.50,,ug/L,0.567,,,Memphis_City,Memphis City 1,,,SLAP
+ANA_tox,RA133 ,,,133,182,,2024-07-10,11:19:00 AM,0,0.50,,ug/L,0.090,,,Fox_Valley,Fox Valley 1,Below detection limit,,SLAP
+ANA_tox,RA133 ,,,133,182,,2024-07-10,11:19:00 AM,0,0.50,,ug/L,0.178,,,Fox_Valley,Fox Valley 1,,,SLAP
+ANA_tox,RA134 ,,,134,057,,2024-07-10,1:15:00 PM,0,0.50,,ug/L,0.191,,,Deer_Ridge,Deer Ridge 1,,,SLAP
+ANA_tox,RA134 ,,,134,057,,2024-07-10,1:15:00 PM,0,0.50,,ug/L,0.106,,,Deer_Ridge,Deer Ridge 1,Below detection limit,,SLAP
+ANA_tox,RA135 ,,,135,114,,2024-07-10,2:45:00 PM,0,0.50,,ug/L,0.436,,,Henry_Sever,Henry Sever 1,,,SLAP
+ANA_tox,RA135 ,,,135,114,,2024-07-10,2:45:00 PM,0,0.50,,ug/L,0.419,,,Henry_Sever,Henry Sever 1,,,SLAP
+ANA_tox,RA136 ,,,136,048,,2024-07-10,4:26:00 PM,0,0.50,,ug/L,0.096,,,Long_Branch,Long Branch 1,Below detection limit,,SLAP
+ANA_tox,RA136 ,,,136,048,,2024-07-10,4:26:00 PM,0,0.50,,ug/L,0.120,,,Long_Branch,Long Branch 1,Below detection limit,,SLAP
+ANA_tox,RA137 ,,,137,438,,2024-07-05,11:16:00 AM,0,0.50,,ug/L,0.183,,,Bethel,Bethel 1,,,SLAP
+ANA_tox,RA137 ,,,137,438,,2024-07-05,11:16:00 AM,0,0.50,,ug/L,0.080,,,Bethel,Bethel 1,Below detection limit,,SLAP
+ANA_tox,RA138 ,,,138,072,,2024-07-09,12:07:00 PM,0,0.50,,ug/L,0.213,,,Smithville,Smithville 1,,,SLAP
+ANA_tox,RA138 ,,,138,072,,2024-07-09,12:07:00 PM,0,0.50,,ug/L,0.129,,,Smithville,Smithville 1,Below detection limit,,SLAP
+ANA_tox,RA139 ,,,139,149,,2024-07-10,10:43:00 AM,0,0.50,,ug/L,0.085,,,Lake_of_the_Ozarks,Lake of the Ozarks 1,Below detection limit,,SLAP
+ANA_tox,RA139 ,,,139,149,,2024-07-10,10:43:00 AM,0,0.50,,ug/L,0.092,,,Lake_of_the_Ozarks,Lake of the Ozarks 1,Below detection limit,,SLAP
+ANA_tox,RA140 ,,,140,089,,2024-07-10,4:43:00 PM,0,0.50,,ug/L,0.000,,,Truman,Truman 1,Below detection limit,,SLAP
+ANA_tox,RA140 ,,,140,089,,2024-07-10,4:43:00 PM,0,0.50,,ug/L,0.149,,,Truman,Truman 1,Below detection limit,,SLAP
+ANA_tox,RA141 ,,,141,139,,2024-07-11,11:34:00 AM,0,0.50,,ug/L,0.120,,,Marceline_North,Marceline (North) 1,Below detection limit,,SLAP
+ANA_tox,RA141 ,,,141,139,,2024-07-11,11:34:00 AM,0,0.50,,ug/L,0.078,,,Marceline_North,Marceline (North) 1,Below detection limit,,SLAP
+ANA_tox,RA142 ,,,142,411,,2024-07-12,8:26:00 AM,0,0.50,,ug/L,0.167,,,Cedar,Cedar 1,,,SLAP
+ANA_tox,RA142 ,,,142,411,,2024-07-12,8:26:00 AM,0,0.50,,ug/L,0.130,,,Cedar,Cedar 1,Below detection limit,,SLAP
+ANA_tox,RA143 ,,,143,011,,2024-07-11,10:13:00 AM,0,0.50,,ug/L,0.306,,,Peaceful_Valley,Peaceful Valley 1,,,SLAP
+ANA_tox,RA143 ,,,143,011,,2024-07-11,10:13:00 AM,0,0.50,,ug/L,0.250,,,Peaceful_Valley,Peaceful Valley 1,,,SLAP
+ANA_tox,RA144 ,,,144,184,,2024-07-15,10:12:00 AM,0,0.50,,ug/L,0.229,,,Manito,Manito 1,,,SLAP
+ANA_tox,RA144 ,,,144,184,,2024-07-15,10:12:00 AM,0,0.50,,ug/L,0.199,,,Manito,Manito 1,,,SLAP
+ANA_tox,RA145 ,,,145,219,,2024-07-12,9:58:00 AM,0,0.50,,ug/L,0.184,,,Dairy_1,Dairy 1 1,,,SLAP
+ANA_tox,RA145 ,,,145,219,,2024-07-12,9:58:00 AM,0,0.50,,ug/L,0.238,,,Dairy_1,Dairy 1 1,,,SLAP
+ANA_tox,RA146 ,,,146,440,,2024-07-12,11:40:00 AM,0,0.50,,ug/L,0.138,,,Crow_Pond,Crow Pond 1,Below detection limit,,SLAP
+ANA_tox,RA146 ,,,146,440,,2024-07-12,11:40:00 AM,0,0.50,,ug/L,0.090,,,Crow_Pond,Crow Pond 1,Below detection limit,,SLAP
+ANA_tox,RA147 ,,,147,092,,2024-07-15,12:52:00 PM,0,0.50,,ug/L,0.101,,,Pomme_De_Terre,Pomme de Terre 1,Below detection limit,,SLAP
+ANA_tox,RA147 ,,,147,092,,2024-07-15,12:52:00 PM,0,0.50,,ug/L,0.077,,,Pomme_De_Terre,Pomme de Terre 1,Below detection limit,,SLAP
+ANA_tox,RA148 ,,,148,096,,2024-07-15,3:22:00 PM,0,0.50,,ug/L,0.168,,,Fellows,Fellows 1,,,SLAP
+ANA_tox,RA148 ,,,148,096,,2024-07-15,3:22:00 PM,0,0.50,,ug/L,0.119,,,Fellows,Fellows 1,Below detection limit,,SLAP
+ANA_tox,RA149 ,,,149,091,,2024-07-15,5:54:00 PM,0,0.50,,ug/L,0.131,,,Atkinson,Atkinson 1,Below detection limit,,SLAP
+ANA_tox,RA149 ,,,149,091,,2024-07-15,5:54:00 PM,0,0.50,,ug/L,0.092,,,Atkinson,Atkinson 1,Below detection limit,,SLAP
+ANA_tox,RA150 ,,,150,070,,2024-07-16,7:35:00 AM,0,0.50,,ug/L,0.156,,,North,North 1,,,SLAP
+ANA_tox,RA150 ,,,150,070,,2024-07-16,7:35:00 AM,0,0.50,,ug/L,0.078,,,North,North 1,Below detection limit,,SLAP
+ANA_tox,RA151 ,,,151,169,,2024-07-16,10:46:00 AM,0,0.50,,ug/L,0.207,,,Gopher,Gopher 1,,,SLAP
+ANA_tox,RA151 ,,,151,169,,2024-07-16,10:46:00 AM,0,0.50,,ug/L,0.241,,,Gopher,Gopher 1,,,SLAP
+ANA_tox,RA152 ,,,152,183,,2024-07-16,1:08:00 PM,0,0.50,,ug/L,0.260,,,Hazel_Hill,Hazel Hill 1,,,SLAP
+ANA_tox,RA152 ,,,152,183,,2024-07-16,1:08:00 PM,0,0.50,,ug/L,0.256,,,Hazel_Hill,Hazel Hill 1,,,SLAP
+ANA_tox,RA153 ,,,153,150,,2024-07-16,2:50:00 PM,0,0.50,,ug/L,0.133,,,Blind_Pony,Blind Pony 1,Below detection limit,,SLAP
+ANA_tox,RA153 ,,,153,150,,2024-07-16,2:50:00 PM,0,0.50,,ug/L,0.122,,,Blind_Pony,Blind Pony 1,Below detection limit,,SLAP
+ANA_tox,RA154 ,,,154,121,,2024-07-16,4:25:00 PM,0,0.50,,ug/L,0.177,,,Higginsville,Higginsville 1,,,SLAP
+ANA_tox,RA154 ,,,154,121,,2024-07-16,4:25:00 PM,0,0.50,,ug/L,0.166,,,Higginsville,Higginsville 1,,,SLAP
+ANA_tox,RA155 ,,,155,074,,2024-07-17,7:50:00 AM,0,0.50,,ug/L,0.252,,,Watkins_Mill,Watkins Mill 1,,,SLAP
+ANA_tox,RA155 ,,,155,074,,2024-07-17,7:50:00 AM,0,0.50,,ug/L,0.223,,,Watkins_Mill,Watkins Mill 1,,,SLAP
+ANA_tox,RA156 ,,,156,081,,2024-07-17,9:43:00 AM,0,0.50,,ug/L,0.175,,,Pony_Express,Pony Express 1,,,SLAP
+ANA_tox,RA156 ,,,156,081,,2024-07-17,9:43:00 AM,0,0.50,,ug/L,0.175,,,Pony_Express,Pony Express 1,,,SLAP
+ANA_tox,RA157 ,,,157,120,,2024-07-19,11:30:00 AM,0,0.50,,ug/L,0.167,,,Winnebago,Winnebago 1,,,SLAP
+ANA_tox,RA157 ,,,157,120,,2024-07-19,11:30:00 AM,0,0.50,,ug/L,0.196,,,Winnebago,Winnebago 1,,,SLAP
+ANA_tox,RA158 ,,,158,317,,2024-07-17,10:47:00 AM,0,0.50,,ug/L,0.111,,,Buffalo_Bill,Buffalo Bill 1,Below detection limit,,SLAP
+ANA_tox,RA158 ,,,158,317,,2024-07-17,10:47:00 AM,0,0.50,,ug/L,0.146,,,Buffalo_Bill,Buffalo Bill 1,Below detection limit,,SLAP
+ANA_tox,RA159 ,,,159,078,,2024-07-17,12:03:00 PM,0,0.50,,ug/L,0.098,,,Hamilton_City,Hamilton City 1,Below detection limit,,SLAP
+ANA_tox,RA159 ,,,159,078,,2024-07-17,12:03:00 PM,0,0.50,,ug/L,0.153,,,Hamilton_City,Hamilton City 1,,,SLAP
+ANA_tox,RA160 ,,,160,192,,2024-07-17,2:14:00 PM,0,0.50,,ug/L,0.050,,,Jo_Shelby,Jo Shelby 1,Below detection limit,,SLAP
+ANA_tox,RA160 ,,,160,192,,2024-07-17,2:14:00 PM,0,0.50,,ug/L,0.096,,,Jo_Shelby,Jo Shelby 1,Below detection limit,,SLAP
+ANA_tox,RA161 ,,,161,087,,2024-07-17,3:25:00 PM,0,0.50,,ug/L,0.077,,,Brookfield,Brookfield 1,Below detection limit,,SLAP
+ANA_tox,RA161 ,,,161,087,,2024-07-17,3:25:00 PM,0,0.50,,ug/L,0.100,,,Brookfield,Brookfield 1,Below detection limit,,SLAP
+ANA_tox,RA164 ,,,164,145,,2024-07-15,11:40:00 AM,0,0.50,,ug/L,0.050,,,Mark_Twain,Mark Twain 1,Below detection limit,,SLAP
+ANA_tox,RA164 ,,,164,145,,2024-07-15,11:40:00 AM,0,0.50,,ug/L,0.120,,,Mark_Twain,Mark Twain 1,Below detection limit,,SLAP
+ANA_tox,RA165 ,,,165,093,,2024-07-16,12:20:00 PM,0,0.50,,ug/L,0.132,,,Stockton,Stockton 1,Below detection limit,,SLAP
+ANA_tox,RA165 ,,,165,093,,2024-07-16,12:20:00 PM,0,0.50,,ug/L,0.154,,,Stockton,Stockton 1,,,SLAP
+ANA_tox,RA166 ,,,166,046,,2024-07-17,10:07:00 AM,0,0.50,,ug/L,0.064,,,Thomas_Hill,Thomas Hill 1,Below detection limit,,SLAP
+ANA_tox,RA166 ,,,166,046,,2024-07-17,10:07:00 AM,0,0.50,,ug/L,0.072,,,Thomas_Hill,Thomas Hill 1,Below detection limit,,SLAP
+ANA_tox,RA167 ,,,167,274,,2024-07-18,10:46:00 AM,0,0.50,,ug/L,0.114,,,Alpine,Alpine 1,Below detection limit,,SLAP
+ANA_tox,RA167 ,,,167,274,,2024-07-18,10:46:00 AM,0,0.50,,ug/L,0.136,,,Alpine,Alpine 1,Below detection limit,,SLAP
+ANA_tox,RA168 ,,,168,049,,2024-07-22,9:47:00 AM,0,0.50,,ug/L,0.117,,,Macon,Macon 1,Below detection limit,,SLAP
+ANA_tox,RA168 ,,,168,049,,2024-07-22,9:47:00 AM,0,0.50,,ug/L,0.114,,,Macon,Macon 1,Below detection limit,,SLAP
+ANA_tox,RA169 ,,,169,149,,2024-07-30,11:00:00 AM,0,0.50,,ug/L,0.110,,,Lake_of_the_Ozarks,Lake of the Ozarks 1,Below detection limit,,SLAP
+ANA_tox,RA169 ,,,169,149,,2024-07-30,11:00:00 AM,0,0.50,,ug/L,0.097,,,Lake_of_the_Ozarks,Lake of the Ozarks 1,Below detection limit,,SLAP
+ANA_tox,RA170 ,,,170,117,,2024-07-19,9:33:00 AM,0,0.50,,ug/L,0.252,,,Little_Dixie,Little Dixie 1,,,SLAP
+ANA_tox,RA170 ,,,170,117,,2024-07-19,9:33:00 AM,0,0.50,,ug/L,0.197,,,Little_Dixie,Little Dixie 1,,,SLAP
+ANA_tox,RA171 ,,,171,438,,2024-07-19,11:48:00 AM,0,0.50,,ug/L,0.160,,,Bethel,Bethel 1,,,SLAP
+ANA_tox,RA171 ,,,171,438,,2024-07-19,11:48:00 AM,0,0.50,,ug/L,0.102,,,Bethel,Bethel 1,Below detection limit,,SLAP
+ANA_tox,RA172 ,,,172,115,,2024-07-22,11:10:00 AM,0,0.50,,ug/L,0.353,,,Hunnewell,Hunnewell 1,,,SLAP
+ANA_tox,RA172 ,,,172,115,,2024-07-22,11:10:00 AM,0,0.50,,ug/L,0.386,,,Hunnewell,Hunnewell 1,,,SLAP
+ANA_tox,RA173 ,,,173,272,,2024-07-22,12:35:00 PM,0,0.50,,ug/L,0.116,,,Perry,Perry 1,Below detection limit,,SLAP
+ANA_tox,RA173 ,,,173,272,,2024-07-22,12:35:00 PM,0,0.50,,ug/L,0.130,,,Perry,Perry 1,Below detection limit,,SLAP
+ANA_tox,RA174 ,,,174,003,,2024-07-22,2:08:00 PM,0,0.50,,ug/L,0.096,,,Bowling_Green_East,Bowling Green (East) 1,Below detection limit,,SLAP
+ANA_tox,RA174 ,,,174,003,,2024-07-22,2:08:00 PM,0,0.50,,ug/L,0.024,,,Bowling_Green_East,Bowling Green (East) 1,Below detection limit,,SLAP
+ANA_tox,RA175 ,,,175,005,,2024-07-22,3:40:00 PM,0,0.50,,ug/L,0.113,,,Lincoln,Lincoln 1,Below detection limit,,SLAP
+ANA_tox,RA175 ,,,175,005,,2024-07-22,3:40:00 PM,0,0.50,,ug/L,0.112,,,Lincoln,Lincoln 1,Below detection limit,,SLAP
+ANA_tox,RA176 ,,,176,197,,2024-07-22,5:07:00 PM,0,0.50,,ug/L,0.098,,,Prairie,Prairie 1,Below detection limit,,SLAP
+ANA_tox,RA176 ,,,176,197,,2024-07-22,5:07:00 PM,0,0.50,,ug/L,0.001,,,Prairie,Prairie 1,Below detection limit,,SLAP
+ANA_tox,RA177 ,,,177,011,,2024-07-25,11:04:00 AM,0,0.50,,ug/L,0.428,,,Peaceful_Valley,Peaceful Valley 1,,,SLAP
+ANA_tox,RA177 ,,,177,011,,2024-07-25,11:04:00 AM,0,0.50,,ug/L,0.424,,,Peaceful_Valley,Peaceful Valley 1,,,SLAP
+ANA_tox,RA178 ,,,178,454,,2024-07-23,7:30:00 AM,0,0.50,,ug/L,1.004,,,Cedar_Hill_Lake_1,Cedar Hill (Lake 1) 1,,,SLAP
+ANA_tox,RA178 ,,,178,454,,2024-07-23,7:30:00 AM,0,0.50,,ug/L,0.746,,,Cedar_Hill_Lake_1,Cedar Hill (Lake 1) 1,,,SLAP
+ANA_tox,RA179 ,,,179,014,,2024-07-23,8:44:00 AM,0,0.50,,ug/L,0.128,,,Tishomingo,Tishomingo 1,Below detection limit,,SLAP
+ANA_tox,RA179 ,,,179,014,,2024-07-23,8:44:00 AM,0,0.50,,ug/L,0.149,,,Tishomingo,Tishomingo 1,Below detection limit,,SLAP
+ANA_tox,RA180 ,,,180,021,,2024-07-23,10:47:00 AM,0,0.50,,ug/L,0.069,,,Goose_Creek,Goose Creek 1,Below detection limit,,SLAP
+ANA_tox,RA180 ,,,180,021,,2024-07-23,10:47:00 AM,0,0.50,,ug/L,0.024,,,Goose_Creek,Goose Creek 1,Below detection limit,,SLAP
+ANA_tox,RA181 ,,,181,018,,2024-07-23,12:46:00 PM,0,0.50,,ug/L,0.123,,,Capri,Capri 1,Below detection limit,,SLAP
+ANA_tox,RA181 ,,,181,018,,2024-07-23,12:46:00 PM,0,0.50,,ug/L,0.052,,,Capri,Capri 1,Below detection limit,,SLAP
+ANA_tox,RA182 ,,,182,112,,2024-07-23,2:27:00 PM,0,0.50,,ug/L,0.056,,,Shayne,Shayne 1,Below detection limit,,SLAP
+ANA_tox,RA182 ,,,182,112,,2024-07-23,2:27:00 PM,0,0.50,,ug/L,0.058,,,Shayne,Shayne 1,Below detection limit,,SLAP
+ANA_tox,RA183 ,,,183,186,,2024-07-23,4:03:00 PM,0,0.50,,ug/L,0.161,,,Carl_DiSalvo,Carl DiSalvo 1,,,SLAP
+ANA_tox,RA183 ,,,183,186,,2024-07-23,4:03:00 PM,0,0.50,,ug/L,0.173,,,Carl_DiSalvo,Carl DiSalvo 1,,,SLAP
+ANA_tox,RA184 ,,,184,030,,2024-07-24,7:45:00 AM,0,0.50,,ug/L,0.073,,,Wappapello,Wappapello 1,Below detection limit,,SLAP
+ANA_tox,RA184 ,,,184,030,,2024-07-24,7:45:00 AM,0,0.50,,ug/L,0.103,,,Wappapello,Wappapello 1,Below detection limit,,SLAP
+ANA_tox,RA185 ,,,185,036,,2024-07-24,9:54:00 AM,0,0.50,,ug/L,0.054,,,Clearwater,Clearwater 1,Below detection limit,,SLAP
+ANA_tox,RA185 ,,,185,036,,2024-07-24,9:54:00 AM,0,0.50,,ug/L,0.064,,,Clearwater,Clearwater 1,Below detection limit,,SLAP
+ANA_tox,RA186 ,,,186,110-FD,,2024-07-24,3:39:00 PM,0,0.50,,ug/L,0.068,,,Little_Prairie,Little Prairie 1,Below detection limit,,SLAP
+ANA_tox,RA186 ,,,186,110-FD,,2024-07-24,3:39:00 PM,0,0.50,,ug/L,0.037,,,Little_Prairie,Little Prairie 1,Below detection limit,,SLAP
+ANA_tox,RA187 ,,,187,110,,2024-07-24,3:39:00 PM,0,0.50,,ug/L,0.101,,,Little_Prairie,Little Prairie 1,Below detection limit,,SLAP
+ANA_tox,RA187 ,,,187,110,,2024-07-24,3:39:00 PM,0,0.50,,ug/L,0.068,,,Little_Prairie,Little Prairie 1,Below detection limit,,SLAP
+ANA_tox,RA188 ,,,188,219,,2024-07-29,11:11:00 AM,0,0.50,,ug/L,0.051,,,Dairy_1,Dairy 1 1,Below detection limit,,SLAP
+ANA_tox,RA188 ,,,188,219,,2024-07-29,11:11:00 AM,0,0.50,,ug/L,0.100,,,Dairy_1,Dairy 1 1,Below detection limit,,SLAP
+ANA_tox,RA189 ,,,189,134,,2024-07-29,11:45:00 AM,0,0.50,,ug/L,1.213,,,Jamesport_City,Jamesport City 1,,,SLAP
+ANA_tox,RA189 ,,,189,134,,2024-07-29,11:45:00 AM,0,0.50,,ug/L,1.125,,,Jamesport_City,Jamesport City 1,,,SLAP
+ANA_tox,RA190 ,,,190,088,,2024-07-22,11:31:00 AM,0,0.50,,ug/L,0.045,,,Marceline_South,Marceline (South) 1,Below detection limit,,SLAP
+ANA_tox,RA190 ,,,190,088,,2024-07-22,11:31:00 AM,0,0.50,,ug/L,0.022,,,Marceline_South,Marceline (South) 1,Below detection limit,,SLAP
+ANA_tox,RA191 ,,,191,098,,2024-07-24,12:58:00 PM,0,0.50,,ug/L,0.083,,,Table_Rock,Table Rock 1,Below detection limit,,SLAP
+ANA_tox,RA191 ,,,191,098,,2024-07-24,12:58:00 PM,0,0.50,,ug/L,0.084,,,Table_Rock,Table Rock 1,Below detection limit,,SLAP
+ANA_tox,RA192 ,,,192,228,,2024-07-29,12:26:00 PM,0,0.50,,ug/L,0.077,,,Jamesport_Community,Jamesport Community 1,Below detection limit,,SLAP
+ANA_tox,RA192 ,,,192,228,,2024-07-29,12:26:00 PM,0,0.50,,ug/L,0.118,,,Jamesport_Community,Jamesport Community 1,Below detection limit,,SLAP
+ANA_tox,RA193 ,,,193,163,,2024-07-29,2:06:00 PM,0,0.50,,ug/L,0.122,,,King,King 1,Below detection limit,,SLAP
+ANA_tox,RA193 ,,,193,163,,2024-07-29,2:06:00 PM,0,0.50,,ug/L,0.114,,,King,King 1,Below detection limit,,SLAP
+ANA_tox,RA194 ,,,194,195,,2024-07-29,3:07:00 PM,0,0.50,,ug/L,0.347,,,Limpp,Limpp 1,,,SLAP
+ANA_tox,RA194 ,,,194,195,,2024-07-29,3:07:00 PM,0,0.50,,ug/L,0.331,,,Limpp,Limpp 1,,,SLAP
+ANA_tox,RA195 ,,,195,224,,2024-07-29,4:05:00 PM,0,0.50,,ug/L,4.358,,,Happy_Holler,Happy Holler 1,,,SLAP
+ANA_tox,RA195 ,,,195,224,,2024-07-29,4:05:00 PM,0,0.50,,ug/L,4.606,,,Happy_Holler,Happy Holler 1,,,SLAP
+ANA_tox,RA196 ,,,196,180,,2024-07-29,5:43:00 PM,0,0.50,,ug/L,0.097,,,Bilby_Ranch,Bilby Ranch 1,Below detection limit,,SLAP
+ANA_tox,RA196 ,,,196,180,,2024-07-29,5:43:00 PM,0,0.50,,ug/L,0.095,,,Bilby_Ranch,Bilby Ranch 1,Below detection limit,,SLAP
+ANA_tox,RA197 ,,,197,179,,2024-07-30,6:48:00 AM,0,0.50,,ug/L,0.179,,,Nodaway_County,Nodaway County 1,,,SLAP
+ANA_tox,RA197 ,,,197,179,,2024-07-30,6:48:00 AM,0,0.50,,ug/L,0.127,,,Nodaway_County,Nodaway County 1,Below detection limit,,SLAP
+ANA_tox,RA198 ,,,198,181,,2024-07-30,7:53:00 AM,0,0.50,,ug/L,0.215,,,Mozingo,Mozingo 1,,3,SLAP
+ANA_tox,RA198 ,,,198,181,,2024-07-30,7:53:00 AM,0,0.50,,ug/L,0.150,,,Mozingo,Mozingo 1,Below detection limit,3,SLAP
+ANA_tox,RA198 ,,,198,181,,2024-07-30,7:53:00 AM,0,0.50,,ug/L,0.116,,,Mozingo,Mozingo 1,Below detection limit,3,SLAP
+ANA_tox,RA199 ,,,199,185,,2024-07-30,10:03:00 AM,0,0.50,,ug/L,0.162,,,Harrison_County,Harrison County 1,,,SLAP
+ANA_tox,RA199 ,,,199,185,,2024-07-30,10:03:00 AM,0,0.50,,ug/L,0.152,,,Harrison_County,Harrison County 1,,,SLAP
+ANA_tox,RA200 ,,,200,164,,2024-07-30,12:31:00 PM,0,0.50,,ug/L,0.179,,,Elmwood,Elmwood 1,,,SLAP
+ANA_tox,RA200 ,,,200,164,,2024-07-30,12:31:00 PM,0,0.50,,ug/L,0.187,,,Elmwood,Elmwood 1,,,SLAP
+ANA_tox,RA201 ,,,201,237,,2024-07-30,1:17:00 PM,0,0.50,,ug/L,0.112,,,Milan_North,Milan (North) 1,Below detection limit,,SLAP
+ANA_tox,RA201 ,,,201,237,,2024-07-30,1:17:00 PM,0,0.50,,ug/L,0.166,,,Milan_North,Milan (North) 1,,,SLAP
+ANA_tox,RA202 ,,,202,133,,2024-07-30,2:52:00 PM,0,0.50,,ug/L,0.168,,,Forest,Forest 1,,,SLAP
+ANA_tox,RA202 ,,,202,133,,2024-07-30,2:52:00 PM,0,0.50,,ug/L,0.194,,,Forest,Forest 1,,,SLAP
+ANA_tox,RA203 ,,,203,053,,2024-07-31,8:39:00 AM,0,0.50,,ug/L,0.867,,,Memphis_City,Memphis City 1,,,SLAP
+ANA_tox,RA203 ,,,203,053,,2024-07-31,8:39:00 AM,0,0.50,,ug/L,0.865,,,Memphis_City,Memphis City 1,,,SLAP
+ANA_tox,RA204 ,,,204,182,,2024-07-31,10:12:00 AM,0,0.50,,ug/L,0.117,,,Fox_Valley,Fox Valley 1,Below detection limit,,SLAP
+ANA_tox,RA204 ,,,204,182,,2024-07-31,10:12:00 AM,0,0.50,,ug/L,0.215,,,Fox_Valley,Fox Valley 1,,,SLAP
+ANA_tox,RA205 ,,,205,057,,2024-07-31,12:09:00 AM,0,0.50,,ug/L,0.231,,,Deer_Ridge,Deer Ridge 1,,,SLAP
+ANA_tox,RA205 ,,,205,057,,2024-07-31,12:09:00 AM,0,0.50,,ug/L,0.213,,,Deer_Ridge,Deer Ridge 1,,,SLAP
+ANA_tox,RA205 ,,,205,057,,2024-07-31,12:09:00 AM,0,0.50,,ug/L,0.245,,,Deer_Ridge,Deer Ridge 1,,,SLAP
+ANA_tox,RA205 ,,,205,057,,2024-07-31,12:09:00 AM,0,0.50,,ug/L,0.274,,,Deer_Ridge,Deer Ridge 1,,,SLAP
+ANA_tox,RA206 ,,,206,114,,2024-07-31,1:35:00 PM,0,0.50,,ug/L,0.307,,,Henry_Sever,Henry Sever 1,,,SLAP
+ANA_tox,RA206 ,,,206,114,,2024-07-31,1:35:00 PM,0,0.50,,ug/L,0.274,,,Henry_Sever,Henry Sever 1,,,SLAP
+ANA_tox,RA207 ,,,207,048,,2024-07-31,3:25:00 PM,0,0.50,,ug/L,0.087,,,Long_Branch,Long Branch 1,Below detection limit,,SLAP
+ANA_tox,RA207 ,,,207,048,,2024-07-31,3:25:00 PM,0,0.50,,ug/L,0.103,,,Long_Branch,Long Branch 1,Below detection limit,,SLAP
+ANA_tox,RA208 ,,,208,184,,2024-08-05,10:04:00 AM,0,0.50,,ug/L,1.137,,,Manito,Manito 1,,,SLAP
+ANA_tox,RA208 ,,,208,184,,2024-08-05,10:04:00 AM,0,0.50,,ug/L,1.042,,,Manito,Manito 1,,,SLAP
+ANA_tox,RA209 ,,,209,092,,2024-08-05,12:29:00 PM,0,0.50,,ug/L,0.121,,,Pomme_De_Terre,Pomme de Terre 1,Below detection limit,,SLAP
+ANA_tox,RA209 ,,,209,092,,2024-08-05,12:29:00 PM,0,0.50,,ug/L,0.161,,,Pomme_De_Terre,Pomme de Terre 1,,,SLAP
+ANA_tox,RA210 ,,,210,039,,2024-07-26,9:09:00 AM,0,0.50,,ug/L,0.178,,,Council_Bluff,Council Bluff 1,,,SLAP
+ANA_tox,RA210 ,,,210,039,,2024-07-26,9:09:00 AM,0,0.50,,ug/L,0.143,,,Council_Bluff,Council Bluff 1,Below detection limit,,SLAP
+ANA_tox,RA211 ,,,211,440,,2024-07-29,1:05:00 PM,0,0.50,,ug/L,0.154,,,Crow_Pond,Crow Pond 1,,,SLAP
+ANA_tox,RA211 ,,,211,440,,2024-07-29,1:05:00 PM,0,0.50,,ug/L,0.125,,,Crow_Pond,Crow Pond 1,Below detection limit,,SLAP
+ANA_tox,RA212 ,,,212,089,,2024-07-30,2:28:00 PM,0,0.50,,ug/L,0.161,,,Truman,Truman 1,,,SLAP
+ANA_tox,RA212 ,,,212,089,,2024-07-30,2:28:00 PM,0,0.50,,ug/L,0.109,,,Truman,Truman 1,Below detection limit,,SLAP
+ANA_tox,RA213 ,,,213,274,,2024-07-31,3:12:00 PM,0,0.50,,ug/L,0.191,,,Alpine,Alpine 1,,,SLAP
+ANA_tox,RA213 ,,,213,274,,2024-07-31,3:12:00 PM,0,0.50,,ug/L,0.164,,,Alpine,Alpine 1,,,SLAP
+ANA_tox,RA214 ,,,214,139,,2024-08-01,3:20:00 PM,0,0.50,,ug/L,0.112,,,Marceline_North,Marceline (North) 1,Below detection limit,,SLAP
+ANA_tox,RA214 ,,,214,139,,2024-08-01,3:20:00 PM,0,0.50,,ug/L,0.201,,,Marceline_North,Marceline (North) 1,,,SLAP
+ANA_tox,RA215 ,,,215,117,,2024-08-02,10:24:00 AM,0,0.50,,ug/L,0.431,,,Little_Dixie,Little Dixie 1,,,SLAP
+ANA_tox,RA215 ,,,215,117,,2024-08-02,10:24:00 AM,0,0.50,,ug/L,0.353,,,Little_Dixie,Little Dixie 1,,,SLAP
+ANA_tox,RA216 ,,,216,096,,2024-08-05,2:57:00 PM,0,0.50,,ug/L,0.175,,,Fellows,Fellows 1,RPD or range or CV of replicates exceeds established control,,SLAP
+ANA_tox,RA216 ,,,216,096,,2024-08-05,2:57:00 PM,0,0.50,,ug/L,0.312,,,Fellows,Fellows 1,RPD or range or CV of replicates exceeds established control,,SLAP
+ANA_tox,RA216 ,,,216,096,,2024-08-05,2:57:00 PM,0,0.50,,ug/L,0.281,,,Fellows,Fellows 1,RPD or range or CV of replicates exceeds established control,,SLAP
+ANA_tox,RA217 ,,,217,411,,2024-08-02,2:32:00 PM,0,0.50,,ug/L,0.158,,,Cedar,Cedar 1,,,SLAP
+ANA_tox,RA217 ,,,217,411,,2024-08-02,2:32:00 PM,0,0.50,,ug/L,0.144,,,Cedar,Cedar 1,Below detection limit,,SLAP
+ANA_tox,RA218 ,,,218,046,,2024-08-05,10:51:00 AM,0,0.50,,ug/L,0.112,,,Thomas_Hill,Thomas Hill 1,Below detection limit,,SLAP
+ANA_tox,RA218 ,,,218,046,,2024-08-05,10:51:00 AM,0,0.50,,ug/L,0.146,,,Thomas_Hill,Thomas Hill 1,Below detection limit,,SLAP
+ANA_tox,RA219 ,,,219,091,,2024-08-05,5:39:00 PM,0,0.50,,ug/L,0.143,,,Atkinson,Atkinson 1,Below detection limit,,SLAP
+ANA_tox,RA219 ,,,219,091,,2024-08-05,5:39:00 PM,0,0.50,,ug/L,0.135,,,Atkinson,Atkinson 1,Below detection limit,,SLAP
+ANA_tox,RA220 ,,,220,070,,2024-08-06,7:59:00 AM,0,0.50,,ug/L,0.177,,,North,North 1,,,SLAP
+ANA_tox,RA220 ,,,220,070,,2024-08-06,7:59:00 AM,0,0.50,,ug/L,0.118,,,North,North 1,Below detection limit,,SLAP
+ANA_tox,RA221 ,,,221,120,,2024-08-06,9:26:00 AM,0,0.50,,ug/L,0.112,,,Winnebago,Winnebago 1,Below detection limit,,SLAP
+ANA_tox,RA221 ,,,221,120,,2024-08-06,9:26:00 AM,0,0.50,,ug/L,0.116,,,Winnebago,Winnebago 1,Below detection limit,,SLAP
+ANA_tox,RA222 ,,,222,169,,2024-08-06,10:48:00 AM,0,0.50,,ug/L,0.151,,,Gopher,Gopher 1,,,SLAP
+ANA_tox,RA222 ,,,222,169,,2024-08-06,10:48:00 AM,0,0.50,,ug/L,0.152,,,Gopher,Gopher 1,,,SLAP
+ANA_tox,RA223 ,,,223,183,,2024-08-06,12:22:00 PM,0,0.50,,ug/L,0.222,,,Hazel_Hill,Hazel Hill 1,,,SLAP
+ANA_tox,RA223 ,,,223,183,,2024-08-06,12:22:00 PM,0,0.50,,ug/L,0.108,,,Hazel_Hill,Hazel Hill 1,Below detection limit,,SLAP
+ANA_tox,RA224 ,,,224,150,,2024-08-06,2:05:00 PM,0,0.50,,ug/L,0.145,,,Blind_Pony,Blind Pony 1,Below detection limit,,SLAP
+ANA_tox,RA224 ,,,224,150,,2024-08-06,2:05:00 PM,0,0.50,,ug/L,0.130,,,Blind_Pony,Blind Pony 1,Below detection limit,,SLAP
+ANA_tox,RA225 ,,,225,121,,2024-08-06,3:28:00 PM,0,0.50,,ug/L,0.106,,,Higginsville,Higginsville 1,Below detection limit,,SLAP
+ANA_tox,RA225 ,,,225,121,,2024-08-06,3:28:00 PM,0,0.50,,ug/L,0.107,,,Higginsville,Higginsville 1,Below detection limit,,SLAP
+ANA_tox,RA226 ,,,226,074,,2024-08-07,8:27:00 AM,0,0.50,,ug/L,0.243,,,Watkins_Mill,Watkins Mill 1,,,SLAP
+ANA_tox,RA226 ,,,226,074,,2024-08-07,8:27:00 AM,0,0.50,,ug/L,0.234,,,Watkins_Mill,Watkins Mill 1,,,SLAP
+ANA_tox,RA227 ,,,227,081,,2024-08-07,10:07:00 AM,0,0.50,,ug/L,0.211,,,Pony_Express,Pony Express 1,,,SLAP
+ANA_tox,RA227 ,,,227,081,,2024-08-07,10:07:00 AM,0,0.50,,ug/L,0.154,,,Pony_Express,Pony Express 1,,,SLAP
+ANA_tox,RA228 ,,,228,317,,2024-08-07,11:00:00 AM,0,0.50,,ug/L,1.316,,,Buffalo_Bill,Buffalo Bill 1,,,SLAP
+ANA_tox,RA228 ,,,228,317,,2024-08-07,11:00:00 AM,0,0.50,,ug/L,1.291,,,Buffalo_Bill,Buffalo Bill 1,,,SLAP
+ANA_tox,RA229 ,,,229,078,,2024-08-07,12:10:00 PM,0,0.50,,ug/L,0.123,,,Hamilton_City,Hamilton City 1,Below detection limit,,SLAP
+ANA_tox,RA229 ,,,229,078,,2024-08-07,12:10:00 PM,0,0.50,,ug/L,0.128,,,Hamilton_City,Hamilton City 1,Below detection limit,,SLAP
+ANA_tox,RA230 ,,,230,192,,2024-08-07,1:55:00 PM,0,0.50,,ug/L,0.146,,,Jo_Shelby,Jo Shelby 1,Below detection limit,,SLAP
+ANA_tox,RA230 ,,,230,192,,2024-08-07,1:55:00 PM,0,0.50,,ug/L,0.153,,,Jo_Shelby,Jo Shelby 1,,,SLAP
+ANA_tox,RA231 ,,,231,087,,2024-08-07,3:07:00 PM,0,0.50,,ug/L,0.157,,,Brookfield,Brookfield 1,,,SLAP
+ANA_tox,RA231 ,,,231,087,,2024-08-07,3:07:00 PM,0,0.50,,ug/L,0.092,,,Brookfield,Brookfield 1,Below detection limit,,SLAP
+ANA_tox,RA232 ,,,232,049,,2024-08-07,4:26:00 PM,0,0.50,,ug/L,0.273,,,Macon,Macon 1,,,SLAP
+ANA_tox,RA232 ,,,232,049,,2024-08-07,4:26:00 PM,0,0.50,,ug/L,0.207,,,Macon,Macon 1,,,SLAP
+ANA_tox,RA233 ,,,233,145,,2024-08-08,11:50:00 AM,0,0.50,,ug/L,0.114,,,Mark_Twain,Mark Twain 1,Below detection limit,,SLAP
+ANA_tox,RA233 ,,,233,145,,2024-08-08,11:50:00 AM,0,0.50,,ug/L,0.065,,,Mark_Twain,Mark Twain 1,Below detection limit,,SLAP
+ANA_tox,RA234 ,,,234,072,,2024-08-06,12:46:00 PM,0,0.50,,ug/L,0.182,,,Smithville,Smithville 1,,,SLAP
+ANA_tox,RA234 ,,,234,072,,2024-08-06,12:46:00 PM,0,0.50,,ug/L,0.244,,,Smithville,Smithville 1,,,SLAP
+ANA_tox,RA235 ,,,235,089,,2024-08-07,10:43:00 AM,0,0.50,,ug/L,0.204,,,Truman,Truman 1,,,SLAP
+ANA_tox,RA235 ,,,235,089,,2024-08-07,10:43:00 AM,0,0.50,,ug/L,0.147,,,Truman,Truman 1,Below detection limit,,SLAP
+ANA_tox,RA236 ,,,236,093,,2024-08-07,1:34:00 PM,0,0.50,,ug/L,0.150,,,Stockton,Stockton 1,Below detection limit,,SLAP
+ANA_tox,RA236 ,,,236,093,,2024-08-07,1:34:00 PM,0,0.50,,ug/L,0.129,,,Stockton,Stockton 1,Below detection limit,,SLAP
+ANA_tox,RA237 ,,,237,219,,2024-09-06,12:44:00 PM,0,0.50,,ug/L,0.252,,,Dairy_1,Dairy 1 1,,,SLAP
+ANA_tox,RA237 ,,,237,219,,2024-09-06,12:44:00 PM,0,0.50,,ug/L,0.180,,,Dairy_1,Dairy 1 1,,,SLAP
+ANA_tox,RA238 ,,,238,115,,2024-08-12,9:32:00 AM,0,0.50,,ug/L,0.262,,,Hunnewell,Hunnewell 1,,,SLAP
+ANA_tox,RA238 ,,,238,115,,2024-08-12,9:32:00 AM,0,0.50,,ug/L,0.295,,,Hunnewell,Hunnewell 1,,,SLAP
+ANA_tox,RA238 ,,,238,115,,2024-08-12,9:32:00 AM,0,0.50,,ug/L,0.279,,,Hunnewell,Hunnewell 1,,,SLAP
+ANA_tox,RA239 ,,,239,011,,2024-08-08,11:36:00 AM,0,0.50,,ug/L,0.206,,,Peaceful_Valley,Peaceful Valley 1,,,SLAP
+ANA_tox,RA239 ,,,239,011,,2024-08-08,11:36:00 AM,0,0.50,,ug/L,0.140,,,Peaceful_Valley,Peaceful Valley 1,Below detection limit,,SLAP
+ANA_tox,RA240 ,,,240,272,,2024-08-12,10:54:00 AM,0,0.50,,ug/L,0.109,,,Perry,Perry 1,Below detection limit,,SLAP
+ANA_tox,RA240 ,,,240,272,,2024-08-12,10:54:00 AM,0,0.50,,ug/L,0.096,,,Perry,Perry 1,Below detection limit,,SLAP
+ANA_tox,RA241 ,,,241,003,,2024-08-12,12:15:00 PM,0,0.50,,ug/L,0.066,,,Bowling_Green_East,Bowling Green (East) 1,Below detection limit,,SLAP
+ANA_tox,RA241 ,,,241,003,,2024-08-12,12:15:00 PM,0,0.50,,ug/L,0.098,,,Bowling_Green_East,Bowling Green (East) 1,Below detection limit,,SLAP
+ANA_tox,RA242 ,,,242,003-FD,,2024-08-12,12:15:00 PM,0,0.50,,ug/L,0.094,,,Bowling_Green_East,Bowling Green (East) 1,Below detection limit,,SLAP
+ANA_tox,RA242 ,,,242,003-FD,,2024-08-12,12:15:00 PM,0,0.50,,ug/L,0.144,,,Bowling_Green_East,Bowling Green (East) 1,Below detection limit,,SLAP
+ANA_tox,RA243 ,,,243,005,,2024-08-12,1:48:00 PM,0,0.50,,ug/L,0.218,,,Lincoln,Lincoln 1,,,SLAP
+ANA_tox,RA243 ,,,243,005,,2024-08-12,1:48:00 PM,0,0.50,,ug/L,0.190,,,Lincoln,Lincoln 1,,,SLAP
+ANA_tox,RA244 ,,,244,197,,2024-08-12,3:11:00 PM,0,0.50,,ug/L,0.123,,,Prairie,Prairie 1,Below detection limit,,SLAP
+ANA_tox,RA244 ,,,244,197,,2024-08-12,3:11:00 PM,0,0.50,,ug/L,0.176,,,Prairie,Prairie 1,,,SLAP
+ANA_tox,RA245 ,,,245,454,,2024-08-13,7:52:00 AM,0,0.50,,ug/L,0.792,,,Cedar_Hill_Lake_1,Cedar Hill (Lake 1) 1,,,SLAP
+ANA_tox,RA245 ,,,245,454,,2024-08-13,7:52:00 AM,0,0.50,,ug/L,0.794,,,Cedar_Hill_Lake_1,Cedar Hill (Lake 1) 1,,,SLAP
+ANA_tox,RA248 ,,,248,014,,2024-08-13,8:51:00 AM,0,0.50,,ug/L,0.141,,,Tishomingo,Tishomingo 1,Below detection limit,,SLAP
+ANA_tox,RA248 ,,,248,014,,2024-08-13,8:51:00 AM,0,0.50,,ug/L,0.171,,,Tishomingo,Tishomingo 1,,,SLAP
+ANA_tox,RA249 ,,,249,021,,2024-08-13,10:38:00 AM,0,0.50,,ug/L,0.150,,,Goose_Creek,Goose Creek 1,Below detection limit,,SLAP
+ANA_tox,RA249 ,,,249,021,,2024-08-13,10:38:00 AM,0,0.50,,ug/L,0.171,,,Goose_Creek,Goose Creek 1,,,SLAP
+ANA_tox,RA250 ,,,250,018,,2024-08-13,12:24:00 PM,0,0.50,,ug/L,0.130,,,Capri,Capri 1,Below detection limit,,SLAP
+ANA_tox,RA250 ,,,250,018,,2024-08-13,12:24:00 PM,0,0.50,,ug/L,0.163,,,Capri,Capri 1,,,SLAP
+ANA_tox,RA251 ,,,251,112,,2024-08-13,1:18:00 PM,0,0.50,,ug/L,0.109,,,Shayne,Shayne 1,Below detection limit,,SLAP
+ANA_tox,RA251 ,,,251,112,,2024-08-13,1:18:00 PM,0,0.50,,ug/L,0.097,,,Shayne,Shayne 1,Below detection limit,,SLAP
+ANA_tox,RA252 ,,,252,186,,2024-08-13,2:31:00 PM,0,0.50,,ug/L,0.133,,,Carl_DiSalvo,Carl DiSalvo 1,Below detection limit,,SLAP
+ANA_tox,RA252 ,,,252,186,,2024-08-13,2:31:00 PM,0,0.50,,ug/L,0.176,,,Carl_DiSalvo,Carl DiSalvo 1,,,SLAP
+ANA_tox,RA253 ,,,253,030,,2024-08-14,7:41:00 AM,0,0.50,,ug/L,0.158,,,Wappapello,Wappapello 1,,,SLAP
+ANA_tox,RA253 ,,,253,030,,2024-08-14,7:41:00 AM,0,0.50,,ug/L,0.213,,,Wappapello,Wappapello 1,,,SLAP
+ANA_tox,RA254 ,,,254,036,,2024-08-14,9:41:00 AM,0,0.50,,ug/L,0.146,,,Clearwater,Clearwater 1,Below detection limit,,SLAP
+ANA_tox,RA254 ,,,254,036,,2024-08-14,9:41:00 AM,0,0.50,,ug/L,0.172,,,Clearwater,Clearwater 1,,,SLAP
+ANA_tox,RA255 ,,,255,039,,2024-08-14,12:45:00 PM,0,0.50,,ug/L,0.101,,,Council_Bluff,Council Bluff 1,Below detection limit,,SLAP
+ANA_tox,RA255 ,,,255,039,,2024-08-14,12:45:00 PM,0,0.50,,ug/L,0.138,,,Council_Bluff,Council Bluff 1,Below detection limit,,SLAP
+ANA_tox,RA256 ,,,256,110,,2024-08-14,3:17:00 PM,0,0.50,,ug/L,0.143,,,Little_Prairie,Little Prairie 1,Below detection limit,,SLAP
+ANA_tox,RA256 ,,,256,110,,2024-08-14,3:17:00 PM,0,0.50,,ug/L,0.149,,,Little_Prairie,Little Prairie 1,Below detection limit,,SLAP
+ANA_tox,RA257 ,,,257,274,,2024-08-16,11:14:00 AM,0,0.50,,ug/L,0.166,,,Alpine,Alpine 1,,,Thin Ice
+ANA_tox,RA257 ,,,257,274,,2024-08-16,11:14:00 AM,0,0.50,,ug/L,0.141,,,Alpine,Alpine 1,Below detection limit,,Thin Ice
+ANA_tox,RA258 ,,,258,219,,2024-08-12,10:05:00 AM,0,0.50,,ug/L,0.208,,,Dairy_1,Dairy 1 1,,,SLAP
+ANA_tox,RA258 ,,,258,219,,2024-08-12,10:05:00 AM,0,0.50,,ug/L,0.135,,,Dairy_1,Dairy 1 1,Below detection limit,,SLAP
+ANA_tox,RA259 ,,,259,440,,2024-08-12,12:08:00 PM,0,0.50,,ug/L,0.135,,,Crow_Pond,Crow Pond 1,Below detection limit,,SLAP
+ANA_tox,RA259 ,,,259,440,,2024-08-12,12:08:00 PM,0,0.50,,ug/L,0.099,,,Crow_Pond,Crow Pond 1,Below detection limit,,SLAP
+ANA_tox,RA260 ,,,260,088,,2024-08-13,10:26:00 AM,0,0.50,,ug/L,0.153,,,Marceline_South,Marceline (South) 1,,,SLAP
+ANA_tox,RA260 ,,,260,088,,2024-08-13,10:26:00 AM,0,0.50,,ug/L,0.222,,,Marceline_South,Marceline (South) 1,,,SLAP
+ANA_tox,RA261 ,,,261,072,,2024-08-20,2:49:00 PM,0,0.50,,ug/L,0.168,,,Smithville,Smithville 1,,,SLAP
+ANA_tox,RA261 ,,,261,072,,2024-08-20,2:49:00 PM,0,0.50,,ug/L,0.166,,,Smithville,Smithville 1,,,SLAP
+ANA_tox,RA262 ,,,262,149,,2024-08-14,12:44:00 PM,0,0.50,,ug/L,0.120,,,Lake_of_the_Ozarks,Lake of the Ozarks 1,Below detection limit,,SLAP
+ANA_tox,RA262 ,,,262,149,,2024-08-14,12:44:00 PM,0,0.50,,ug/L,0.125,,,Lake_of_the_Ozarks,Lake of the Ozarks 1,Below detection limit,,SLAP
+ANA_tox,RA263 ,,,263,089,,2024-08-21,12:44:00 PM,0,0.50,,ug/L,0.079,,,Truman,Truman 1,Below detection limit,,SLAP
+ANA_tox,RA263 ,,,263,089,,2024-08-21,12:44:00 PM,0,0.50,,ug/L,0.081,,,Truman,Truman 1,Below detection limit,,SLAP
+ANA_tox,RA264 ,,,264,046,,2024-08-22,12:44:00 PM,0,0.50,,ug/L,0.219,,,Thomas_Hill,Thomas Hill 1,,,SLAP
+ANA_tox,RA264 ,,,264,046,,2024-08-22,12:44:00 PM,0,0.50,,ug/L,0.245,,,Thomas_Hill,Thomas Hill 1,,,SLAP
+ANA_tox,RA265 ,,,265,145,,2024-08-23,2:07:00 PM,0,0.50,,ug/L,0.161,,,Mark_Twain,Mark Twain 1,,,SLAP
+ANA_tox,RA265 ,,,265,145,,2024-08-23,2:07:00 PM,0,0.50,,ug/L,0.072,,,Mark_Twain,Mark Twain 1,Below detection limit,,SLAP
+ANA_tox,RA266 ,,,266,093,,2024-08-27,2:37:00 PM,0,0.50,,ug/L,0.359,,,Stockton,Stockton 1,,,SLAP
+ANA_tox,RA266 ,,,266,093,,2024-08-27,2:37:00 PM,0,0.50,,ug/L,0.292,,,Stockton,Stockton 1,,,SLAP
+ANA_tox,RA267 ,,,267,089,,2024-08-27,5:50:00 PM,0,0.50,,ug/L,0.235,,,Truman,Truman 1,,,SLAP
+ANA_tox,RA267 ,,,267,089,,2024-08-27,5:50:00 PM,0,0.50,,ug/L,0.217,,,Truman,Truman 1,,,SLAP
+ANA_tox,RA268 ,,,268,078,,2024-08-28,1:47:00 PM,0,0.50,,ug/L,0.246,,,Hamilton_City,Hamilton City 1,,,SLAP
+ANA_tox,RA268 ,,,268,078,,2024-08-28,1:47:00 PM,0,0.50,,ug/L,0.248,,,Hamilton_City,Hamilton City 1,,,SLAP
+ANA_tox,RA268 ,,,268,078,,2024-08-28,1:47:00 PM,0,0.50,,ug/L,0.287,,,Hamilton_City,Hamilton City 1,,,SLAP
+ANA_tox,RA269 ,,,269,145,,2024-08-29,12:30:00 PM,0,0.50,,ug/L,0.311,,,Mark_Twain,Mark Twain 1,,,SLAP
+ANA_tox,RA269 ,,,269,145,,2024-08-29,12:30:00 PM,0,0.50,,ug/L,0.353,,,Mark_Twain,Mark Twain 1,,,SLAP
+ANA_tox,RA271 ,,,271,093,,2024-09-03,2:35:00 PM,0,0.50,,ug/L,0.400,,,Stockton,Stockton 1,,,SLAP
+ANA_tox,RA271 ,,,271,093,,2024-09-03,2:35:00 PM,0,0.50,,ug/L,0.308,,,Stockton,Stockton 1,,,SLAP
+ANA_tox,RA272 ,,,272,274,,2024-09-04,1:38:00 PM,0,0.50,,ug/L,0.274,,,Alpine,Alpine 1,,,Thin Ice
+ANA_tox,RA272 ,,,272,274,,2024-09-04,1:38:00 PM,0,0.50,,ug/L,0.270,,,Alpine,Alpine 1,,,Thin Ice
+ANA_tox,RA273 ,,,273,112,,2024-09-05,2:40:00 PM,0,0.50,,ug/L,0.259,,,Shayne,Shayne 1,,,Thin Ice
+ANA_tox,RA273 ,,,273,112,,2024-09-05,2:40:00 PM,0,0.50,,ug/L,0.182,,,Shayne,Shayne 1,,,Thin Ice
+ANA_tox,RA274 ,,,274,440,,2024-09-06,2:25:00 PM,0,0.50,,ug/L,0.376,,,Crow_Pond,Crow Pond 1,,,Thin Ice
+ANA_tox,RA274 ,,,274,440,,2024-09-06,2:25:00 PM,0,0.50,,ug/L,0.351,,,Crow_Pond,Crow Pond 1,,,Thin Ice
+ANA_tox,RA276 ,,,276,088,,2024-09-10,4:48:00 PM,0,0.50,,ug/L,0.241,,,Marceline_South,Marceline (South) 1,,,Thin Ice
+ANA_tox,RA276 ,,,276,088,,2024-09-10,4:48:00 PM,0,0.50,,ug/L,0.249,,,Marceline_South,Marceline (South) 1,,,Thin Ice
+ANA_tox,RA277 ,,,277,089,,2024-09-11,12:18:00 PM,0,0.50,,ug/L,0.253,,,Truman,Truman 1,,,SLAP
+ANA_tox,RA277 ,,,277,089,,2024-09-11,12:18:00 PM,0,0.50,,ug/L,0.279,,,Truman,Truman 1,,,SLAP
+ANA_tox,RA278 ,,,278,072,,2024-09-12,2:26:00 PM,0,0.50,,ug/L,0.364,,,Smithville,Smithville 1,,,SLAP
+ANA_tox,RA278 ,,,278,072,,2024-09-12,2:26:00 PM,0,0.50,,ug/L,0.359,,,Smithville,Smithville 1,,,SLAP
+ANA_tox,RA279 ,,,279,098,,2024-09-24,9:54:00 AM,0,0.50,,ug/L,0.362,,,Table_Rock,Table Rock 1,,,SLAP
+ANA_tox,RA279 ,,,279,098,,2024-09-24,9:54:00 AM,0,0.50,,ug/L,0.419,,,Table_Rock,Table Rock 1,,,SLAP
+ANA_tox,RA280 ,,,280,149,,2024-09-25,9:49:00 AM,0,0.50,,ug/L,0.301,,,Lake_of_the_Ozarks,Lake of the Ozarks 1,,,SLAP
+ANA_tox,RA280 ,,,280,149,,2024-09-25,9:49:00 AM,0,0.50,,ug/L,0.340,,,Lake_of_the_Ozarks,Lake of the Ozarks 1,,,SLAP
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,

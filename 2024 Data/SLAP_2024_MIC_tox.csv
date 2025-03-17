@@ -1,0 +1,556 @@
+parameterType,parameterType & Tube#,,,Tube/Filter#,MULakeNumber,Depth,Date,Time,beginDepth,endDepth,Replicate,unit,parameterValue,Rerun?,still too high?,waterBody,samplingSite,parameterValueQCCodeDesc,,Project
+MIC_tox,RM1 ,,,1,088,,2024-05-15,12:43:00 PM,0,0.50,,ug/L,0.038,,,Marceline_South,Marceline (South) 1,Below detection limit,,SLAP
+MIC_tox,RM1 ,,,1,088,,2024-05-15,12:43:00 PM,0,0.50,,ug/L,0.038,,,Marceline_South,Marceline (South) 1,Below detection limit,,SLAP
+MIC_tox,RM2 ,,,2,438,,2024-05-17,10:15:00 AM,0,0.50,,ug/L,0.060,,,Bethel,Bethel 1,,,SLAP
+MIC_tox,RM2 ,,,2,438,,2024-05-17,10:15:00 AM,0,0.50,,ug/L,0.057,,,Bethel,Bethel 1,,,SLAP
+MIC_tox,RM3 ,,,3,139,,2024-05-15,12:20:00 PM,0,0.50,,ug/L,0.017,,,Marceline_North,Marceline (North) 1,Below detection limit,,SLAP
+MIC_tox,RM3 ,,,3,139,,2024-05-15,12:20:00 PM,0,0.50,,ug/L,0.027,,,Marceline_North,Marceline (North) 1,Below detection limit,,SLAP
+MIC_tox,RM4 ,,,4,228,,2024-05-20,12:15:00 PM,0,0.50,,ug/L,0.104,,,Jamesport_Community,Jamesport Community 1,,,SLAP
+MIC_tox,RM4 ,,,4,228,,2024-05-20,12:15:00 PM,0,0.50,,ug/L,0.117,,,Jamesport_Community,Jamesport Community 1,,,SLAP
+MIC_tox,RM5 ,,,5,163,,2024-05-20,1:58:00 PM,0,0.50,,ug/L,0.000,,,King,King 1,Below detection limit,,SLAP
+MIC_tox,RM5 ,,,5,163,,2024-05-20,1:58:00 PM,0,0.50,,ug/L,0.022,,,King,King 1,Below detection limit,,SLAP
+MIC_tox,RM6 ,,,6,195,,2024-05-20,2:56:00 PM,0,0.50,,ug/L,0.070,,,Limpp,Limpp 1,,,SLAP
+MIC_tox,RM6 ,,,6,195,,2024-05-20,2:56:00 PM,0,0.50,,ug/L,0.033,,,Limpp,Limpp 1,Below detection limit,,SLAP
+MIC_tox,RM7 ,,,7,224,,2024-05-20,3:57:00 PM,0,0.50,,ug/L,0.039,,,Happy_Holler,Happy Holler 1,Below detection limit,,SLAP
+MIC_tox,RM7 ,,,7,224,,2024-05-20,3:57:00 PM,0,0.50,,ug/L,0.018,,,Happy_Holler,Happy Holler 1,Below detection limit,,SLAP
+MIC_tox,RM8 ,,,8,180,,2024-05-20,5:50:00 PM,0,0.50,,ug/L,0.019,,,Bilby_Ranch,Bilby Ranch 1,Below detection limit,,SLAP
+MIC_tox,RM8 ,,,8,180,,2024-05-20,5:50:00 PM,0,0.50,,ug/L,0.005,,,Bilby_Ranch,Bilby Ranch 1,Below detection limit,,SLAP
+MIC_tox,RM9 ,,,9,179,,2024-05-21,6:55:00 AM,0,0.50,,ug/L,0.936,,,Nodaway_County,Nodaway County 1,,,SLAP
+MIC_tox,RM9 ,,,9,179,,2024-05-21,6:55:00 AM,0,0.50,,ug/L,1.205,,,Nodaway_County,Nodaway County 1,,,SLAP
+MIC_tox,RM10 ,,,10,181,,2024-05-21,8:36:00 AM,0,0.50,,ug/L,0.111,,,Mozingo,Mozingo 1,,,SLAP
+MIC_tox,RM10 ,,,10,181,,2024-05-21,8:36:00 AM,0,0.50,,ug/L,0.064,,,Mozingo,Mozingo 1,,,SLAP
+MIC_tox,RM11 ,,,11,185,,2024-05-21,10:45:00 AM,0,0.50,,ug/L,0.011,,,Harrison_County,Harrison County 1,Below detection limit,,SLAP
+MIC_tox,RM11 ,,,11,185,,2024-05-21,10:45:00 AM,0,0.50,,ug/L,0.013,,,Harrison_County,Harrison County 1,Below detection limit,,SLAP
+MIC_tox,RM12 ,,,12,164,,2024-05-21,1:17:00 PM,0,0.50,,ug/L,0.014,,,Elmwood,Elmwood 1,Below detection limit,,SLAP
+MIC_tox,RM12 ,,,12,164,,2024-05-21,1:17:00 PM,0,0.50,,ug/L,0.025,,,Elmwood,Elmwood 1,Below detection limit,,SLAP
+MIC_tox,RM13 ,,,13,237,,2024-05-21,2:04:00 PM,0,0.50,,ug/L,0.071,,,Milan_North,Milan (North) 1,,,SLAP
+MIC_tox,RM13 ,,,13,237,,2024-05-21,2:04:00 PM,0,0.50,,ug/L,0.049,,,Milan_North,Milan (North) 1,Below detection limit,,SLAP
+MIC_tox,RM14 ,,,14,133,,2024-05-22,7:36:00 AM,0,0.50,,ug/L,0.031,,,Forest,Forest 1,Below detection limit,,SLAP
+MIC_tox,RM14 ,,,14,133,,2024-05-22,7:36:00 AM,0,0.50,,ug/L,0.000,,,Forest,Forest 1,Below detection limit,,SLAP
+MIC_tox,RM15 ,,,15,053,,2024-05-22,9:45:00 AM,0,0.50,,ug/L,0.073,,,Memphis_City,Memphis City 1,,,SLAP
+MIC_tox,RM15 ,,,15,053,,2024-05-22,9:45:00 AM,0,0.50,,ug/L,0.056,,,Memphis_City,Memphis City 1,,,SLAP
+MIC_tox,RM16 ,,,16,182,,2024-05-22,11:15:00 AM,0,0.50,,ug/L,0.034,,,Fox_Valley,Fox Valley 1,Below detection limit,,SLAP
+MIC_tox,RM16 ,,,16,182,,2024-05-22,11:15:00 AM,0,0.50,,ug/L,0.015,,,Fox_Valley,Fox Valley 1,Below detection limit,,SLAP
+MIC_tox,RM17 ,,,17,057,,2024-05-22,1:24:00 PM,0,0.50,,ug/L,0.010,,,Deer_Ridge,Deer Ridge 1,Below detection limit,,SLAP
+MIC_tox,RM17 ,,,17,057,,2024-05-22,1:24:00 PM,0,0.50,,ug/L,0.022,,,Deer_Ridge,Deer Ridge 1,Below detection limit,,SLAP
+MIC_tox,RM18 ,,,18,114,,2024-05-22,2:52:00 PM,0,0.50,,ug/L,0.043,,,Henry_Sever,Henry Sever 1,Below detection limit,,SLAP
+MIC_tox,RM18 ,,,18,114,,2024-05-22,2:52:00 PM,0,0.50,,ug/L,0.041,,,Henry_Sever,Henry Sever 1,Below detection limit,,SLAP
+MIC_tox,RM19 ,,,19,048,,2024-05-22,4:55:00 PM,0,0.50,,ug/L,0.111,,,Long_Branch,Long Branch 1,,,SLAP
+MIC_tox,RM19 ,,,19,048,,2024-05-22,4:55:00 PM,0,0.50,,ug/L,0.114,,,Long_Branch,Long Branch 1,,,SLAP
+MIC_tox,RM19 ,,,19,048,,2024-05-22,4:55:00 PM,0,0.50,,ug/L,2.590,,,Long_Branch,Long Branch 1,,,SLAP
+MIC_tox,RM19 ,,,19,048,,2024-05-22,4:55:00 PM,0,0.50,,ug/L,3.031,,,Long_Branch,Long Branch 1,,,SLAP
+MIC_tox,RM20 ,,,20,134,,2024-05-23,11:30:00 AM,0,0.50,,ug/L,0.024,,,Jamesport_City,Jamesport City 1,Below detection limit,,SLAP
+MIC_tox,RM20 ,,,20,134,,2024-05-23,11:30:00 AM,0,0.50,,ug/L,0.113,,,Jamesport_City,Jamesport City 1,,,SLAP
+MIC_tox,RM21 ,,,21,184,,2024-05-28,10:15:00 AM,0,0.50,,ug/L,0.246,,,Manito,Manito 1,,,SLAP
+MIC_tox,RM21 ,,,21,184,,2024-05-28,10:15:00 AM,0,0.50,,ug/L,0.107,,,Manito,Manito 1,,,SLAP
+MIC_tox,RM22 ,,,22,092,,2024-05-28,12:47:00 PM,0,0.50,,ug/L,0.200,,,Pomme_De_Terre,Pomme de Terre 1,,,SLAP
+MIC_tox,RM22 ,,,22,092,,2024-05-28,12:47:00 PM,0,0.50,,ug/L,0.205,,,Pomme_De_Terre,Pomme de Terre 1,,,SLAP
+MIC_tox,RM23 ,,,23,098,,2024-05-23,1:51:00 PM,0,0.50,,ug/L,0.020,,,Table_Rock,Table Rock 1,Below detection limit,,SLAP
+MIC_tox,RM23 ,,,23,098,,2024-05-23,1:51:00 PM,0,0.50,,ug/L,0.014,,,Table_Rock,Table Rock 1,Below detection limit,,SLAP
+MIC_tox,RM24 ,,,24,049,,2024-06-05,10:10:00 AM,0,0.50,,ug/L,0.219,,,Macon,Macon 1,,,SLAP
+MIC_tox,RM24 ,,,24,049,,2024-06-05,10:10:00 AM,0,0.50,,ug/L,0.176,,,Macon,Macon 1,,,SLAP
+MIC_tox,RM25 ,,,25,096,,2024-05-28,3:12:00 PM,0,0.50,,ug/L,0.022,,,Fellows,Fellows 1,Below detection limit,,SLAP
+MIC_tox,RM25 ,,,25,096,,2024-05-28,3:12:00 PM,0,0.50,,ug/L,0.020,,,Fellows,Fellows 1,Below detection limit,,SLAP
+MIC_tox,RM26 ,,,26,096-FD,,2024-05-28,3:12:00 PM,0,0.50,,ug/L,0.023,,,Fellows,Fellows 1,Below detection limit,,SLAP
+MIC_tox,RM26 ,,,26,096-FD,,2024-05-28,3:12:00 PM,0,0.50,,ug/L,0.024,,,Fellows,Fellows 1,Below detection limit,,SLAP
+MIC_tox,RM27 ,,,27,091,,2024-05-28,6:07:00 PM,0,0.50,,ug/L,0.029,,,Atkinson,Atkinson 1,Below detection limit,,SLAP
+MIC_tox,RM27 ,,,27,091,,2024-05-28,6:07:00 PM,0,0.50,,ug/L,0.024,,,Atkinson,Atkinson 1,Below detection limit,,SLAP
+MIC_tox,RM28 ,,,28,070,,2024-05-29,7:50:00 AM,0,0.50,,ug/L,0.384,,,North,North 1,,,SLAP
+MIC_tox,RM28 ,,,28,070,,2024-05-29,7:50:00 AM,0,0.50,,ug/L,0.368,,,North,North 1,,,SLAP
+MIC_tox,RM29 ,,,29,120,,2024-05-29,9:15:00 AM,0,0.50,,ug/L,0.036,,,Winnebago,Winnebago 1,Below detection limit,,SLAP
+MIC_tox,RM29 ,,,29,120,,2024-05-29,9:15:00 AM,0,0.50,,ug/L,0.051,,,Winnebago,Winnebago 1,,,SLAP
+MIC_tox,RM30 ,,,30,169,,2024-05-29,10:34:00 AM,0,0.50,,ug/L,0.312,,,Gopher,Gopher 1,,,SLAP
+MIC_tox,RM30 ,,,30,169,,2024-05-29,10:34:00 AM,0,0.50,,ug/L,0.279,,,Gopher,Gopher 1,,,SLAP
+MIC_tox,RM31 ,,,31,183,,2024-05-29,11:57:00 AM,0,0.50,,ug/L,0.116,,,Hazel_Hill,Hazel Hill 1,,,SLAP
+MIC_tox,RM31 ,,,31,183,,2024-05-29,11:57:00 AM,0,0.50,,ug/L,0.085,,,Hazel_Hill,Hazel Hill 1,,,SLAP
+MIC_tox,RM32 ,,,32,150,,2024-05-29,1:44:00 PM,0,0.50,,ug/L,2.628,,,Blind_Pony,Blind Pony 1,,,SLAP
+MIC_tox,RM32 ,,,32,150,,2024-05-29,1:44:00 PM,0,0.50,,ug/L,3.057,,,Blind_Pony,Blind Pony 1,,,SLAP
+MIC_tox,RM33 ,,,33,121,,2024-05-29,3:17:00 PM,0,0.50,,ug/L,0.067,,,Higginsville,Higginsville 1,,,SLAP
+MIC_tox,RM33 ,,,33,121,,2024-05-29,3:17:00 PM,0,0.50,,ug/L,0.059,,,Higginsville,Higginsville 1,,,SLAP
+MIC_tox,RM34 ,,,34,074,,2024-05-30,8:00:00 AM,0,0.50,,ug/L,0.089,,,Watkins_Mill,Watkins Mill 1,,,SLAP
+MIC_tox,RM34 ,,,34,074,,2024-05-30,8:00:00 AM,0,0.50,,ug/L,0.063,,,Watkins_Mill,Watkins Mill 1,,,SLAP
+MIC_tox,RM35 ,,,35,081,,2024-05-30,9:53:00 AM,0,0.50,,ug/L,0.996,,,Pony_Express,Pony Express 1,,,SLAP
+MIC_tox,RM35 ,,,35,081,,2024-05-30,9:53:00 AM,0,0.50,,ug/L,1.022,,,Pony_Express,Pony Express 1,,,SLAP
+MIC_tox,RM36 ,,,36,317,,2024-05-30,10:47:00 AM,0,0.50,,ug/L,0.321,,,Buffalo_Bill,Buffalo Bill 1,,,SLAP
+MIC_tox,RM36 ,,,36,317,,2024-05-30,10:47:00 AM,0,0.50,,ug/L,0.407,,,Buffalo_Bill,Buffalo Bill 1,,,SLAP
+MIC_tox,RM37 ,,,37,192,,2024-05-30,12:45:00 PM,0,0.50,,ug/L,0.046,,,Jo_Shelby,Jo Shelby 1,Below detection limit,,SLAP
+MIC_tox,RM37 ,,,37,192,,2024-05-30,12:45:00 PM,0,0.50,,ug/L,0.044,,,Jo_Shelby,Jo Shelby 1,Below detection limit,,SLAP
+MIC_tox,RM38 ,,,38,087,,2024-05-30,1:57:00 PM,0,0.50,,ug/L,0.061,,,Brookfield,Brookfield 1,,,SLAP
+MIC_tox,RM38 ,,,38,087,,2024-05-30,1:57:00 PM,0,0.50,,ug/L,0.027,,,Brookfield,Brookfield 1,Below detection limit,,SLAP
+MIC_tox,RM39 ,,,39,115,,2024-06-05,11:54:00 AM,0,0.50,,ug/L,0.154,,,Hunnewell,Hunnewell 1,,,SLAP
+MIC_tox,RM39 ,,,39,115,,2024-06-05,11:54:00 AM,0,0.50,,ug/L,0.178,,,Hunnewell,Hunnewell 1,,,SLAP
+MIC_tox,RM40 ,,,40,272,,2024-06-05,1:39:00 PM,0,0.50,,ug/L,0.084,,,Perry,Perry 1,,,SLAP
+MIC_tox,RM40 ,,,40,272,,2024-06-05,1:39:00 PM,0,0.50,,ug/L,0.056,,,Perry,Perry 1,,,SLAP
+MIC_tox,RM41 ,,,41,003,,2024-06-05,3:18:00 PM,0,0.50,,ug/L,0.000,,,Bowling_Green_East,Bowling Green (East) 1,Below detection limit,,SLAP
+MIC_tox,RM41 ,,,41,003,,2024-06-05,3:18:00 PM,0,0.50,,ug/L,0.000,,,Bowling_Green_East,Bowling Green (East) 1,Below detection limit,,SLAP
+MIC_tox,RM42 ,,,42,005,,2024-06-05,4:52:00 PM,0,0.50,,ug/L,0.153,,,Lincoln,Lincoln 1,,,SLAP
+MIC_tox,RM42 ,,,42,005,,2024-06-05,4:52:00 PM,0,0.50,,ug/L,0.077,,,Lincoln,Lincoln 1,,,SLAP
+MIC_tox,RM43 ,,,43,197,,2024-06-05,6:21:00 PM,0,0.50,,ug/L,0.096,,,Prairie,Prairie 1,,,SLAP
+MIC_tox,RM43 ,,,43,197,,2024-06-05,6:21:00 PM,0,0.50,,ug/L,0.127,,,Prairie,Prairie 1,,,SLAP
+MIC_tox,RM44 ,,,44,454,,2024-06-06,7:35:00 AM,0,0.50,,ug/L,0.064,,,Cedar_Hill_Lake_1,Cedar Hill (Lake 1) 1,,,SLAP
+MIC_tox,RM44 ,,,44,454,,2024-06-06,7:35:00 AM,0,0.50,,ug/L,0.032,,,Cedar_Hill_Lake_1,Cedar Hill (Lake 1) 1,Below detection limit,,SLAP
+MIC_tox,RM45 ,,,45,014,,2024-06-06,8:51:00 AM,0,0.50,,ug/L,0.590,,,Tishomingo,Tishomingo 1,,,SLAP
+MIC_tox,RM45 ,,,45,014,,2024-06-06,8:51:00 AM,0,0.50,,ug/L,0.716,,,Tishomingo,Tishomingo 1,,,SLAP
+MIC_tox,RM46 ,,,46,021,,2024-06-06,10:57:00 AM,0,0.50,,ug/L,0.070,,,Goose_Creek,Goose Creek 1,,,SLAP
+MIC_tox,RM46 ,,,46,021,,2024-06-06,10:57:00 AM,0,0.50,,ug/L,0.080,,,Goose_Creek,Goose Creek 1,,,SLAP
+MIC_tox,RM47 ,,,47,018,,2024-06-06,1:33:00 PM,0,0.50,,ug/L,0.000,,,Capri,Capri 1,Below detection limit,,SLAP
+MIC_tox,RM47 ,,,47,018,,2024-06-06,1:33:00 PM,0,0.50,,ug/L,0.000,,,Capri,Capri 1,Below detection limit,,SLAP
+MIC_tox,RM48 ,,,48,112,,2024-06-06,2:41:00 PM,0,0.50,,ug/L,0.055,,,Shayne,Shayne 1,,,SLAP
+MIC_tox,RM48 ,,,48,112,,2024-06-06,2:41:00 PM,0,0.50,,ug/L,0.002,,,Shayne,Shayne 1,Below detection limit,,SLAP
+MIC_tox,RM49 ,,,49,186,,2024-06-06,4:30:00 PM,0,0.50,,ug/L,0.124,,,Carl_DiSalvo,Carl DiSalvo 1,,,SLAP
+MIC_tox,RM49 ,,,49,186,,2024-06-06,4:30:00 PM,0,0.50,,ug/L,0.134,,,Carl_DiSalvo,Carl DiSalvo 1,,,SLAP
+MIC_tox,RM50 ,,,50,030,,2024-06-07,8:44:00 AM,0,0.50,,ug/L,0.064,,,Wappapello,Wappapello 1,,,SLAP
+MIC_tox,RM50 ,,,50,030,,2024-06-07,8:44:00 AM,0,0.50,,ug/L,0.000,,,Wappapello,Wappapello 1,Below detection limit,,SLAP
+MIC_tox,RM51 ,,,51,048,,2024-06-12,4:10:00 PM,0,0.50,,ug/L,0.121,,,Long_Branch,Long Branch 1,,,SLAP
+MIC_tox,RM51 ,,,51,048,,2024-06-12,4:10:00 PM,0,0.50,,ug/L,0.167,,,Long_Branch,Long Branch 1,,,SLAP
+MIC_tox,RM52 ,,,52,036,,2024-06-07,11:35:00 AM,0,0.50,,ug/L,0.000,,,Clearwater,Clearwater 1,Below detection limit,,SLAP
+MIC_tox,RM52 ,,,52,036,,2024-06-07,11:35:00 AM,0,0.50,,ug/L,0.000,,,Clearwater,Clearwater 1,Below detection limit,,SLAP
+MIC_tox,RM53 ,,,53,039,,2024-06-07,3:22:00 PM,0,0.50,,ug/L,0.197,,,Council_Bluff,Council Bluff 1,,,SLAP
+MIC_tox,RM53 ,,,53,039,,2024-06-07,3:22:00 PM,0,0.50,,ug/L,0.313,,,Council_Bluff,Council Bluff 1,,,SLAP
+MIC_tox,RM54 ,,,54,110,,2024-06-07,6:34:00 PM,0,0.50,,ug/L,0.187,,,Little_Prairie,Little Prairie 1,,,SLAP
+MIC_tox,RM54 ,,,54,110,,2024-06-07,6:34:00 PM,0,0.50,,ug/L,0.105,,,Little_Prairie,Little Prairie 1,,,SLAP
+MIC_tox,RM55 ,,,55,134,,2024-06-10,12:37:00 PM,0,0.50,,ug/L,0.000,,,Jamesport_City,Jamesport City 1,Below detection limit,,SLAP
+MIC_tox,RM55 ,,,55,134,,2024-06-10,12:37:00 PM,0,0.50,,ug/L,0.096,,,Jamesport_City,Jamesport City 1,,,SLAP
+MIC_tox,RM56 ,,,56,411,,2024-06-06,11:22:00 AM,0,0.50,,ug/L,0.974,,,Cedar,Cedar 1,,,SLAP
+MIC_tox,RM56 ,,,56,411,,2024-06-06,11:22:00 AM,0,0.50,,ug/L,1.303,,,Cedar,Cedar 1,,,SLAP
+MIC_tox,RM57 ,,,57,274,,2024-06-07,10:55:00 AM,0,0.50,,ug/L,0.073,,,Alpine,Alpine 1,,,SLAP
+MIC_tox,RM57 ,,,57,274,,2024-06-07,10:55:00 AM,0,0.50,,ug/L,0.180,,,Alpine,Alpine 1,,,SLAP
+MIC_tox,RM58 ,,,58,117,,2024-06-07,2:12:00 PM,0,0.50,,ug/L,0.395,,,Little_Dixie,Little Dixie 1,,,SLAP
+MIC_tox,RM58 ,,,58,117,,2024-06-07,2:12:00 PM,0,0.50,,ug/L,0.277,,,Little_Dixie,Little Dixie 1,,,SLAP
+MIC_tox,RM59 ,,,59,228,,2024-06-10,1:17:00 PM,0,0.50,,ug/L,0.240,,,Jamesport_Community,Jamesport Community 1,,,SLAP
+MIC_tox,RM59 ,,,59,228,,2024-06-10,1:17:00 PM,0,0.50,,ug/L,0.061,,,Jamesport_Community,Jamesport Community 1,,,SLAP
+MIC_tox,RM60 ,,,60,163,,2024-06-10,2:53:00 PM,0,0.50,,ug/L,0.038,,,King,King 1,Below detection limit,,SLAP
+MIC_tox,RM60 ,,,60,163,,2024-06-10,2:53:00 PM,0,0.50,,ug/L,0.058,,,King,King 1,,,SLAP
+MIC_tox,RM61 ,,,61,195,,2024-06-10,3:57:00 PM,0,0.50,,ug/L,0.018,,,Limpp,Limpp 1,Below detection limit,,SLAP
+MIC_tox,RM61 ,,,61,195,,2024-06-10,3:57:00 PM,0,0.50,,ug/L,0.061,,,Limpp,Limpp 1,,,SLAP
+MIC_tox,RM62 ,,,62,224,,2024-06-10,5:02:00 PM,0,0.50,,ug/L,0.080,,,Happy_Holler,Happy Holler 1,,,SLAP
+MIC_tox,RM62 ,,,62,224,,2024-06-10,5:02:00 PM,0,0.50,,ug/L,0.038,,,Happy_Holler,Happy Holler 1,Below detection limit,,SLAP
+MIC_tox,RM63 ,,,63,180,,2024-06-10,6:52:00 PM,0,0.50,,ug/L,0.000,,,Bilby_Ranch,Bilby Ranch 1,Below detection limit,,SLAP
+MIC_tox,RM63 ,,,63,180,,2024-06-10,6:52:00 PM,0,0.50,,ug/L,0.000,,,Bilby_Ranch,Bilby Ranch 1,Below detection limit,,SLAP
+MIC_tox,RM64 ,,,64,179,,2024-06-11,7:55:00 AM,0,0.50,,ug/L,1.179,,,Nodaway_County,Nodaway County 1,,,SLAP
+MIC_tox,RM64 ,,,64,179,,2024-06-11,7:55:00 AM,0,0.50,,ug/L,1.570,,,Nodaway_County,Nodaway County 1,,,SLAP
+MIC_tox,RM64 ,,,64,179,,2024-06-11,7:55:00 AM,0,0.50,,ug/L,1.719,,,Nodaway_County,Nodaway County 1,,,SLAP
+MIC_tox,RM65 ,,,65,181,,2024-06-11,9:03:00 AM,0,0.50,,ug/L,0.000,,,Mozingo,Mozingo 1,Below detection limit,,SLAP
+MIC_tox,RM65 ,,,65,181,,2024-06-11,9:03:00 AM,0,0.50,,ug/L,0.077,,,Mozingo,Mozingo 1,,,SLAP
+MIC_tox,RM66 ,,,66,185,,2024-06-11,11:05:00 AM,0,0.50,,ug/L,0.096,,,Harrison_County,Harrison County 1,,,SLAP
+MIC_tox,RM66 ,,,66,185,,2024-06-11,11:05:00 AM,0,0.50,,ug/L,0.000,,,Harrison_County,Harrison County 1,Below detection limit,,SLAP
+MIC_tox,RM67 ,,,67,164,,2024-06-11,1:26:00 PM,0,0.50,,ug/L,0.000,,,Elmwood,Elmwood 1,Below detection limit,,SLAP
+MIC_tox,RM67 ,,,67,164,,2024-06-11,1:26:00 PM,0,0.50,,ug/L,0.000,,,Elmwood,Elmwood 1,Below detection limit,,SLAP
+MIC_tox,RM68 ,,,68,237,,2024-06-11,2:18:00 PM,0,0.50,,ug/L,0.067,,,Milan_North,Milan (North) 1,,,SLAP
+MIC_tox,RM68 ,,,68,237,,2024-06-11,2:18:00 PM,0,0.50,,ug/L,0.167,,,Milan_North,Milan (North) 1,,,SLAP
+MIC_tox,RM69 ,,,69,133,,2024-06-12,7:19:00 AM,0,0.50,,ug/L,0.000,,,Forest,Forest 1,Below detection limit,,SLAP
+MIC_tox,RM69 ,,,69,133,,2024-06-12,7:19:00 AM,0,0.50,,ug/L,0.000,,,Forest,Forest 1,Below detection limit,,SLAP
+MIC_tox,RM70 ,,,70,053,,2024-06-12,9:19:00 AM,0,0.50,,ug/L,0.029,,,Memphis_City,Memphis City 1,Below detection limit,,SLAP
+MIC_tox,RM70 ,,,70,053,,2024-06-12,9:19:00 AM,0,0.50,,ug/L,0.059,,,Memphis_City,Memphis City 1,,,SLAP
+MIC_tox,RM71 ,,,71,182,,2024-06-12,10:42:00 AM,0,0.50,,ug/L,0.022,,,Fox_Valley,Fox Valley 1,Below detection limit,,SLAP
+MIC_tox,RM71 ,,,71,182,,2024-06-12,10:42:00 AM,0,0.50,,ug/L,0.024,,,Fox_Valley,Fox Valley 1,Below detection limit,,SLAP
+MIC_tox,RM72 ,,,72,057,,2024-06-12,12:49:00 PM,0,0.50,,ug/L,0.040,,,Deer_Ridge,Deer Ridge 1,Below detection limit,,SLAP
+MIC_tox,RM72 ,,,72,057,,2024-06-12,12:49:00 PM,0,0.50,,ug/L,0.055,,,Deer_Ridge,Deer Ridge 1,,,SLAP
+MIC_tox,RM73 ,,,73,114,,2024-06-12,2:19:00 PM,0,0.50,,ug/L,0.095,,,Henry_Sever,Henry Sever 1,,,SLAP
+MIC_tox,RM73 ,,,73,114,,2024-06-12,2:19:00 PM,0,0.50,,ug/L,0.073,,,Henry_Sever,Henry Sever 1,,,SLAP
+MIC_tox,RM74 ,,,74,440,,2024-06-11,2:27:00 PM,0,0.50,,ug/L,0.033,,,Crow_Pond,Crow Pond 1,Below detection limit,,SLAP
+MIC_tox,RM74 ,,,74,440,,2024-06-11,2:27:00 PM,0,0.50,,ug/L,0.031,,,Crow_Pond,Crow Pond 1,Below detection limit,,SLAP
+MIC_tox,RM75 ,,,75,219,,2024-06-12,10:21:00 AM,0,0.50,,ug/L,1.736,,,Dairy_1,Dairy 1 1,,,SLAP
+MIC_tox,RM75 ,,,75,219,,2024-06-12,10:21:00 AM,0,0.50,,ug/L,1.700,,,Dairy_1,Dairy 1 1,,,SLAP
+MIC_tox,RM76 ,,,76,139,,2024-06-14,11:52:00 AM,0,0.50,,ug/L,0.225,,,Marceline_North,Marceline (North) 1,,,SLAP
+MIC_tox,RM76 ,,,76,139,,2024-06-14,11:52:00 AM,0,0.50,,ug/L,0.318,,,Marceline_North,Marceline (North) 1,,,SLAP
+MIC_tox,RM77 ,,,77,046,,2024-06-13,11:22:00 PM,0,0.50,,ug/L,0.221,,,Thomas_Hill,Thomas Hill 1,,,SLAP
+MIC_tox,RM77 ,,,77,046,,2024-06-13,11:22:00 PM,0,0.50,,ug/L,0.178,,,Thomas_Hill,Thomas Hill 1,,,SLAP
+MIC_tox,RM78 ,,,78,184,,2024-06-18,10:22:00 AM,0,0.50,,ug/L,0.618,,,Manito,Manito 1,,,SLAP
+MIC_tox,RM78 ,,,78,184,,2024-06-18,10:22:00 AM,0,0.50,,ug/L,0.661,,,Manito,Manito 1,,,SLAP
+MIC_tox,RM79 ,,,79,438,,2024-06-14,10:40:00 AM,0,0.50,,ug/L,0.206,,,Bethel,Bethel 1,,,SLAP
+MIC_tox,RM79 ,,,79,438,,2024-06-14,10:40:00 AM,0,0.50,,ug/L,0.170,,,Bethel,Bethel 1,,,SLAP
+MIC_tox,RM80 ,,,80,184-FD,,2024-06-18,10:22:00 AM,0,0.50,,ug/L,0.682,,,Manito,Manito 1,,,SLAP
+MIC_tox,RM80 ,,,80,184-FD,,2024-06-18,10:22:00 AM,0,0.50,,ug/L,0.631,,,Manito,Manito 1,,,SLAP
+MIC_tox,RM81 ,,,81,096,,2024-06-18,3:04:00 PM,0,0.50,,ug/L,0.000,,,Fellows,Fellows 1,Below detection limit,,SLAP
+MIC_tox,RM81 ,,,81,096,,2024-06-18,3:04:00 PM,0,0.50,,ug/L,0.003,,,Fellows,Fellows 1,Below detection limit,,SLAP
+MIC_tox,RM82 ,,,82,091,,2024-06-18,5:33:00 PM,0,0.50,,ug/L,0.075,,,Atkinson,Atkinson 1,,,SLAP
+MIC_tox,RM82 ,,,82,091,,2024-06-18,5:33:00 PM,0,0.50,,ug/L,0.054,,,Atkinson,Atkinson 1,,,SLAP
+MIC_tox,RM83 ,,,83,070,,2024-06-19,7:37:00 AM,0,0.50,,ug/L,0.000,,,North,North 1,Below detection limit,,SLAP
+MIC_tox,RM83 ,,,83,070,,2024-06-19,7:37:00 AM,0,0.50,,ug/L,0.000,,,North,North 1,Below detection limit,,SLAP
+MIC_tox,RM84 ,,,84,169,,2024-06-19,8:54:00 AM,0,0.50,,ug/L,0.364,,,Gopher,Gopher 1,,,SLAP
+MIC_tox,RM84 ,,,84,169,,2024-06-19,8:54:00 AM,0,0.50,,ug/L,0.376,,,Gopher,Gopher 1,,,SLAP
+MIC_tox,RM85 ,,,85,183,,2024-06-19,10:40:00 AM,0,0.50,,ug/L,0.074,,,Hazel_Hill,Hazel Hill 1,,,SLAP
+MIC_tox,RM85 ,,,85,183,,2024-06-19,10:40:00 AM,0,0.50,,ug/L,0.094,,,Hazel_Hill,Hazel Hill 1,,,SLAP
+MIC_tox,RM86 ,,,86,150,,2024-06-19,12:23:00 PM,0,0.50,,ug/L,0.999,,,Blind_Pony,Blind Pony 1,,,SLAP
+MIC_tox,RM86 ,,,86,150,,2024-06-19,12:23:00 PM,0,0.50,,ug/L,0.796,,,Blind_Pony,Blind Pony 1,,,SLAP
+MIC_tox,RM87 ,,,87,121,,2024-06-19,1:46:00 PM,0,0.50,,ug/L,0.025,,,Higginsville,Higginsville 1,Below detection limit,,SLAP
+MIC_tox,RM87 ,,,87,121,,2024-06-19,1:46:00 PM,0,0.50,,ug/L,0.059,,,Higginsville,Higginsville 1,,,SLAP
+MIC_tox,RM88 ,,,88,074,,2024-06-20,8:02:00 AM,0,0.50,,ug/L,0.128,,,Watkins_Mill,Watkins Mill 1,,,SLAP
+MIC_tox,RM88 ,,,88,074,,2024-06-20,8:02:00 AM,0,0.50,,ug/L,0.178,,,Watkins_Mill,Watkins Mill 1,,,SLAP
+MIC_tox,RM89 ,,,89,081,,2024-06-20,9:04:00 AM,0,0.50,,ug/L,0.658,,,Pony_Express,Pony Express 1,,,SLAP
+MIC_tox,RM89 ,,,89,081,,2024-06-20,9:04:00 AM,0,0.50,,ug/L,0.896,,,Pony_Express,Pony Express 1,,,SLAP
+MIC_tox,RM90 ,,,90,317,,2024-06-20,10:33:00 AM,0,0.50,,ug/L,2.163,,,Buffalo_Bill,Buffalo Bill 1,,,SLAP
+MIC_tox,RM90 ,,,90,317,,2024-06-20,10:33:00 AM,0,0.50,,ug/L,1.904,,,Buffalo_Bill,Buffalo Bill 1,,,SLAP
+MIC_tox,RM91 ,,,91,078,,2024-06-20,11:39:00 AM,0,0.50,,ug/L,0.014,,,Hamilton_City,Hamilton City 1,Below detection limit,,SLAP
+MIC_tox,RM91 ,,,91,078,,2024-06-20,11:39:00 AM,0,0.50,,ug/L,0.002,,,Hamilton_City,Hamilton City 1,Below detection limit,,SLAP
+MIC_tox,RM92 ,,,92,192,,2024-06-20,2:02:00 PM,0,0.50,,ug/L,0.822,,,Jo_Shelby,Jo Shelby 1,,,SLAP
+MIC_tox,RM92 ,,,92,192,,2024-06-20,2:02:00 PM,0,0.50,,ug/L,0.923,,,Jo_Shelby,Jo Shelby 1,,,SLAP
+MIC_tox,RM93 ,,,93,087,,2024-06-20,3:12:00 PM,0,0.50,,ug/L,0.054,,,Brookfield,Brookfield 1,,,SLAP
+MIC_tox,RM93 ,,,93,087,,2024-06-20,3:12:00 PM,0,0.50,,ug/L,0.044,,,Brookfield,Brookfield 1,Below detection limit,,SLAP
+MIC_tox,RM94 ,,,94,011,,2024-06-21,10:45:00 AM,0,0.50,,ug/L,0.006,,,Peaceful_Valley,Peaceful Valley 1,Below detection limit,,SLAP
+MIC_tox,RM94 ,,,94,011,,2024-06-21,10:45:00 AM,0,0.50,,ug/L,0.022,,,Peaceful_Valley,Peaceful Valley 1,Below detection limit,,SLAP
+MIC_tox,RM95 ,,,95,098,,2024-06-27,6:50:00 AM,0,0.50,,ug/L,0.039,,,Table_Rock,0,Below detection limit,,SLAP
+MIC_tox,RM95 ,,,95,098,,2024-06-27,6:50:00 AM,0,0.50,,ug/L,0.016,,,Table_Rock,0,Below detection limit,,SLAP
+MIC_tox,RM96 ,,,96,120,,2024-06-21,11:10:00 AM,0,0.50,,ug/L,0.090,,,Winnebago,Winnebago 1,,,SLAP
+MIC_tox,RM96 ,,,96,120,,2024-06-21,11:10:00 AM,0,0.50,,ug/L,0.149,,,Winnebago,Winnebago 1,,,SLAP
+MIC_tox,RM97 ,,,97,098,,2024-06-27,7:45:00 AM,0,0.50,,ug/L,0.021,,,Table_Rock,Table Rock 1,Below detection limit,,SLAP
+MIC_tox,RM97 ,,,97,098,,2024-06-27,7:45:00 AM,0,0.50,,ug/L,0.028,,,Table_Rock,Table Rock 1,Below detection limit,,SLAP
+MIC_tox,RM98 ,,,98,049,,2024-06-24,9:29:00 AM,0,0.50,,ug/L,1.040,,,Macon,Macon 1,,,SLAP
+MIC_tox,RM98 ,,,98,049,,2024-06-24,9:29:00 AM,0,0.50,,ug/L,0.928,,,Macon,Macon 1,,,SLAP
+MIC_tox,RM99 ,,,99,115,,2024-06-24,11:15:00 AM,0,0.50,,ug/L,0.186,,,Hunnewell,Hunnewell 1,,,SLAP
+MIC_tox,RM99 ,,,99,115,,2024-06-24,11:15:00 AM,0,0.50,,ug/L,0.166,,,Hunnewell,Hunnewell 1,,,SLAP
+MIC_tox,RM100 ,,,100,272,,2024-06-24,12:54:00 PM,0,0.50,,ug/L,0.130,,,Perry,Perry 1,,,SLAP
+MIC_tox,RM100 ,,,100,272,,2024-06-24,12:54:00 PM,0,0.50,,ug/L,0.153,,,Perry,Perry 1,,,SLAP
+MIC_tox,RM101 ,,,101,003,,2024-06-24,2:41:00 PM,0,0.50,,ug/L,0.007,,,Bowling_Green_East,Bowling Green (East) 1,Below detection limit,,SLAP
+MIC_tox,RM101 ,,,101,003,,2024-06-24,2:41:00 PM,0,0.50,,ug/L,0.016,,,Bowling_Green_East,Bowling Green (East) 1,Below detection limit,,SLAP
+MIC_tox,RM102 ,,,102,005,,2024-06-24,4:18:00 PM,0,0.50,,ug/L,0.283,,,Lincoln,Lincoln 1,,,SLAP
+MIC_tox,RM102 ,,,102,005,,2024-06-24,4:18:00 PM,0,0.50,,ug/L,0.267,,,Lincoln,Lincoln 1,,,SLAP
+MIC_tox,RM103 ,,,103,197,,2024-06-24,5:55:00 PM,0,0.50,,ug/L,0.179,,,Prairie,Prairie 1,,,SLAP
+MIC_tox,RM103 ,,,103,197,,2024-06-24,5:55:00 PM,0,0.50,,ug/L,0.163,,,Prairie,Prairie 1,,,SLAP
+MIC_tox,RM104 ,,,104,454,,2024-06-25,7:32:00 AM,0,0.50,,ug/L,0.016,,,Cedar_Hill_Lake_1,Cedar Hill (Lake 1) 1,Below detection limit,,SLAP
+MIC_tox,RM104 ,,,104,454,,2024-06-25,7:32:00 AM,0,0.50,,ug/L,0.022,,,Cedar_Hill_Lake_1,Cedar Hill (Lake 1) 1,Below detection limit,,SLAP
+MIC_tox,RM105 ,,,105,014,,2024-06-25,8:53:00 AM,0,0.50,,ug/L,0.146,,,Tishomingo,Tishomingo 1,,,SLAP
+MIC_tox,RM105 ,,,105,014,,2024-06-25,8:53:00 AM,0,0.50,,ug/L,0.126,,,Tishomingo,Tishomingo 1,,,SLAP
+MIC_tox,RM106 ,,,106,021,,2024-06-25,11:03:00 AM,0,0.50,,ug/L,0.062,,,Goose_Creek,Goose Creek 1,,,SLAP
+MIC_tox,RM106 ,,,106,021,,2024-06-25,11:03:00 AM,0,0.50,,ug/L,0.071,,,Goose_Creek,Goose Creek 1,,,SLAP
+MIC_tox,RM107 ,,,107,018,,2024-06-25,1:52:00 PM,0,0.50,,ug/L,0.059,,,Capri,Capri 1,,,SLAP
+MIC_tox,RM107 ,,,107,018,,2024-06-25,1:52:00 PM,0,0.50,,ug/L,0.037,,,Capri,Capri 1,Below detection limit,,SLAP
+MIC_tox,RM108 ,,,108,112,,2024-06-25,2:57:00 PM,0,0.50,,ug/L,0.033,,,Shayne,Shayne 1,Below detection limit,,SLAP
+MIC_tox,RM108 ,,,108,112,,2024-06-25,2:57:00 PM,0,0.50,,ug/L,0.025,,,Shayne,Shayne 1,Below detection limit,,SLAP
+MIC_tox,RM109 ,,,109,186,,2024-06-25,4:21:00 PM,0,0.50,,ug/L,0.000,,,Carl_DiSalvo,Carl DiSalvo 1,Below detection limit,,SLAP
+MIC_tox,RM109 ,,,109,186,,2024-06-25,4:21:00 PM,0,0.50,,ug/L,0.000,,,Carl_DiSalvo,Carl DiSalvo 1,Below detection limit,,SLAP
+MIC_tox,RM110 ,,,110,036,,2024-06-26,9:37:00 AM,0,0.50,,ug/L,0.005,,,Clearwater,Clearwater 1,Below detection limit,,SLAP
+MIC_tox,RM110 ,,,110,036,,2024-06-26,9:37:00 AM,0,0.50,,ug/L,0.000,,,Clearwater,Clearwater 1,Below detection limit,,SLAP
+MIC_tox,RM111 ,,,111,039,,2024-06-26,1:19:00 PM,0,0.50,,ug/L,0.085,,,Council_Bluff,Council Bluff 1,,,SLAP
+MIC_tox,RM111 ,,,111,039,,2024-06-26,1:19:00 PM,0,0.50,,ug/L,0.124,,,Council_Bluff,Council Bluff 1,,,SLAP
+MIC_tox,RM112 ,,,112,110,,2024-06-26,4:07:00 PM,0,0.50,,ug/L,0.056,,,Little_Prairie,Little Prairie 1,,,SLAP
+MIC_tox,RM112 ,,,112,110,,2024-06-26,4:07:00 PM,0,0.50,,ug/L,0.047,,,Little_Prairie,Little Prairie 1,Below detection limit,,SLAP
+MIC_tox,RM113 ,,,113,092,,2024-06-27,10:50:00 AM,0,0.50,,ug/L,0.056,,,Pomme_De_Terre,Pomme de Terre 1,,,SLAP
+MIC_tox,RM113 ,,,113,092,,2024-06-27,10:50:00 AM,0,0.50,,ug/L,0.075,,,Pomme_De_Terre,Pomme de Terre 1,,,SLAP
+MIC_tox,RM114 ,,,114,274,,2024-06-27,3:13:00 PM,0,0.50,,ug/L,0.052,,,Alpine,Alpine 1,,,SLAP
+MIC_tox,RM114 ,,,114,274,,2024-06-27,3:13:00 PM,0,0.50,,ug/L,0.043,,,Alpine,Alpine 1,Below detection limit,,SLAP
+MIC_tox,RM115 ,,,115,030,,2024-06-28,2:40:00 PM,0,0.50,,ug/L,0.037,,,Wappapello,Wappapello 1,Below detection limit,,SLAP
+MIC_tox,RM115 ,,,115,030,,2024-06-28,2:40:00 PM,0,0.50,,ug/L,0.029,,,Wappapello,Wappapello 1,Below detection limit,,SLAP
+MIC_tox,RM116 ,,,116,117,,2024-06-27,5:26:00 PM,0,0.50,,ug/L,0.000,,,Little_Dixie,Little Dixie 1,Below detection limit,,SLAP
+MIC_tox,RM116 ,,,116,117,,2024-06-27,5:26:00 PM,0,0.50,,ug/L,0.000,,,Little_Dixie,Little Dixie 1,Below detection limit,,SLAP
+MIC_tox,RM117 ,,,117,134,,2024-07-08,11:20:00 AM,0,0.50,,ug/L,2.081,,,Jamesport_City,Jamesport City 1,,,SLAP
+MIC_tox,RM117 ,,,117,134,,2024-07-08,11:20:00 AM,0,0.50,,ug/L,1.807,,,Jamesport_City,Jamesport City 1,,,SLAP
+MIC_tox,RM118 ,,,118,088,,2024-06-28,11:10:00 AM,0,0.50,,ug/L,0.629,,,Marceline_South,Marceline (South) 1,,,SLAP
+MIC_tox,RM118 ,,,118,088,,2024-06-28,11:10:00 AM,0,0.50,,ug/L,0.639,,,Marceline_South,Marceline (South) 1,,,SLAP
+MIC_tox,RM119 ,,,119,411,,2024-06-28,2:41:00 PM,0,0.50,,ug/L,0.298,,,Cedar,Cedar 1,,,SLAP
+MIC_tox,RM119 ,,,119,411,,2024-06-28,2:41:00 PM,0,0.50,,ug/L,0.311,,,Cedar,Cedar 1,,,SLAP
+MIC_tox,RM120 ,,,120,228,,2024-07-08,12:02:00 PM,0,0.50,,ug/L,0.084,,,Jamesport_Community,Jamesport Community 1,,,SLAP
+MIC_tox,RM120 ,,,120,228,,2024-07-08,12:02:00 PM,0,0.50,,ug/L,0.099,,,Jamesport_Community,Jamesport Community 1,,,SLAP
+MIC_tox,RM121 ,,,121,163,,2024-07-08,1:35:00 PM,0,0.50,,ug/L,0.207,,,King,King 1,,,SLAP
+MIC_tox,RM121 ,,,121,163,,2024-07-08,1:35:00 PM,0,0.50,,ug/L,0.221,,,King,King 1,,,SLAP
+MIC_tox,RM122 ,,,122,195,,2024-07-08,2:29:00 PM,0,0.50,,ug/L,0.444,,,Limpp,Limpp 1,,,SLAP
+MIC_tox,RM122 ,,,122,195,,2024-07-08,2:29:00 PM,0,0.50,,ug/L,0.528,,,Limpp,Limpp 1,,,SLAP
+MIC_tox,RM123 ,,,123,224,,2024-07-08,3:24:00 PM,0,0.50,,ug/L,0.142,,,Happy_Holler,Happy Holler 1,,,SLAP
+MIC_tox,RM123 ,,,123,224,,2024-07-08,3:24:00 PM,0,0.50,,ug/L,0.155,,,Happy_Holler,Happy Holler 1,,,SLAP
+MIC_tox,RM124 ,,,124,180,,2024-07-08,5:07:00 PM,0,0.50,,ug/L,0.127,,,Bilby_Ranch,Bilby Ranch 1,,,SLAP
+MIC_tox,RM124 ,,,124,180,,2024-07-08,5:07:00 PM,0,0.50,,ug/L,0.097,,,Bilby_Ranch,Bilby Ranch 1,,,SLAP
+MIC_tox,RM125 ,,,125,179,,2024-07-09,6:55:00 AM,0,0.50,,ug/L,0.173,,,Nodaway_County,Nodaway County 1,,,SLAP
+MIC_tox,RM125 ,,,125,179,,2024-07-09,6:55:00 AM,0,0.50,,ug/L,0.187,,,Nodaway_County,Nodaway County 1,,,SLAP
+MIC_tox,RM126 ,,,126,181,,2024-07-09,8:05:00 AM,0,0.50,,ug/L,0.291,,,Mozingo,Mozingo 1,,,SLAP
+MIC_tox,RM126 ,,,126,181,,2024-07-09,8:05:00 AM,0,0.50,,ug/L,0.288,,,Mozingo,Mozingo 1,,,SLAP
+MIC_tox,RM127 ,,,127,185,,2024-07-09,10:15:00 AM,0,0.50,,ug/L,0.076,,,Harrison_County,Harrison County 1,,,SLAP
+MIC_tox,RM127 ,,,127,185,,2024-07-09,10:15:00 AM,0,0.50,,ug/L,0.087,,,Harrison_County,Harrison County 1,,,SLAP
+MIC_tox,RM128 ,,,128,164,,2024-07-09,12:39:00 PM,0,0.50,,ug/L,0.204,,,Elmwood,Elmwood 1,,,SLAP
+MIC_tox,RM128 ,,,128,164,,2024-07-09,12:39:00 PM,0,0.50,,ug/L,0.166,,,Elmwood,Elmwood 1,,,SLAP
+MIC_tox,RM129 ,,,129,237,,2024-07-09,1:30:00 PM,0,0.50,,ug/L,0.106,,,Milan_North,Milan (North) 1,,,SLAP
+MIC_tox,RM129 ,,,129,237,,2024-07-09,1:30:00 PM,0,0.50,,ug/L,0.091,,,Milan_North,Milan (North) 1,,,SLAP
+MIC_tox,RM130 ,,,130,133,,2024-07-10,7:30:00 AM,0,0.50,,ug/L,0.007,,,Forest,Forest 1,Below detection limit,,SLAP
+MIC_tox,RM130 ,,,130,133,,2024-07-10,7:30:00 AM,0,0.50,,ug/L,0.013,,,Forest,Forest 1,Below detection limit,,SLAP
+MIC_tox,RM131 ,,,131,133-FD,,2024-07-10,7:30:00 AM,0,0.50,,ug/L,0.030,,,Forest,Forest 1,Below detection limit,,SLAP
+MIC_tox,RM131 ,,,131,133-FD,,2024-07-10,7:30:00 AM,0,0.50,,ug/L,0.001,,,Forest,Forest 1,Below detection limit,,SLAP
+MIC_tox,RM132 ,,,132,053,,2024-07-10,9:57:00 AM,0,0.50,,ug/L,0.120,,,Memphis_City,Memphis City 1,,,SLAP
+MIC_tox,RM132 ,,,132,053,,2024-07-10,9:57:00 AM,0,0.50,,ug/L,0.100,,,Memphis_City,Memphis City 1,,,SLAP
+MIC_tox,RM133 ,,,133,182,,2024-07-10,11:19:00 AM,0,0.50,,ug/L,0.060,,,Fox_Valley,Fox Valley 1,,,SLAP
+MIC_tox,RM133 ,,,133,182,,2024-07-10,11:19:00 AM,0,0.50,,ug/L,0.065,,,Fox_Valley,Fox Valley 1,,,SLAP
+MIC_tox,RM134 ,,,134,057,,2024-07-10,1:15:00 PM,0,0.50,,ug/L,0.117,,,Deer_Ridge,Deer Ridge 1,,,SLAP
+MIC_tox,RM134 ,,,134,057,,2024-07-10,1:15:00 PM,0,0.50,,ug/L,0.102,,,Deer_Ridge,Deer Ridge 1,,,SLAP
+MIC_tox,RM135 ,,,135,114,,2024-07-10,2:45:00 PM,0,0.50,,ug/L,0.000,,,Henry_Sever,Henry Sever 1,Below detection limit,,SLAP
+MIC_tox,RM135 ,,,135,114,,2024-07-10,2:45:00 PM,0,0.50,,ug/L,0.000,,,Henry_Sever,Henry Sever 1,Below detection limit,,SLAP
+MIC_tox,RM136 ,,,136,048,,2024-07-10,4:26:00 PM,0,0.50,,ug/L,0.242,,,Long_Branch,Long Branch 1,,,SLAP
+MIC_tox,RM136 ,,,136,048,,2024-07-10,4:26:00 PM,0,0.50,,ug/L,0.263,,,Long_Branch,Long Branch 1,,,SLAP
+MIC_tox,RM137 ,,,137,438,,2024-07-05,11:16:00 AM,0,0.50,,ug/L,0.139,,,Bethel,Bethel 1,,,SLAP
+MIC_tox,RM137 ,,,137,438,,2024-07-05,11:16:00 AM,0,0.50,,ug/L,0.105,,,Bethel,Bethel 1,,,SLAP
+MIC_tox,RM138 ,,,138,072,,2024-07-09,12:07:00 PM,0,0.50,,ug/L,0.026,,,Smithville,Smithville 1,Below detection limit,,SLAP
+MIC_tox,RM138 ,,,138,072,,2024-07-09,12:07:00 PM,0,0.50,,ug/L,0.017,,,Smithville,Smithville 1,Below detection limit,,SLAP
+MIC_tox,RM139 ,,,139,149,,2024-07-10,10:43:00 AM,0,0.50,,ug/L,0.038,,,Lake_of_the_Ozarks,Lake of the Ozarks 1,Below detection limit,,SLAP
+MIC_tox,RM139 ,,,139,149,,2024-07-10,10:43:00 AM,0,0.50,,ug/L,0.047,,,Lake_of_the_Ozarks,Lake of the Ozarks 1,Below detection limit,,SLAP
+MIC_tox,RM140 ,,,140,089,,2024-07-10,4:43:00 PM,0,0.50,,ug/L,0.149,,,Truman,Truman 1,,,SLAP
+MIC_tox,RM140 ,,,140,089,,2024-07-10,4:43:00 PM,0,0.50,,ug/L,0.145,,,Truman,Truman 1,,,SLAP
+MIC_tox,RM141 ,,,141,139,,2024-07-11,11:34:00 AM,0,0.50,,ug/L,0.100,,,Marceline_North,Marceline (North) 1,,,SLAP
+MIC_tox,RM141 ,,,141,139,,2024-07-11,11:34:00 AM,0,0.50,,ug/L,0.095,,,Marceline_North,Marceline (North) 1,,,SLAP
+MIC_tox,RM142 ,,,142,411,,2024-07-12,8:26:00 AM,0,0.50,,ug/L,0.831,,,Cedar,Cedar 1,,,SLAP
+MIC_tox,RM142 ,,,142,411,,2024-07-12,8:26:00 AM,0,0.50,,ug/L,0.779,,,Cedar,Cedar 1,,,SLAP
+MIC_tox,RM143 ,,,143,011,,2024-07-11,10:13:00 AM,0,0.50,,ug/L,0.025,,,Peaceful_Valley,Peaceful Valley 1,Below detection limit,,SLAP
+MIC_tox,RM143 ,,,143,011,,2024-07-11,10:13:00 AM,0,0.50,,ug/L,0.038,,,Peaceful_Valley,Peaceful Valley 1,Below detection limit,,SLAP
+MIC_tox,RM144 ,,,144,184,,2024-07-15,10:12:00 AM,0,0.50,,ug/L,0.199,,,Manito,Manito 1,,,SLAP
+MIC_tox,RM144 ,,,144,184,,2024-07-15,10:12:00 AM,0,0.50,,ug/L,0.247,,,Manito,Manito 1,,,SLAP
+MIC_tox,RM144 ,,,144,184,,2024-07-15,10:12:00 AM,0,0.50,,ug/L,0.290,,,Manito,Manito 1,,,SLAP
+MIC_tox,RM145 ,,,145,219,,2024-07-12,9:58:00 AM,0,0.50,,ug/L,0.909,,,Dairy_1,Dairy 1 1,,,SLAP
+MIC_tox,RM145 ,,,145,219,,2024-07-12,9:58:00 AM,0,0.50,,ug/L,0.903,,,Dairy_1,Dairy 1 1,,,SLAP
+MIC_tox,RM146 ,,,146,440,,2024-07-12,11:40:00 AM,0,0.50,,ug/L,0.081,,,Crow_Pond,Crow Pond 1,,,SLAP
+MIC_tox,RM146 ,,,146,440,,2024-07-12,11:40:00 AM,0,0.50,,ug/L,0.087,,,Crow_Pond,Crow Pond 1,,,SLAP
+MIC_tox,RM147 ,,,147,092,,2024-07-15,12:52:00 PM,0,0.50,,ug/L,0.058,,,Pomme_De_Terre,Pomme de Terre 1,,,SLAP
+MIC_tox,RM147 ,,,147,092,,2024-07-15,12:52:00 PM,0,0.50,,ug/L,0.041,,,Pomme_De_Terre,Pomme de Terre 1,Below detection limit,,SLAP
+MIC_tox,RM148 ,,,148,096,,2024-07-15,3:22:00 PM,0,0.50,,ug/L,0.091,,,Fellows,Fellows 1,,,SLAP
+MIC_tox,RM148 ,,,148,096,,2024-07-15,3:22:00 PM,0,0.50,,ug/L,0.062,,,Fellows,Fellows 1,,,SLAP
+MIC_tox,RM149 ,,,149,091,,2024-07-15,5:54:00 PM,0,0.50,,ug/L,0.088,,,Atkinson,Atkinson 1,,,SLAP
+MIC_tox,RM149 ,,,149,091,,2024-07-15,5:54:00 PM,0,0.50,,ug/L,0.087,,,Atkinson,Atkinson 1,,,SLAP
+MIC_tox,RM150 ,,,150,070,,2024-07-16,7:35:00 AM,0,0.50,,ug/L,0.087,,,North,North 1,,,SLAP
+MIC_tox,RM150 ,,,150,070,,2024-07-16,7:35:00 AM,0,0.50,,ug/L,0.079,,,North,North 1,,,SLAP
+MIC_tox,RM151 ,,,151,169,,2024-07-16,10:46:00 AM,0,0.50,,ug/L,0.033,,,Gopher,Gopher 1,Below detection limit,,SLAP
+MIC_tox,RM151 ,,,151,169,,2024-07-16,10:46:00 AM,0,0.50,,ug/L,0.013,,,Gopher,Gopher 1,Below detection limit,,SLAP
+MIC_tox,RM152 ,,,152,183,,2024-07-16,1:08:00 PM,0,0.50,,ug/L,0.033,,,Hazel_Hill,Hazel Hill 1,Below detection limit,,SLAP
+MIC_tox,RM152 ,,,152,183,,2024-07-16,1:08:00 PM,0,0.50,,ug/L,0.054,,,Hazel_Hill,Hazel Hill 1,,,SLAP
+MIC_tox,RM153 ,,,153,150,,2024-07-16,2:50:00 PM,0,0.50,,ug/L,0.167,,,Blind_Pony,Blind Pony 1,,,SLAP
+MIC_tox,RM153 ,,,153,150,,2024-07-16,2:50:00 PM,0,0.50,,ug/L,0.152,,,Blind_Pony,Blind Pony 1,,,SLAP
+MIC_tox,RM154 ,,,154,121,,2024-07-16,4:25:00 PM,0,0.50,,ug/L,3.313,,,Higginsville,Higginsville 1,,,SLAP
+MIC_tox,RM154 ,,,154,121,,2024-07-16,4:25:00 PM,0,0.50,,ug/L,3.466,,,Higginsville,Higginsville 1,,,SLAP
+MIC_tox,RM155 ,,,155,074,,2024-07-17,7:50:00 AM,0,0.50,,ug/L,0.162,,,Watkins_Mill,Watkins Mill 1,,,SLAP
+MIC_tox,RM155 ,,,155,074,,2024-07-17,7:50:00 AM,0,0.50,,ug/L,0.188,,,Watkins_Mill,Watkins Mill 1,,,SLAP
+MIC_tox,RM156 ,,,156,081,,2024-07-17,9:43:00 AM,0,0.50,,ug/L,0.151,,,Pony_Express,Pony Express 1,,,SLAP
+MIC_tox,RM156 ,,,156,081,,2024-07-17,9:43:00 AM,0,0.50,,ug/L,0.114,,,Pony_Express,Pony Express 1,,,SLAP
+MIC_tox,RM157 ,,,157,120,,2024-07-19,11:30:00 AM,0,0.50,,ug/L,0.094,,,Winnebago,Winnebago 1,,,SLAP
+MIC_tox,RM157 ,,,157,120,,2024-07-19,11:30:00 AM,0,0.50,,ug/L,0.187,,,Winnebago,Winnebago 1,,,SLAP
+MIC_tox,RM158 ,,,158,317,,2024-07-17,10:47:00 AM,0,0.50,,ug/L,0.217,,,Buffalo_Bill,Buffalo Bill 1,,,SLAP
+MIC_tox,RM158 ,,,158,317,,2024-07-17,10:47:00 AM,0,0.50,,ug/L,0.198,,,Buffalo_Bill,Buffalo Bill 1,,,SLAP
+MIC_tox,RM159 ,,,159,078,,2024-07-17,12:03:00 PM,0,0.50,,ug/L,0.000,,,Hamilton_City,Hamilton City 1,Below detection limit,,SLAP
+MIC_tox,RM159 ,,,159,078,,2024-07-17,12:03:00 PM,0,0.50,,ug/L,0.000,,,Hamilton_City,Hamilton City 1,Below detection limit,,SLAP
+MIC_tox,RM160 ,,,160,192,,2024-07-17,2:14:00 PM,0,0.50,,ug/L,0.720,,,Jo_Shelby,Jo Shelby 1,,,SLAP
+MIC_tox,RM160 ,,,160,192,,2024-07-17,2:14:00 PM,0,0.50,,ug/L,0.632,,,Jo_Shelby,Jo Shelby 1,,,SLAP
+MIC_tox,RM161 ,,,161,087,,2024-07-17,3:25:00 PM,0,0.50,,ug/L,0.033,,,Brookfield,Brookfield 1,Below detection limit,,SLAP
+MIC_tox,RM161 ,,,161,087,,2024-07-17,3:25:00 PM,0,0.50,,ug/L,0.072,,,Brookfield,Brookfield 1,,,SLAP
+MIC_tox,RM164 ,,,164,145,,2024-07-15,11:40:00 AM,0,0.50,,ug/L,0.020,,,Mark_Twain,Mark Twain 1,Below detection limit,,SLAP
+MIC_tox,RM164 ,,,164,145,,2024-07-15,11:40:00 AM,0,0.50,,ug/L,0.018,,,Mark_Twain,Mark Twain 1,Below detection limit,,SLAP
+MIC_tox,RM165 ,,,165,093,,2024-07-16,12:20:00 PM,0,0.50,,ug/L,0.060,,,Stockton,Stockton 1,,,SLAP
+MIC_tox,RM165 ,,,165,093,,2024-07-16,12:20:00 PM,0,0.50,,ug/L,0.043,,,Stockton,Stockton 1,Below detection limit,,SLAP
+MIC_tox,RM166 ,,,166,046,,2024-07-17,10:07:00 AM,0,0.50,,ug/L,0.072,,,Thomas_Hill,Thomas Hill 1,,,SLAP
+MIC_tox,RM166 ,,,166,046,,2024-07-17,10:07:00 AM,0,0.50,,ug/L,0.057,,,Thomas_Hill,Thomas Hill 1,,,SLAP
+MIC_tox,RM167 ,,,167,274,,2024-07-18,10:46:00 AM,0,0.50,,ug/L,0.078,,,Alpine,Alpine 1,,,SLAP
+MIC_tox,RM167 ,,,167,274,,2024-07-18,10:46:00 AM,0,0.50,,ug/L,0.070,,,Alpine,Alpine 1,,,SLAP
+MIC_tox,RM168 ,,,168,049,,2024-07-22,9:47:00 AM,0,0.50,,ug/L,0.303,,,Macon,Macon 1,,,SLAP
+MIC_tox,RM168 ,,,168,049,,2024-07-22,9:47:00 AM,0,0.50,,ug/L,0.222,,,Macon,Macon 1,,,SLAP
+MIC_tox,RM169 ,,,169,149,,2024-07-30,11:00:00 AM,0,0.50,,ug/L,0.014,,,Lake_of_the_Ozarks,Lake of the Ozarks 1,Below detection limit,,SLAP
+MIC_tox,RM169 ,,,169,149,,2024-07-30,11:00:00 AM,0,0.50,,ug/L,0.003,,,Lake_of_the_Ozarks,Lake of the Ozarks 1,Below detection limit,,SLAP
+MIC_tox,RM170 ,,,170,117,,2024-07-19,9:33:00 AM,0,0.50,,ug/L,0.000,,,Little_Dixie,Little Dixie 1,Below detection limit,,SLAP
+MIC_tox,RM170 ,,,170,117,,2024-07-19,9:33:00 AM,0,0.50,,ug/L,0.000,,,Little_Dixie,Little Dixie 1,Below detection limit,,SLAP
+MIC_tox,RM171 ,,,171,438,,2024-07-19,11:48:00 AM,0,0.50,,ug/L,0.058,,,Bethel,Bethel 1,,,SLAP
+MIC_tox,RM171 ,,,171,438,,2024-07-19,11:48:00 AM,0,0.50,,ug/L,0.115,,,Bethel,Bethel 1,,,SLAP
+MIC_tox,RM172 ,,,172,115,,2024-07-22,11:10:00 AM,0,0.50,,ug/L,0.431,,,Hunnewell,Hunnewell 1,,,SLAP
+MIC_tox,RM172 ,,,172,115,,2024-07-22,11:10:00 AM,0,0.50,,ug/L,0.581,,,Hunnewell,Hunnewell 1,,,SLAP
+MIC_tox,RM173 ,,,173,272,,2024-07-22,12:35:00 PM,0,0.50,,ug/L,0.037,,,Perry,Perry 1,Below detection limit,,SLAP
+MIC_tox,RM173 ,,,173,272,,2024-07-22,12:35:00 PM,0,0.50,,ug/L,0.040,,,Perry,Perry 1,Below detection limit,,SLAP
+MIC_tox,RM174 ,,,174,003,,2024-07-22,2:08:00 PM,0,0.50,,ug/L,0.033,,,Bowling_Green_East,Bowling Green (East) 1,Below detection limit,,SLAP
+MIC_tox,RM174 ,,,174,003,,2024-07-22,2:08:00 PM,0,0.50,,ug/L,0.054,,,Bowling_Green_East,Bowling Green (East) 1,,,SLAP
+MIC_tox,RM175 ,,,175,005,,2024-07-22,3:40:00 PM,0,0.50,,ug/L,0.737,,,Lincoln,Lincoln 1,,,SLAP
+MIC_tox,RM175 ,,,175,005,,2024-07-22,3:40:00 PM,0,0.50,,ug/L,0.796,,,Lincoln,Lincoln 1,,,SLAP
+MIC_tox,RM176 ,,,176,197,,2024-07-22,5:07:00 PM,0,0.50,,ug/L,0.318,,,Prairie,Prairie 1,,,SLAP
+MIC_tox,RM176 ,,,176,197,,2024-07-22,5:07:00 PM,0,0.50,,ug/L,0.480,,,Prairie,Prairie 1,,,SLAP
+MIC_tox,RM177 ,,,177,011,,2024-07-25,11:04:00 AM,0,0.50,,ug/L,0.017,,,Peaceful_Valley,Peaceful Valley 1,Below detection limit,,SLAP
+MIC_tox,RM177 ,,,177,011,,2024-07-25,11:04:00 AM,0,0.50,,ug/L,0.012,,,Peaceful_Valley,Peaceful Valley 1,Below detection limit,,SLAP
+MIC_tox,RM178 ,,,178,454,,2024-07-23,7:30:00 AM,0,0.50,,ug/L,0.006,,,Cedar_Hill_Lake_1,Cedar Hill (Lake 1) 1,Below detection limit,,SLAP
+MIC_tox,RM178 ,,,178,454,,2024-07-23,7:30:00 AM,0,0.50,,ug/L,0.009,,,Cedar_Hill_Lake_1,Cedar Hill (Lake 1) 1,Below detection limit,,SLAP
+MIC_tox,RM179 ,,,179,014,,2024-07-23,8:44:00 AM,0,0.50,,ug/L,0.199,,,Tishomingo,Tishomingo 1,,,SLAP
+MIC_tox,RM179 ,,,179,014,,2024-07-23,8:44:00 AM,0,0.50,,ug/L,0.109,,,Tishomingo,Tishomingo 1,,,SLAP
+MIC_tox,RM179 ,,,179,014,,2024-07-23,8:44:00 AM,0,0.50,,ug/L,0.108,,,Tishomingo,Tishomingo 1,,,SLAP
+MIC_tox,RM180 ,,,180,021,,2024-07-23,10:47:00 AM,0,0.50,,ug/L,0.066,,,Goose_Creek,Goose Creek 1,,,SLAP
+MIC_tox,RM180 ,,,180,021,,2024-07-23,10:47:00 AM,0,0.50,,ug/L,0.101,,,Goose_Creek,Goose Creek 1,,,SLAP
+MIC_tox,RM181 ,,,181,018,,2024-07-23,12:46:00 PM,0,0.50,,ug/L,0.028,,,Capri,Capri 1,Below detection limit,,SLAP
+MIC_tox,RM181 ,,,181,018,,2024-07-23,12:46:00 PM,0,0.50,,ug/L,0.044,,,Capri,Capri 1,Below detection limit,,SLAP
+MIC_tox,RM182 ,,,182,112,,2024-07-23,2:27:00 PM,0,0.50,,ug/L,0.016,,,Shayne,Shayne 1,Below detection limit,,SLAP
+MIC_tox,RM182 ,,,182,112,,2024-07-23,2:27:00 PM,0,0.50,,ug/L,0.010,,,Shayne,Shayne 1,Below detection limit,,SLAP
+MIC_tox,RM183 ,,,183,186,,2024-07-23,4:03:00 PM,0,0.50,,ug/L,0.323,,,Carl_DiSalvo,Carl DiSalvo 1,,,SLAP
+MIC_tox,RM183 ,,,183,186,,2024-07-23,4:03:00 PM,0,0.50,,ug/L,0.411,,,Carl_DiSalvo,Carl DiSalvo 1,,,SLAP
+MIC_tox,RM184 ,,,184,030,,2024-07-24,7:45:00 AM,0,0.50,,ug/L,0.000,,,Wappapello,Wappapello 1,Below detection limit,,SLAP
+MIC_tox,RM184 ,,,184,030,,2024-07-24,7:45:00 AM,0,0.50,,ug/L,0.002,,,Wappapello,Wappapello 1,Below detection limit,,SLAP
+MIC_tox,RM185 ,,,185,036,,2024-07-24,9:54:00 AM,0,0.50,,ug/L,0.011,,,Clearwater,Clearwater 1,Below detection limit,,SLAP
+MIC_tox,RM185 ,,,185,036,,2024-07-24,9:54:00 AM,0,0.50,,ug/L,0.002,,,Clearwater,Clearwater 1,Below detection limit,,SLAP
+MIC_tox,RM186 ,,,186,110-FD,,2024-07-24,3:39:00 PM,0,0.50,,ug/L,0.064,,,Little_Prairie,Little Prairie 1,,,SLAP
+MIC_tox,RM186 ,,,186,110-FD,,2024-07-24,3:39:00 PM,0,0.50,,ug/L,0.090,,,Little_Prairie,Little Prairie 1,,,SLAP
+MIC_tox,RM187 ,,,187,110,,2024-07-24,3:39:00 PM,0,0.50,,ug/L,0.066,,,Little_Prairie,Little Prairie 1,,,SLAP
+MIC_tox,RM187 ,,,187,110,,2024-07-24,3:39:00 PM,0,0.50,,ug/L,0.128,,,Little_Prairie,Little Prairie 1,,,SLAP
+MIC_tox,RM188 ,,,188,219,,2024-07-29,11:11:00 AM,0,0.50,,ug/L,0.381,,,Dairy_1,Dairy 1 1,,,SLAP
+MIC_tox,RM188 ,,,188,219,,2024-07-29,11:11:00 AM,0,0.50,,ug/L,0.534,,,Dairy_1,Dairy 1 1,,,SLAP
+MIC_tox,RM190 ,,,190,088,,2024-07-22,11:31:00 AM,0,0.50,,ug/L,0.465,,,Marceline_South,Marceline (South) 1,,,SLAP
+MIC_tox,RM190 ,,,190,088,,2024-07-22,11:31:00 AM,0,0.50,,ug/L,0.481,,,Marceline_South,Marceline (South) 1,,,SLAP
+MIC_tox,RM190 ,,,190,088,,2024-07-22,11:31:00 AM,0,0.50,,ug/L,0.680,,,Marceline_South,Marceline (South) 1,,,SLAP
+MIC_tox,RM191 ,,,191,098,,2024-07-24,12:58:00 PM,0,0.50,,ug/L,0.005,,,Table_Rock,Table Rock 1,Below detection limit,,SLAP
+MIC_tox,RM191 ,,,191,098,,2024-07-24,12:58:00 PM,0,0.50,,ug/L,0.018,,,Table_Rock,Table Rock 1,Below detection limit,,SLAP
+MIC_tox,RM192 ,,,192,228,,2024-07-29,12:26:00 PM,0,0.50,,ug/L,0.013,,,Jamesport_Community,Jamesport Community 1,Below detection limit,,SLAP
+MIC_tox,RM192 ,,,192,228,,2024-07-29,12:26:00 PM,0,0.50,,ug/L,0.003,,,Jamesport_Community,Jamesport Community 1,Below detection limit,,SLAP
+MIC_tox,RM193 ,,,193,163,,2024-07-29,2:06:00 PM,0,0.50,,ug/L,2.078,,,King,King 1,,,SLAP
+MIC_tox,RM193 ,,,193,163,,2024-07-29,2:06:00 PM,0,0.50,,ug/L,1.993,,,King,King 1,,,SLAP
+MIC_tox,RM194 ,,,194,195,,2024-07-29,3:07:00 PM,0,0.50,,ug/L,0.251,,,Limpp,Limpp 1,,,SLAP
+MIC_tox,RM194 ,,,194,195,,2024-07-29,3:07:00 PM,0,0.50,,ug/L,0.249,,,Limpp,Limpp 1,,,SLAP
+MIC_tox,RM195 ,,,195,224,,2024-07-29,4:05:00 PM,0,0.50,,ug/L,1.043,,,Happy_Holler,Happy Holler 1,,,SLAP
+MIC_tox,RM195 ,,,195,224,,2024-07-29,4:05:00 PM,0,0.50,,ug/L,0.921,,,Happy_Holler,Happy Holler 1,,,SLAP
+MIC_tox,RM196 ,,,196,180,,2024-07-29,5:43:00 PM,0,0.50,,ug/L,0.108,,,Bilby_Ranch,Bilby Ranch 1,,,SLAP
+MIC_tox,RM196 ,,,196,180,,2024-07-29,5:43:00 PM,0,0.50,,ug/L,0.135,,,Bilby_Ranch,Bilby Ranch 1,,,SLAP
+MIC_tox,RM197 ,,,197,179,,2024-07-30,6:48:00 AM,0,0.50,,ug/L,0.642,,,Nodaway_County,Nodaway County 1,,,SLAP
+MIC_tox,RM197 ,,,197,179,,2024-07-30,6:48:00 AM,0,0.50,,ug/L,0.588,,,Nodaway_County,Nodaway County 1,,,SLAP
+MIC_tox,RM198 ,,,198,181,,2024-07-30,7:53:00 AM,0,0.50,,ug/L,0.087,,,Mozingo,Mozingo 1,,,SLAP
+MIC_tox,RM198 ,,,198,181,,2024-07-30,7:53:00 AM,0,0.50,,ug/L,0.099,,,Mozingo,Mozingo 1,,,SLAP
+MIC_tox,RM199 ,,,199,185,,2024-07-30,10:03:00 AM,0,0.50,,ug/L,0.047,,,Harrison_County,Harrison County 1,Below detection limit,,SLAP
+MIC_tox,RM199 ,,,199,185,,2024-07-30,10:03:00 AM,0,0.50,,ug/L,0.058,,,Harrison_County,Harrison County 1,,,SLAP
+MIC_tox,RM200 ,,,200,164,,2024-07-30,12:31:00 PM,0,0.50,,ug/L,0.000,,,Elmwood,Elmwood 1,Below detection limit,,SLAP
+MIC_tox,RM200 ,,,200,164,,2024-07-30,12:31:00 PM,0,0.50,,ug/L,0.000,,,Elmwood,Elmwood 1,Below detection limit,,SLAP
+MIC_tox,RM201 ,,,201,237,,2024-07-30,1:17:00 PM,0,0.50,,ug/L,0.128,,,Milan_North,Milan (North) 1,,,SLAP
+MIC_tox,RM201 ,,,201,237,,2024-07-30,1:17:00 PM,0,0.50,,ug/L,0.093,,,Milan_North,Milan (North) 1,,,SLAP
+MIC_tox,RM202 ,,,202,133,,2024-07-30,2:52:00 PM,0,0.50,,ug/L,0.008,,,Forest,Forest 1,Below detection limit,,SLAP
+MIC_tox,RM202 ,,,202,133,,2024-07-30,2:52:00 PM,0,0.50,,ug/L,0.004,,,Forest,Forest 1,Below detection limit,,SLAP
+MIC_tox,RM203 ,,,203,053,,2024-07-31,8:39:00 AM,0,0.50,,ug/L,0.075,,,Memphis_City,Memphis City 1,,,SLAP
+MIC_tox,RM203 ,,,203,053,,2024-07-31,8:39:00 AM,0,0.50,,ug/L,0.076,,,Memphis_City,Memphis City 1,,,SLAP
+MIC_tox,RM204 ,,,204,182,,2024-07-31,10:12:00 AM,0,0.50,,ug/L,0.153,,,Fox_Valley,Fox Valley 1,,,SLAP
+MIC_tox,RM204 ,,,204,182,,2024-07-31,10:12:00 AM,0,0.50,,ug/L,0.219,,,Fox_Valley,Fox Valley 1,,,SLAP
+MIC_tox,RM205 ,,,205,057,,2024-07-31,12:09:00 AM,0,0.50,,ug/L,0.318,,,Deer_Ridge,Deer Ridge 1,,,SLAP
+MIC_tox,RM205 ,,,205,057,,2024-07-31,12:09:00 AM,0,0.50,,ug/L,0.279,,,Deer_Ridge,Deer Ridge 1,,,SLAP
+MIC_tox,RM206 ,,,206,114,,2024-07-31,1:35:00 PM,0,0.50,,ug/L,0.000,,,Henry_Sever,Henry Sever 1,Below detection limit,,SLAP
+MIC_tox,RM206 ,,,206,114,,2024-07-31,1:35:00 PM,0,0.50,,ug/L,0.000,,,Henry_Sever,Henry Sever 1,Below detection limit,,SLAP
+MIC_tox,RM207 ,,,207,048,,2024-07-31,3:25:00 PM,0,0.50,,ug/L,0.079,,,Long_Branch,Long Branch 1,,,SLAP
+MIC_tox,RM207 ,,,207,048,,2024-07-31,3:25:00 PM,0,0.50,,ug/L,0.059,,,Long_Branch,Long Branch 1,,,SLAP
+MIC_tox,RM208 ,,,208,184,,2024-08-05,10:04:00 AM,0,0.50,,ug/L,0.279,,,Manito,Manito 1,,,SLAP
+MIC_tox,RM208 ,,,208,184,,2024-08-05,10:04:00 AM,0,0.50,,ug/L,0.250,,,Manito,Manito 1,,,SLAP
+MIC_tox,RM209 ,,,209,092,,2024-08-05,12:29:00 PM,0,0.50,,ug/L,0.005,,,Pomme_De_Terre,Pomme de Terre 1,Below detection limit,,SLAP
+MIC_tox,RM209 ,,,209,092,,2024-08-05,12:29:00 PM,0,0.50,,ug/L,0.007,,,Pomme_De_Terre,Pomme de Terre 1,Below detection limit,,SLAP
+MIC_tox,RM210 ,,,210,039,,2024-07-26,9:09:00 AM,0,0.50,,ug/L,0.042,,,Council_Bluff,Council Bluff 1,Below detection limit,,SLAP
+MIC_tox,RM210 ,,,210,039,,2024-07-26,9:09:00 AM,0,0.50,,ug/L,0.053,,,Council_Bluff,Council Bluff 1,,,SLAP
+MIC_tox,RM211 ,,,211,440,,2024-07-29,1:05:00 PM,0,0.50,,ug/L,0.091,,,Crow_Pond,Crow Pond 1,,,SLAP
+MIC_tox,RM211 ,,,211,440,,2024-07-29,1:05:00 PM,0,0.50,,ug/L,0.121,,,Crow_Pond,Crow Pond 1,,,SLAP
+MIC_tox,RM212 ,,,212,089,,2024-07-30,2:28:00 PM,0,0.50,,ug/L,0.017,,,Truman,Truman 1,Below detection limit,,SLAP
+MIC_tox,RM212 ,,,212,089,,2024-07-30,2:28:00 PM,0,0.50,,ug/L,0.027,,,Truman,Truman 1,Below detection limit,,SLAP
+MIC_tox,RM213 ,,,213,274,,2024-07-31,3:12:00 PM,0,0.50,,ug/L,0.164,,,Alpine,Alpine 1,,,SLAP
+MIC_tox,RM213 ,,,213,274,,2024-07-31,3:12:00 PM,0,0.50,,ug/L,0.089,,,Alpine,Alpine 1,,,SLAP
+MIC_tox,RM214 ,,,214,139,,2024-08-01,3:20:00 PM,0,0.50,,ug/L,1.173,,,Marceline_North,Marceline (North) 1,,,SLAP
+MIC_tox,RM214 ,,,214,139,,2024-08-01,3:20:00 PM,0,0.50,,ug/L,1.340,,,Marceline_North,Marceline (North) 1,,,SLAP
+MIC_tox,RM215 ,,,215,117,,2024-08-02,10:24:00 AM,0,0.50,,ug/L,0.000,,,Little_Dixie,Little Dixie 1,Below detection limit,,SLAP
+MIC_tox,RM215 ,,,215,117,,2024-08-02,10:24:00 AM,0,0.50,,ug/L,0.000,,,Little_Dixie,Little Dixie 1,Below detection limit,,SLAP
+MIC_tox,RM216 ,,,216,096,,2024-08-05,2:57:00 PM,0,0.50,,ug/L,0.026,,,Fellows,Fellows 1,Below detection limit,,SLAP
+MIC_tox,RM216 ,,,216,096,,2024-08-05,2:57:00 PM,0,0.50,,ug/L,0.047,,,Fellows,Fellows 1,Below detection limit,,SLAP
+MIC_tox,RM217 ,,,217,411,,2024-08-02,2:32:00 PM,0,0.50,,ug/L,0.866,,,Cedar,Cedar 1,,,SLAP
+MIC_tox,RM217 ,,,217,411,,2024-08-02,2:32:00 PM,0,0.50,,ug/L,0.599,,,Cedar,Cedar 1,,,SLAP
+MIC_tox,RM218 ,,,218,046,,2024-08-05,10:51:00 AM,0,0.50,,ug/L,0.043,,,Thomas_Hill,Thomas Hill 1,Below detection limit,,SLAP
+MIC_tox,RM218 ,,,218,046,,2024-08-05,10:51:00 AM,0,0.50,,ug/L,0.050,,,Thomas_Hill,Thomas Hill 1,,,SLAP
+MIC_tox,RM219 ,,,219,091,,2024-08-05,5:39:00 PM,0,0.50,,ug/L,0.000,,,Atkinson,Atkinson 1,Below detection limit,,SLAP
+MIC_tox,RM219 ,,,219,091,,2024-08-05,5:39:00 PM,0,0.50,,ug/L,0.000,,,Atkinson,Atkinson 1,Below detection limit,,SLAP
+MIC_tox,RM220 ,,,220,070,,2024-08-06,7:59:00 AM,0,0.50,,ug/L,0.036,,,North,North 1,Below detection limit,,SLAP
+MIC_tox,RM220 ,,,220,070,,2024-08-06,7:59:00 AM,0,0.50,,ug/L,0.032,,,North,North 1,Below detection limit,,SLAP
+MIC_tox,RM221 ,,,221,120,,2024-08-06,9:26:00 AM,0,0.50,,ug/L,0.135,,,Winnebago,Winnebago 1,,,SLAP
+MIC_tox,RM221 ,,,221,120,,2024-08-06,9:26:00 AM,0,0.50,,ug/L,0.120,,,Winnebago,Winnebago 1,,,SLAP
+MIC_tox,RM222 ,,,222,169,,2024-08-06,10:48:00 AM,0,0.50,,ug/L,0.233,,,Gopher,Gopher 1,,,SLAP
+MIC_tox,RM222 ,,,222,169,,2024-08-06,10:48:00 AM,0,0.50,,ug/L,0.199,,,Gopher,Gopher 1,,,SLAP
+MIC_tox,RM223 ,,,223,183,,2024-08-06,12:22:00 PM,0,0.50,,ug/L,0.075,,,Hazel_Hill,Hazel Hill 1,,,SLAP
+MIC_tox,RM223 ,,,223,183,,2024-08-06,12:22:00 PM,0,0.50,,ug/L,0.059,,,Hazel_Hill,Hazel Hill 1,,,SLAP
+MIC_tox,RM224 ,,,224,150,,2024-08-06,2:05:00 PM,0,0.50,,ug/L,0.250,,,Blind_Pony,Blind Pony 1,,,SLAP
+MIC_tox,RM224 ,,,224,150,,2024-08-06,2:05:00 PM,0,0.50,,ug/L,0.266,,,Blind_Pony,Blind Pony 1,,,SLAP
+MIC_tox,RM225 ,,,225,121,,2024-08-06,3:28:00 PM,0,0.50,,ug/L,0.305,,,Higginsville,Higginsville 1,,,SLAP
+MIC_tox,RM225 ,,,225,121,,2024-08-06,3:28:00 PM,0,0.50,,ug/L,0.253,,,Higginsville,Higginsville 1,,,SLAP
+MIC_tox,RM226 ,,,226,074,,2024-08-07,8:27:00 AM,0,0.50,,ug/L,0.054,,,Watkins_Mill,Watkins Mill 1,,,SLAP
+MIC_tox,RM226 ,,,226,074,,2024-08-07,8:27:00 AM,0,0.50,,ug/L,0.046,,,Watkins_Mill,Watkins Mill 1,Below detection limit,,SLAP
+MIC_tox,RM227 ,,,227,081,,2024-08-07,10:07:00 AM,0,0.50,,ug/L,0.049,,,Pony_Express,Pony Express 1,Below detection limit,,SLAP
+MIC_tox,RM227 ,,,227,081,,2024-08-07,10:07:00 AM,0,0.50,,ug/L,0.042,,,Pony_Express,Pony Express 1,Below detection limit,,SLAP
+MIC_tox,RM228 ,,,228,317,,2024-08-07,11:00:00 AM,0,0.50,,ug/L,0.000,,,Buffalo_Bill,Buffalo Bill 1,Below detection limit,,SLAP
+MIC_tox,RM228 ,,,228,317,,2024-08-07,11:00:00 AM,0,0.50,,ug/L,0.000,,,Buffalo_Bill,Buffalo Bill 1,Below detection limit,,SLAP
+MIC_tox,RM229 ,,,229,078,,2024-08-07,12:10:00 PM,0,0.50,,ug/L,0.000,,,Hamilton_City,Hamilton City 1,Below detection limit,,SLAP
+MIC_tox,RM229 ,,,229,078,,2024-08-07,12:10:00 PM,0,0.50,,ug/L,0.000,,,Hamilton_City,Hamilton City 1,Below detection limit,,SLAP
+MIC_tox,RM230 ,,,230,192,,2024-08-07,1:55:00 PM,0,0.50,,ug/L,0.369,,,Jo_Shelby,Jo Shelby 1,,,SLAP
+MIC_tox,RM230 ,,,230,192,,2024-08-07,1:55:00 PM,0,0.50,,ug/L,0.392,,,Jo_Shelby,Jo Shelby 1,,,SLAP
+MIC_tox,RM231 ,,,231,087,,2024-08-07,3:07:00 PM,0,0.50,,ug/L,0.036,,,Brookfield,Brookfield 1,Below detection limit,,SLAP
+MIC_tox,RM231 ,,,231,087,,2024-08-07,3:07:00 PM,0,0.50,,ug/L,0.032,,,Brookfield,Brookfield 1,Below detection limit,,SLAP
+MIC_tox,RM232 ,,,232,049,,2024-08-07,4:26:00 PM,0,0.50,,ug/L,0.000,,,Macon,Macon 1,Below detection limit,,SLAP
+MIC_tox,RM232 ,,,232,049,,2024-08-07,4:26:00 PM,0,0.50,,ug/L,0.000,,,Macon,Macon 1,Below detection limit,,SLAP
+MIC_tox,RM233 ,,,233,145,,2024-08-08,11:50:00 AM,0,0.50,,ug/L,0.047,,,Mark_Twain,Mark Twain 1,Below detection limit,,SLAP
+MIC_tox,RM233 ,,,233,145,,2024-08-08,11:50:00 AM,0,0.50,,ug/L,0.042,,,Mark_Twain,Mark Twain 1,Below detection limit,,SLAP
+MIC_tox,RM234 ,,,234,072,,2024-08-06,12:46:00 PM,0,0.50,,ug/L,0.000,,,Smithville,Smithville 1,Below detection limit,,SLAP
+MIC_tox,RM234 ,,,234,072,,2024-08-06,12:46:00 PM,0,0.50,,ug/L,0.000,,,Smithville,Smithville 1,Below detection limit,,SLAP
+MIC_tox,RM235 ,,,235,089,,2024-08-07,10:43:00 AM,0,0.50,,ug/L,0.041,,,Truman,Truman 1,Below detection limit,,SLAP
+MIC_tox,RM235 ,,,235,089,,2024-08-07,10:43:00 AM,0,0.50,,ug/L,0.050,,,Truman,Truman 1,,,SLAP
+MIC_tox,RM237 ,,,237,093,,2024-08-07,1:34:00 PM,0,0.50,,ug/L,0.031,,,Stockton,Stockton 1,Below detection limit,,SLAP
+MIC_tox,RM237 ,,,237,093,,2024-08-07,1:34:00 PM,0,0.50,,ug/L,0.036,,,Stockton,Stockton 1,Below detection limit,,SLAP
+MIC_tox,RM237 ,,,237,093,,2024-08-07,1:34:00 PM,0,0.50,,ug/L,0.025,,,Stockton,Stockton 1,Below detection limit,,SLAP
+MIC_tox,RM238 ,,,238,115,,2024-08-12,9:32:00 AM,0,0.50,,ug/L,0.085,,,Hunnewell,Hunnewell 1,,,SLAP
+MIC_tox,RM238 ,,,238,115,,2024-08-12,9:32:00 AM,0,0.50,,ug/L,0.097,,,Hunnewell,Hunnewell 1,,,SLAP
+MIC_tox,RM239 ,,,239,011,,2024-08-08,11:36:00 AM,0,0.50,,ug/L,0.039,,,Peaceful_Valley,Peaceful Valley 1,Below detection limit,,SLAP
+MIC_tox,RM239 ,,,239,011,,2024-08-08,11:36:00 AM,0,0.50,,ug/L,0.016,,,Peaceful_Valley,Peaceful Valley 1,Below detection limit,,SLAP
+MIC_tox,RM240 ,,,240,272,,2024-08-12,10:54:00 AM,0,0.50,,ug/L,0.142,,,Perry,Perry 1,,,SLAP
+MIC_tox,RM240 ,,,240,272,,2024-08-12,10:54:00 AM,0,0.50,,ug/L,0.123,,,Perry,Perry 1,,,SLAP
+MIC_tox,RM241 ,,,241,003,,2024-08-12,12:15:00 PM,0,0.50,,ug/L,0.061,,,Bowling_Green_East,Bowling Green (East) 1,,,SLAP
+MIC_tox,RM241 ,,,241,003,,2024-08-12,12:15:00 PM,0,0.50,,ug/L,0.053,,,Bowling_Green_East,Bowling Green (East) 1,,,SLAP
+MIC_tox,RM242 ,,,242,003-FD,,2024-08-12,12:15:00 PM,0,0.50,,ug/L,0.042,,,Bowling_Green_East,Bowling Green (East) 1,Below detection limit,,SLAP
+MIC_tox,RM242 ,,,242,003-FD,,2024-08-12,12:15:00 PM,0,0.50,,ug/L,0.033,,,Bowling_Green_East,Bowling Green (East) 1,Below detection limit,,SLAP
+MIC_tox,RM243 ,,,243,005,,2024-08-12,1:48:00 PM,0,0.50,,ug/L,0.639,,,Lincoln,Lincoln 1,,,SLAP
+MIC_tox,RM243 ,,,243,005,,2024-08-12,1:48:00 PM,0,0.50,,ug/L,0.572,,,Lincoln,Lincoln 1,,,SLAP
+MIC_tox,RM244 ,,,244,197,,2024-08-12,3:11:00 PM,0,0.50,,ug/L,0.439,,,Prairie,Prairie 1,,,SLAP
+MIC_tox,RM244 ,,,244,197,,2024-08-12,3:11:00 PM,0,0.50,,ug/L,0.504,,,Prairie,Prairie 1,,,SLAP
+MIC_tox,RM245 ,,,245,454,,2024-08-13,7:52:00 AM,0,0.50,,ug/L,0.104,,,Cedar_Hill_Lake_1,Cedar Hill (Lake 1) 1,,,SLAP
+MIC_tox,RM245 ,,,245,454,,2024-08-13,7:52:00 AM,0,0.50,,ug/L,0.062,,,Cedar_Hill_Lake_1,Cedar Hill (Lake 1) 1,,,SLAP
+MIC_tox,RM246 ,,,246,093,,2024-09-03,2:35:00 PM,0,0.50,,ug/L,0.016,,,Stockton,Stockton 1,Below detection limit,,SLAP
+MIC_tox,RM246 ,,,246,093,,2024-09-03,2:35:00 PM,0,0.50,,ug/L,0.069,,,Stockton,Stockton 1,,,SLAP
+MIC_tox,RM247 ,,,247,112,,2024-09-05,2:40:00 PM,0,0.50,,ug/L,0.056,,,Shayne,Shayne 1,,,Thin Ice
+MIC_tox,RM247 ,,,247,112,,2024-09-05,2:40:00 PM,0,0.50,,ug/L,0.026,,,Shayne,Shayne 1,Below detection limit,,Thin Ice
+MIC_tox,RM248 ,,,248,014,,2024-08-13,8:51:00 AM,0,0.50,,ug/L,0.239,,,Tishomingo,Tishomingo 1,,,SLAP
+MIC_tox,RM248 ,,,248,014,,2024-08-13,8:51:00 AM,0,0.50,,ug/L,0.290,,,Tishomingo,Tishomingo 1,,,SLAP
+MIC_tox,RM248 ,,,248,014,,2024-08-13,8:51:00 AM,0,0.50,,ug/L,0.490,,,Tishomingo,Tishomingo 1,,,SLAP
+MIC_tox,RM249 ,,,249,021,,2024-08-13,10:38:00 AM,0,0.50,,ug/L,0.244,,,Goose_Creek,Goose Creek 1,,,SLAP
+MIC_tox,RM249 ,,,249,021,,2024-08-13,10:38:00 AM,0,0.50,,ug/L,0.231,,,Goose_Creek,Goose Creek 1,,,SLAP
+MIC_tox,RM250 ,,,250,018,,2024-08-13,12:24:00 PM,0,0.50,,ug/L,0.042,,,Capri,Capri 1,Below detection limit,,SLAP
+MIC_tox,RM250 ,,,250,018,,2024-08-13,12:24:00 PM,0,0.50,,ug/L,0.020,,,Capri,Capri 1,Below detection limit,,SLAP
+MIC_tox,RM251 ,,,251,112,,2024-08-13,1:18:00 PM,0,0.50,,ug/L,0.074,,,Shayne,Shayne 1,,,SLAP
+MIC_tox,RM251 ,,,251,112,,2024-08-13,1:18:00 PM,0,0.50,,ug/L,0.029,,,Shayne,Shayne 1,Below detection limit,,SLAP
+MIC_tox,RM252 ,,,252,186,,2024-08-13,2:31:00 PM,0,0.50,,ug/L,0.275,,,Carl_DiSalvo,Carl DiSalvo 1,,,SLAP
+MIC_tox,RM252 ,,,252,186,,2024-08-13,2:31:00 PM,0,0.50,,ug/L,0.333,,,Carl_DiSalvo,Carl DiSalvo 1,,,SLAP
+MIC_tox,RM253 ,,,253,030,,2024-08-14,7:41:00 AM,0,0.50,,ug/L,0.000,,,Wappapello,Wappapello 1,Below detection limit,,SLAP
+MIC_tox,RM253 ,,,253,030,,2024-08-14,7:41:00 AM,0,0.50,,ug/L,0.000,,,Wappapello,Wappapello 1,Below detection limit,,SLAP
+MIC_tox,RM254 ,,,254,036,,2024-08-14,9:41:00 AM,0,0.50,,ug/L,0.011,,,Clearwater,Clearwater 1,Below detection limit,,SLAP
+MIC_tox,RM254 ,,,254,036,,2024-08-14,9:41:00 AM,0,0.50,,ug/L,0.012,,,Clearwater,Clearwater 1,Below detection limit,,SLAP
+MIC_tox,RM255 ,,,255,039,,2024-08-14,12:45:00 PM,0,0.50,,ug/L,0.121,,,Council_Bluff,Council Bluff 1,,,SLAP
+MIC_tox,RM255 ,,,255,039,,2024-08-14,12:45:00 PM,0,0.50,,ug/L,0.128,,,Council_Bluff,Council Bluff 1,,,SLAP
+MIC_tox,RM256 ,,,256,110,,2024-08-14,3:17:00 PM,0,0.50,,ug/L,0.173,,,Little_Prairie,Little Prairie 1,,,SLAP
+MIC_tox,RM256 ,,,256,110,,2024-08-14,3:17:00 PM,0,0.50,,ug/L,0.180,,,Little_Prairie,Little Prairie 1,,,SLAP
+MIC_tox,RM257 ,,,257,274,,2024-08-16,11:14:00 AM,0,0.50,,ug/L,0.140,,,Alpine,Alpine 1,,,Thin Ice
+MIC_tox,RM257 ,,,257,274,,2024-08-16,11:14:00 AM,0,0.50,,ug/L,0.162,,,Alpine,Alpine 1,,,Thin Ice
+MIC_tox,RM258 ,,,258,219,,2024-08-12,10:05:00 AM,0,0.50,,ug/L,0.178,,,Dairy_1,Dairy 1 1,,,SLAP
+MIC_tox,RM258 ,,,258,219,,2024-08-12,10:05:00 AM,0,0.50,,ug/L,0.214,,,Dairy_1,Dairy 1 1,,,SLAP
+MIC_tox,RM259 ,,,259,440,,2024-08-12,12:08:00 PM,0,0.50,,ug/L,0.216,,,Crow_Pond,Crow Pond 1,,,SLAP
+MIC_tox,RM259 ,,,259,440,,2024-08-12,12:08:00 PM,0,0.50,,ug/L,0.178,,,Crow_Pond,Crow Pond 1,,,SLAP
+MIC_tox,RM260 ,,,260,088,,2024-08-13,10:26:00 AM,0,0.50,,ug/L,0.669,,,Marceline_South,Marceline (South) 1,,,SLAP
+MIC_tox,RM260 ,,,260,088,,2024-08-13,10:26:00 AM,0,0.50,,ug/L,0.611,,,Marceline_South,Marceline (South) 1,,,SLAP
+MIC_tox,RM261 ,,,261,072,,2024-08-20,2:49:00 PM,0,0.50,,ug/L,0.034,,,Smithville,Smithville 1,Below detection limit,,SLAP
+MIC_tox,RM261 ,,,261,072,,2024-08-20,2:49:00 PM,0,0.50,,ug/L,0.002,,,Smithville,Smithville 1,Below detection limit,,SLAP
+MIC_tox,RM262 ,,,262,149,,2024-08-14,12:44:00 PM,0,0.50,,ug/L,0.045,,,Lake_of_the_Ozarks,Lake of the Ozarks 1,Below detection limit,,SLAP
+MIC_tox,RM262 ,,,262,149,,2024-08-14,12:44:00 PM,0,0.50,,ug/L,0.016,,,Lake_of_the_Ozarks,Lake of the Ozarks 1,Below detection limit,,SLAP
+MIC_tox,RM263 ,,,263,089,,2024-08-21,12:44:00 PM,0,0.50,,ug/L,0.068,,,Truman,Truman 1,,,SLAP
+MIC_tox,RM263 ,,,263,089,,2024-08-21,12:44:00 PM,0,0.50,,ug/L,0.044,,,Truman,Truman 1,Below detection limit,,SLAP
+MIC_tox,RM264 ,,,264,046,,2024-08-22,12:44:00 PM,0,0.50,,ug/L,0.085,,,Thomas_Hill,Thomas Hill 1,,,SLAP
+MIC_tox,RM264 ,,,264,046,,2024-08-22,12:44:00 PM,0,0.50,,ug/L,0.096,,,Thomas_Hill,Thomas Hill 1,,,SLAP
+MIC_tox,RM265 ,,,265,145,,2024-08-23,2:07:00 PM,0,0.50,,ug/L,0.079,,,Mark_Twain,Mark Twain 1,,,SLAP
+MIC_tox,RM265 ,,,265,145,,2024-08-23,2:07:00 PM,0,0.50,,ug/L,0.056,,,Mark_Twain,Mark Twain 1,,,SLAP
+MIC_tox,RM266 ,,,266,093,,2024-08-27,2:37:00 PM,0,0.50,,ug/L,0.047,,,Stockton,Stockton 1,Below detection limit,,SLAP
+MIC_tox,RM266 ,,,266,093,,2024-08-27,2:37:00 PM,0,0.50,,ug/L,0.041,,,Stockton,Stockton 1,Below detection limit,,SLAP
+MIC_tox,RM267 ,,,267,089,,2024-08-27,5:50:00 PM,0,0.50,,ug/L,0.069,,,Truman,Truman 1,,,SLAP
+MIC_tox,RM267 ,,,267,089,,2024-08-27,5:50:00 PM,0,0.50,,ug/L,0.031,,,Truman,Truman 1,Below detection limit,,SLAP
+MIC_tox,RM268 ,,,268,078,,2024-08-28,1:47:00 PM,0,0.50,,ug/L,0.000,,,Hamilton_City,Hamilton City 1,Below detection limit,,SLAP
+MIC_tox,RM268 ,,,268,078,,2024-08-28,1:47:00 PM,0,0.50,,ug/L,0.000,,,Hamilton_City,Hamilton City 1,Below detection limit,,SLAP
+MIC_tox,RM269 ,,,269,145,,2024-08-29,12:30:00 PM,0,0.50,,ug/L,0.066,,,Mark_Twain,Mark Twain 1,,,SLAP
+MIC_tox,RM269 ,,,269,145,,2024-08-29,12:30:00 PM,0,0.50,,ug/L,0.059,,,Mark_Twain,Mark Twain 1,,,SLAP
+MIC_tox,RM271 ,,,271,219,,2024-09-06,12:44:00 PM,0,0.50,,ug/L,0.420,,,Dairy_1,Dairy 1 1,,,Thin Ice
+MIC_tox,RM271 ,,,271,219,,2024-09-06,12:44:00 PM,0,0.50,,ug/L,0.527,,,Dairy_1,Dairy 1 1,,,Thin Ice
+MIC_tox,RM272 ,,,272,274,,2024-09-04,1:38:00 PM,0,0.50,,ug/L,0.175,,,Alpine,Alpine 1,,,Thin Ice
+MIC_tox,RM272 ,,,272,274,,2024-09-04,1:38:00 PM,0,0.50,,ug/L,0.169,,,Alpine,Alpine 1,,,Thin Ice
+MIC_tox,RM273 ,,,273,440,,2024-09-06,2:25:00 PM,0,0.50,,ug/L,0.239,,,Crow_Pond,Crow Pond 1,,,Thin Ice
+MIC_tox,RM273 ,,,273,440,,2024-09-06,2:25:00 PM,0,0.50,,ug/L,0.229,,,Crow_Pond,Crow Pond 1,,,Thin Ice
+MIC_tox,RM275 ,,,275,088,,2024-09-10,4:48:00 PM,0,0.50,,ug/L,0.839,,,Marceline_South,Marceline (South) 1,,,Thin Ice
+MIC_tox,RM275 ,,,275,088,,2024-09-10,4:48:00 PM,0,0.50,,ug/L,0.640,,,Marceline_South,Marceline (South) 1,,,Thin Ice
+MIC_tox,RM275 ,,,275,088,,2024-09-10,4:48:00 PM,0,0.50,,ug/L,0.692,,,Marceline_South,Marceline (South) 1,,,Thin Ice
+MIC_tox,RM277 ,,,277,089,,2024-09-11,12:18:00 PM,0,0.50,,ug/L,0.108,,,Truman,Truman 1,,,SLAP
+MIC_tox,RM277 ,,,277,089,,2024-09-11,12:18:00 PM,0,0.50,,ug/L,0.089,,,Truman,Truman 1,,,SLAP
+MIC_tox,RM278 ,,,278,072,,2024-09-12,2:26:00 PM,0,0.50,,ug/L,0.041,,,Smithville,Smithville 1,Below detection limit,,SLAP
+MIC_tox,RM278 ,,,278,072,,2024-09-12,2:26:00 PM,0,0.50,,ug/L,0.051,,,Smithville,Smithville 1,,,SLAP
+MIC_tox,RM279 ,,,279,098,,2024-09-24,9:54:00 AM,0,0.50,,ug/L,0.067,,,Table_Rock,Table Rock 1,,,SLAP
+MIC_tox,RM279 ,,,279,098,,2024-09-24,9:54:00 AM,0,0.50,,ug/L,0.061,,,Table_Rock,Table Rock 1,,,SLAP
+MIC_tox,RM280 ,,,280,149,,2024-09-25,9:49:00 AM,0,0.50,,ug/L,0.065,,,Lake_of_the_Ozarks,Lake of the Ozarks 1,,,SLAP
+MIC_tox,RM280 ,,,280,149,,2024-09-25,9:49:00 AM,0,0.50,,ug/L,0.069,,,Lake_of_the_Ozarks,Lake of the Ozarks 1,,,SLAP
