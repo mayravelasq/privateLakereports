@@ -1,0 +1,60 @@
+---
+title: "first_lake_report"
+output: html_document
+date: "2025-03-18"
+---
+
+```{r setup, include=FALSE}
+if (!require(dplyr)) {install.packages("dplyr")}
+if (!require(tidyverse)) {install.packages("tidyverse")}
+
+library(readr)
+library(stringr)
+```
+
+## Downloading Folder with All Data\
+```{r}
+folder = "C:/Users/mvhfg/OneDrive - University of Missouri/North_Limnology/priv_lake_rep/Private_Lake_Reports/2024 Data"
+files = list.files(
+  path = folder,
+  pattern = ".*csv$",
+  ignore.case = F,
+  full.names = T #provides path to folder
+)
+
+files2 <- list.files("2024 Data", pattern="*.csv")
+
+library(readr)
+library(stringr)
+
+for(i in 1:length(files)) {
+  file_name <- str_sub(string = files[i], start = 111)
+  file_df <- read.csv(paste0(folder,"/",files2[i]),header = TRUE, sep=",")
+  #file_df <- file_df[c(3:2714),2:3] #i only need the col 2&3 and keep rows 2:2714
+  #cols <- names(file_df)[14] #getting the 14th column 
+  #file_df[cols] <- lapply(file_df[cols], as.numeric) #making the cols column(s) numeric
+  assign( x = file_name, value = file_df, envir = .GlobalEnv)
+}
+```
+
+
+## Results
+
+### Total Nitrogen & Total Phosphorus\
+Total Nitrogen is not available yet
+```{r}
+#all TP data
+#we want to extract TP values for lake 14 - Tishomingo
+# we are only looking at surface samples so the Depth has to be SURF
+tp_14 <- SLAP_2024_TP.csv%>%
+  filter(MULakeNumber == "014" & Depth == "SURF")
+#for depth instead of looking for SURF, look for endDepth = 0
+```
+
+Averaging TP Data
+```{r}
+tp_14_avg <- tp_14 %>%
+  group_by(Date)%>%
+  summarise(Average_TP = mean(parameterValue))
+```
+
