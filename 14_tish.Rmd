@@ -58,3 +58,32 @@ tp_14_avg <- tp_14 %>%
   summarise(Average_TP = mean(parameterValue))
 ```
 
+Toxins
+```{r}
+ANAtox <- SLAP_2024_ANA_tox.csv[,1:19] #keeps the first 19 columns
+CLYtox <- SLAP_2024_CLY_tox.csv[,1:19]
+MICtox <- SLAP_2024_MIC_tox.csv[,1:19]
+SAXtox <- SLAP_2024_SAX_tox.csv[,1:19]
+
+ANAtox_14 <- ANAtox%>%
+  filter(MULakeNumber == "014")
+
+CLYtox_14 <- CLYtox%>%
+  filter(MULakeNumber == "014")
+
+MICtox_14 <- MICtox%>%
+  filter(MULakeNumber == "014")
+
+SAXtox_14 <- SAXtox%>%
+  filter(MULakeNumber == "014")
+
+ALLtox_14 <- bind_rows(ANAtox_14, CLYtox_14, MICtox_14, SAXtox_14)
+```
+
+Full df of Toxins
+```{r}
+tox_avg_14 <- ALLtox_14 %>%
+  group_by(Date, parameterType)%>%
+  summarise(avg_tox = mean(parameterValue)) #units in ug/L
+```
+
