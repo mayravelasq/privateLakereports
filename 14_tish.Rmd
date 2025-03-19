@@ -55,7 +55,7 @@ Averaging TP Data
 ```{r}
 tp_14_avg <- tp_14 %>%
   group_by(Date)%>%
-  summarise(Average_TP = mean(parameterValue))
+  summarise(Average_TP = mean(parameterValue)) #units in ug/L
 ```
 
 Toxins
@@ -85,5 +85,25 @@ Full df of Toxins
 tox_avg_14 <- ALLtox_14 %>%
   group_by(Date, parameterType)%>%
   summarise(avg_tox = mean(parameterValue)) #units in ug/L
+
+if (!require(ggplot2)) {install.packages("ggplot2")}
+
+
+ggplot(tox_avg_14, aes(x=Date, y=avg_tox, group=parameterType)) +
+  geom_line(size =0.75, aes(color =parameterType)) +
+  geom_point(aes(shape=parameterType, color=parameterType, size=parameterType))+
+  scale_shape_manual(values=c(15, 16, 17, 18))+
+  scale_color_manual(values=c('brown4','orange', 'palegreen3', 'steelblue'))+
+  scale_size_manual(values=c(8,8,5,6))+
+  theme(legend.position="right")+
+  theme_bw()+
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank())+
+  xlab('Date')+
+  ylab('Average Cyanotoxin Concentration (ug/L)') 
+#best one so far
+
+
+
 ```
 
