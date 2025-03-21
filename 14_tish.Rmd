@@ -143,7 +143,8 @@ ggplot(tox_avg_14, aes(x=Date, y=avg_tox, group=parameterType)) +
   theme(panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank())+
   xlab('Date')+
-  ylab('Average Cyanotoxin Concentration (µg/L)') 
+  ylab('Average Tox Concentration (µg/L)')+
+  labs(title = "Cyanotoxin Concentrations for Summer 2024") 
 #best one so far
 ```
 
@@ -196,7 +197,7 @@ chlA_14_avg %>%
         panel.grid.minor = element_blank())+
     xlab('Date')+
     ylab('CHL A Concentration (µg/L)')+
-    labs(title = "Average Chlorophyll A Depths for Summer 2024")
+    labs(title = "Average Chlorophyll A Concentrations for Summer 2024")
 ```
 
 ## YSI Profiles\
@@ -214,7 +215,7 @@ ysi_14te <- ysi_14%>%
 
 Temperature vs Depth
 ```{r}
-#treat conc as a function of depth and then reverse later
+#treat temp as a function of depth and then reverse later
 ggplot(ysi_14te,aes(x=depth_m,y=tempF, group=date))+
   #set up the asthetics, the line must be broken because this is technically discrete data
   geom_line(aes(color =date),size=1.5, linetype=1)+
@@ -229,6 +230,8 @@ ggplot(ysi_14te,aes(x=depth_m,y=tempF, group=date))+
   theme(panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank())+
   xlab('Depth (m)')+
-  ylab('Temperature (°F)')
+  ylab('Temperature (°F)')+
+  theme(legend.position = "inside", legend.position.inside =  c(.90, .20)) #left to right #up and down
+
 ```
 
