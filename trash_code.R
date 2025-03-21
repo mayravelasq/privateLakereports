@@ -36,3 +36,16 @@ plot <- ggplot(tox_avg_14, aes(x = Date, y = avg_tox, group = parameterType, sha
   scale_shape_manual(values = c(15, 16, 17, 17), labels = c('ANA', 'CLY', 'MIC','SAX')) +
   scale_size_manual(values=c(6,6,3,6), labels = c('ANA', 'CLY', 'MIC','SAX'))+
   theme_bw()
+
+#tp plot
+ggplot(tp_14_avg, aes(x=Date, y=Average_TP)) +
+  #geom_hline(yintercept = 0)+ #this is the avg of the 65 lakes
+  geom_line(color="grey", aes(color =parameterType))+
+  geom_point(color = "darkorchid4", size = 8)+ #alpha is size of point
+  geom_smooth(method = "lm")+
+  theme_bw()+
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank())+
+  xlab('Date')+
+  ylab('TP Concentration (µg/L)')+
+  labs(title = "Average Total Phosphorus Concentrations for Summer 2024")

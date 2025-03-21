@@ -41,7 +41,7 @@ for(i in 1:length(files)) {
 ## Results
 
 ### Total Nitrogen & Total Phosphorus\
-Total Nitrogen is not available yet
+Total Phosphorus - Showing TP Data
 ```{r}
 #all TP data
 #we want to extract TP values for lake 14 - Tishomingo
@@ -58,7 +58,48 @@ tp_14_avg <- tp_14 %>%
   summarise(Average_TP = mean(parameterValue)) #units in ug/L
 ```
 
-Toxins
+Plot of TP
+```{r}
+tp_14_avg %>%
+  ggplot( aes(x=Date, y=Average_TP)) +
+  #geom_hline(yintercept = 0)+
+  geom_line(aes(group=1), color = "gray76", size = 1.5)+
+  geom_point(shape=21, color="black", fill="darkorchid4", size=8) +
+    theme_bw()+
+    theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank())+
+    xlab('Date')+
+    ylab('TP Concentration (µg/L)')+
+    labs(title = "Average Total Phosphorus Concentrations for Summer 2024")
+```
+
+
+Average TN Data
+```{r}
+tn_14 <- SLAP_2024_TN.csv%>%
+  filter(MULakeNumber == "014" & endDepth == 0)
+
+tn_14_avg <- tn_14 %>%
+  group_by(Date)%>%
+  summarise(Average_TN = mean(parameterValue)) #units in ug/L
+```
+
+Plot of TN
+```{r}
+tn_14_avg %>%
+  ggplot( aes(x=Date, y=Average_TN)) +
+  #geom_hline(yintercept = 0)+
+  geom_line(aes(group=1), color = "gray76", size = 1.5)+
+  geom_point(shape=21, color="black", fill="#66CD00", size=8) +
+    theme_bw()+
+    theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank())+
+    xlab('Date')+
+    ylab('TN Concentration (µg/L)')+
+    labs(title = "Average Total Nitrogen Concentrations for Summer 2024")
+```
+
+### Toxins
 ```{r}
 ANAtox <- SLAP_2024_ANA_tox.csv[,1:19] #keeps the first 19 columns
 CLYtox <- SLAP_2024_CLY_tox.csv[,1:19]
@@ -77,7 +118,7 @@ MICtox_14 <- MICtox%>%
 SAXtox_14 <- SAXtox%>%
   filter(MULakeNumber == "014")
 
-ALLtox_14 <- bind_rows(ANAtox_14, CLYtox_14, MICtox_14, SAXtox_14)
+ALLtox_14 <- bind_rows(ANAtox_14, CLYtox_14, MICtox_14, SAXtox_14)  #units in ug/L
 ```
 
 Full df of Toxins
@@ -100,10 +141,35 @@ ggplot(tox_avg_14, aes(x=Date, y=avg_tox, group=parameterType)) +
   theme(panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank())+
   xlab('Date')+
-  ylab('Average Cyanotoxin Concentration (ug/L)') 
+  ylab('Average Cyanotoxin Concentration (µg/L)') 
 #best one so far
+```
+
+### Secchi & CHL A
+
+Secchi Depth Averages
+```{r}
+sec_14 <- SLAP_2024_SECCHI.csv%>%
+  filter(MULakeNumber == "014")
+
+sec_14_avg <- sec_14 %>%
+  group_by(Date)%>%
+  summarise(Average_SEC = mean(parameterValue))  #units in m
+```
+
+Plot of Secchi Depth
+```{r}
+
+```
 
 
+Chlorophyll A Averages
+```{r}
+chlA_14 <- SLAP_2024_CHL_A.csv%>%
+  filter(MULakeNumber == "014")
 
+chlA_14_avg <- chlA_14 %>%
+  group_by(Date)%>%
+  summarise(Average_chlA = mean(parameterValue))  #units in ug/L
 ```
 
