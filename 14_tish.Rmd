@@ -1,6 +1,8 @@
 ---
 title: "first_lake_report"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 date: "2025-03-18"
 ---
 
@@ -64,7 +66,7 @@ tp_14_avg %>%
   ggplot( aes(x=Date, y=Average_TP)) +
   #geom_hline(yintercept = 0)+
   geom_line(aes(group=1), color = "gray76", size = 1.5)+
-  geom_point(shape=21, color="black", fill="darkorchid4", size=8) +
+  geom_point(shape=21, color="black", fill="orchid4", size=8) +
     theme_bw()+
     theme(panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank())+
@@ -90,7 +92,7 @@ tn_14_avg %>%
   ggplot( aes(x=Date, y=Average_TN)) +
   #geom_hline(yintercept = 0)+
   geom_line(aes(group=1), color = "gray76", size = 1.5)+
-  geom_point(shape=21, color="black", fill="#66CD00", size=8) +
+  geom_point(shape=21, color="black", fill="royalblue4", size=8) +
     theme_bw()+
     theme(panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank())+
@@ -172,7 +174,6 @@ sec_14_avg %>%
     labs(title = "Average Secchi Depths for Summer 2024")
 ```
 
-
 Chlorophyll A Averages
 ```{r}
 chlA_14 <- SLAP_2024_CHL_A.csv%>%
@@ -181,5 +182,53 @@ chlA_14 <- SLAP_2024_CHL_A.csv%>%
 chlA_14_avg <- chlA_14 %>%
   group_by(Date)%>%
   summarise(Average_chlA = mean(parameterValue))  #units in ug/L
+```
+
+Chlorophyll A Plot
+```{r}
+chlA_14_avg %>%
+  ggplot( aes(x=Date, y=Average_chlA))+
+  #geom_hline(yintercept = 0)+
+  geom_line(aes(group=1), color = "gray76", size = 1.5)+
+  geom_point(shape=21, color="black", fill="darkolivegreen", size=8) +
+    theme_bw()+
+    theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank())+
+    xlab('Date')+
+    ylab('CHL A Concentration (µg/L)')+
+    labs(title = "Average Chlorophyll A Depths for Summer 2024")
+```
+
+## YSI Profiles\
+
+## Temp vs Depth 
+```{r}
+#after find lake 14, make new column with Fahrenheit instead of Celsius
+
+ysi_14 <- MO_YSIProfileData_2024.csv%>%
+  filter(MULakeNumber == "014")
+
+ysi_14te <- ysi_14%>%
+  mutate(tempF = (9/5)*temp_degC+32)
+```
+
+Temperature vs Depth
+```{r}
+#treat conc as a function of depth and then reverse later
+ggplot(ysi_14te,aes(x=depth_m,y=tempF, group=date))+
+  #set up the asthetics, the line must be broken because this is technically discrete data
+  geom_line(aes(color =date),size=1.5, linetype=1)+
+  #geom_point(aes(color=date))+
+  #reverse depth so it starts at zero
+  scale_x_reverse()+
+  #put the y axis labes on the opposite side so when its flipped it will appear at top
+  scale_y_continuous(position="right")+
+  #this is how you reverse the look and order or the coordinates for the graph
+  coord_flip()+
+  theme_bw()+
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank())+
+  xlab('Depth (m)')+
+  ylab('Temperature (°F)')
 ```
 

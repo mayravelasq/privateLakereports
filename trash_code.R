@@ -49,3 +49,23 @@ ggplot(tp_14_avg, aes(x=Date, y=Average_TP)) +
   xlab('Date')+
   ylab('TP Concentration (µg/L)')+
   labs(title = "Average Total Phosphorus Concentrations for Summer 2024")
+
+#ysi depth
+ggplot(ysi_14te, aes(x=tempF, y=depth_m, group=date)) +
+  geom_line(size =0.75, aes(color =date)) +
+  geom_point(aes(shape=date, color=date))+
+  scale_shape_manual(values=c(15, 16, 17, 18))+
+  scale_color_manual(values=c('brown4','orange', 'palegreen3', 'steelblue'))+
+  #scale_size_manual(values=c(8,8,5,6))+
+  scale_x_reverse()+
+  #put the y axis labes on the opposite side so when its flipped it will appear at top
+  scale_y_continuous(position="left")+
+  #this is how you reverse the look and order or the coordinates for the graph
+  coord_flip()+
+  theme(legend.position="right")+
+  theme_bw()+
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank())+
+  xlab('Temperature (F)')+
+  ylab('Depth (m)') 
+#geom_smooth(method=lm, se=FALSE, col='red', size=2)
