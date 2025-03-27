@@ -64,7 +64,7 @@ Plot of TP
 ```{r}
 tp_14_avg %>%
   ggplot( aes(x=Date, y=Average_TP)) +
-  #geom_hline(yintercept = 0)+
+  geom_hline(yintercept = 60.12, size = 2, color = "orchid4")+
   geom_line(aes(group=1), color = "gray76", size = 1.5)+
   geom_point(shape=21, color="black", fill="orchid4", size=8) +
     theme_bw()+
@@ -90,7 +90,7 @@ Plot of TN
 ```{r}
 tn_14_avg %>%
   ggplot( aes(x=Date, y=Average_TN)) +
-  #geom_hline(yintercept = 0)+
+  geom_hline(yintercept = 950.6, size = 2, color = "royalblue4")+
   geom_line(aes(group=1), color = "gray76", size = 1.5)+
   geom_point(shape=21, color="black", fill="royalblue4", size=8) +
     theme_bw()+
@@ -99,6 +99,8 @@ tn_14_avg %>%
     xlab('Date')+
     ylab('TN Concentration (µg/L)')+
     labs(title = "Average Total Nitrogen Concentrations for Summer 2024")
+
+#save in 600 by 400 png
 ```
 
 ### Toxins
@@ -164,7 +166,7 @@ Plot of Secchi Depth
 ```{r}
 sec_14_avg %>%
   ggplot( aes(x=Date, y=Average_SEC))+
-  #geom_hline(yintercept = 0)+
+  geom_hline(yintercept = 1.11, size = 2, color = "darkorange4")+
   geom_line(aes(group=1), color = "gray76", size = 1.5)+
   geom_point(shape=21, color="black", fill="darkorange4", size=8) +
     theme_bw()+
@@ -189,7 +191,7 @@ Chlorophyll A Plot
 ```{r}
 chlA_14_avg %>%
   ggplot( aes(x=Date, y=Average_chlA))+
-  #geom_hline(yintercept = 0)+
+  geom_hline(yintercept = 22.14, size = 2, color = "darkolivegreen")+
   geom_line(aes(group=1), color = "gray76", size = 1.5)+
   geom_point(shape=21, color="black", fill="darkolivegreen", size=8) +
     theme_bw()+
@@ -235,3 +237,24 @@ ggplot(ysi_14te,aes(x=depth_m,y=tempF, group=date))+
 
 ```
 
+DO vs Depth
+```{r}
+#treat temp as a function of depth and then reverse later
+ggplot(ysi_14te,aes(x=depth_m,y=doConcentration_mgpL, group=date))+
+  #set up the asthetics, the line must be broken because this is technically discrete data
+  geom_line(aes(color =date),size=1.5, linetype=1)+
+  #geom_point(aes(color=date))+
+  #reverse depth so it starts at zero
+  scale_x_reverse()+
+  #put the y axis labes on the opposite side so when its flipped it will appear at top
+  scale_y_continuous(position="right")+
+  #this is how you reverse the look and order or the coordinates for the graph
+  coord_flip()+
+  theme_bw()+
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank())+
+  xlab('Depth (m)')+
+  ylab('Dissolved Oxygen Concentration (mg/L)')+
+  theme(legend.position = "inside", legend.position.inside =  c(.70, .20)) #left to right #up and down
+#300 by 450
+```
