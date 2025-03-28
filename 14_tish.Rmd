@@ -157,7 +157,10 @@ Secchi Depth Averages
 sec_14 <- SLAP_2024_SECCHI.csv%>%
   filter(MULakeNumber == "014")
 
-sec_14_avg <- sec_14 %>%
+sec_14_new <- sec_14 %>%
+    mutate(endDepth = if_else(is.na(endDepth), 0, endDepth))
+
+sec_14_avg <- sec_14_new %>%
   group_by(Date)%>%
   summarise(Average_SEC = mean(parameterValue))  #units in m
 ```
@@ -180,7 +183,7 @@ sec_14_avg %>%
 Chlorophyll A Averages
 ```{r}
 chlA_14 <- SLAP_2024_CHL_A.csv%>%
-  filter(MULakeNumber == "014")
+  filter(MULakeNumber == "014"& endDepth == 0)
 
 chlA_14_avg <- chlA_14 %>%
   group_by(Date)%>%
@@ -258,3 +261,243 @@ ggplot(ysi_14te,aes(x=depth_m,y=doConcentration_mgpL, group=date))+
   theme(legend.position = "inside", legend.position.inside =  c(.70, .20)) #left to right #up and down
 #300 by 450
 ```
+
+## Historical Data
+First, merge the 2024 data into one data frame with all the parameters
+```{r}
+folder_2 = "C:/Users/mvhfg/OneDrive - University of Missouri/North_Limnology/priv_lake_rep/Private_Lake_Reports/twf_data"
+files_2 = list.files(
+  path = folder_2,
+  pattern = ".*csv$",
+  ignore.case = F,
+  full.names = T #provides path to folder
+)
+
+# Create a function to read the csv files and return column names
+get_column_names <- function(file_path) {
+  read_csv(file_path) %>% names()
+}
+
+# Get column names from all the files
+column_names <- map(files_2, get_column_names)
+
+# Find the common columns in all the files
+common_columns <- reduce(column_names, intersect)
+
+# Read and bind data from all the files, keeping only the common columns
+combined_24_data <- map_df(files_2, ~read_csv(., col_types = cols(.default = "c"))) %>% select(all_of(common_columns))
+
+```
+^ this was practice for gathering historical data and only keeping the matching columns
+
+Cleaning 24 Data to Only show lake 14 and parameters: TN, TP, CHLA COR, SECCHI
+```{r}
+clean_24yr <- within(combined_24_data, endDepth[parameterType == 'SECCHI'] <- 0)
+
+num_clean_24yr <-clean_24yr %>%
+  mutate(endDepth = as.numeric(endDepth))
+
+clean_4_24yr <- num_clean_24yr%>%
+  filter(parameterType == 'TN'|parameterType == 'TP'|parameterType == 'CHL_A_COR'|parameterType == 'SECCHI')%>%
+  filter(endDepth == 0)%>%
+  rename("endDepth_m" = endDepth)
+
+#this is all 2024 data with only the 4 parameters for the graph
+```
+
+Put the clean file in the hist_data folder
+```{r}
+write.csv(clean_4_24yr, "C:/Users/mvhfg/OneDrive - University of Missouri/North_Limnology/priv_lake_rep/Private_Lake_Reports/hist_data/MissouriReservoirs_WaterChemistry_2024.csv",row.names=FALSE)
+```
+
+5 years worth of data
+```{r}
+folder_hist = "C:/Users/mvhfg/OneDrive - University of Missouri/North_Limnology/priv_lake_rep/Private_Lake_Reports/hist_data"
+files_hist = list.files(
+  path = folder_hist,
+  pattern = ".*csv$",
+  ignore.case = F,
+  full.names = T #provides path to folder
+)
+
+# Create a function to read the csv files and return column names
+get_column_names <- function(file_path) {
+  read_csv(file_path) %>% names()
+}
+
+# Get column names from all the files
+column_names <- map(files_hist, get_column_names)
+
+# Find the common columns in all the files
+common_columns <- reduce(column_names, intersect)
+
+# Read and bind data from all the files, keeping only the common columns
+combined_20to24_data <- map_df(files_hist, ~read_csv(., col_types = cols(.default = "c"))) %>% select(all_of(common_columns))
+```
+
+Filter to show the private lakes only
+```{r}
+priv_20to24 <- combined_20to24_data%>%
+  filter(MULakeNumber == '014'|MULakeNumber == '021'|MULakeNumber == '096'|MULakeNumber == '018'|
+           MULakeNumber == '112'|MULakeNumber == '120'|MULakeNumber == '169'|MULakeNumber == '411'|
+           MULakeNumber == '011'|MULakeNumber == '134'|MULakeNumber == '274')%>%
+  mutate(endDepth_m = as.numeric(endDepth_m))%>%
+  filter(endDepth_m == 0)
+```
+
+Graphing Historical Data
+```{r}
+#Take the annual average and SE of that average
+stderr <- function(x) sd(x)/sqrt(length(x))
+
+PrivHistoricalLakes_merged_annual<-priv_20to24%>%
+  ungroup()%>%
+  mutate(year=year(Date))%>%
+  mutate(parameterValue = as.numeric(parameterValue))%>%
+  group_by(year,MULakeNumber,waterBody,parameterType,unit)%>%
+  dplyr::summarise(parameterValue_mean=mean(parameterValue,na.rm=TRUE),
+              parameterValue_sderr=stderr(parameterValue),
+              .groups="keep")
+
+#Find the sen slopes for these variables: CHL_A_COR, SECCHI, TN, TP
+#group by MULakeNumber, parameterType, unit
+PrivHistoricalLakes_merged_annual%>%
+  filter(parameterType == 'TN'|parameterType == 'TP'|parameterType == 'CHL_A_COR'|parameterType == 'SECCHI')%>% #pull out these 4 variables of interest
+  ungroup()%>%
+  group_by(MULakeNumber,parameterType,unit)%>%
+  summarize(sensSlope_slope=MTCC.sensSlope(year,parameterValue_mean)$coefficients["Year"],
+            sensSlope_intercept=MTCC.sensSlope(year,parameterValue_mean)$coefficients["Intercept"],
+            sensSlope_pval=MTCC.sensSlope(year,parameterValue_mean)$pval)%>%
+  mutate(significance=ifelse(sensSlope_pval<0.05,"*",""))%>%print(n=Inf)
+
+
+#for each lake - do this set of 4 figures: TP, TN, CHl, Secchi
+
+#can do it on a loop or just run each one here
+lake.id<-"014" #specify the lake
+```
+
+Individual Historical Plots for Lake 14
+```{r}
+#TN specific graphs####
+labels_TN<-tibble(x=rep(-Inf,4),y.line=c(350,550,1200,NA),y.label=c((350/2),450,(550+1200)/2,1250),
+                  y.label.text=c("0","M","E","HE"))
+y.max_TN<-max(1255,max(PrivHistoricalLakes_merged_annual%>%filter(MULakeNumber==lake.id & parameterType=="TN")%>%
+                         mutate(upper=parameterValue_mean+parameterValue_sderr)%>%
+                         dplyr::select(upper)%>%ungroup()%>%pull(),na.rm=TRUE),na.rm=TRUE)
+(gg.TN.lake<-ggplot(data=PrivHistoricalLakes_merged_annual%>%filter(MULakeNumber==lake.id&parameterType=="TN"),
+                    aes(x=year,y=parameterValue_mean))+
+    geom_hline(yintercept=labels_TN$y.line,linetype=2,color="grey")+
+    geom_text(data=labels_TN,aes(x=x,y=y.label,label=y.label.text),hjust=-0.2,color="grey")+
+    geom_errorbar(aes(ymin = parameterValue_mean-parameterValue_sderr, ymax = parameterValue_mean+parameterValue_sderr))+
+    geom_point(size=2,shape=21,fill="light grey")+
+    theme_bw()+
+    xlab("Year")+
+    ylab(bquote(TN~(mu*g*'/'*L)))+
+    scale_y_continuous(limits=c(0,y.max_TN)))
+
+#TP specific graphs####
+labels_TP<-tibble(x=rep(-Inf,4),y.line=c(10,25,100,NA),y.label=c((10/2),(10+25)/2,(25+100)/2,120),
+                  y.label.text=c("0","M","E","HE"))
+y.max_TP<-max(125,max(PrivHistoricalLakes_merged_annual%>%filter(MULakeNumber==lake.id&parameterType=="TP")%>%
+                        mutate(upper=parameterValue_mean+parameterValue_sderr)%>%
+                        dplyr::select(upper)%>%ungroup()%>%pull(),na.rm=TRUE),na.rm=TRUE)
+(gg.TP.lake<-ggplot(data=PrivHistoricalLakes_merged_annual%>%filter(MULakeNumber==lake.id&parameterType=="TP"),
+                    aes(x=year,y=parameterValue_mean))+
+    geom_hline(yintercept=labels_TP$y.line,linetype=2,color="grey")+
+    geom_text(data=labels_TP,aes(x=x,y=y.label,label=y.label.text),hjust=-0.2,color="grey")+
+    geom_errorbar(aes(ymin = parameterValue_mean-parameterValue_sderr, ymax = parameterValue_mean+parameterValue_sderr))+
+    geom_point(size=2,shape=21,fill="light grey")+
+    theme_bw()+
+    xlab("Year")+
+    ylab(bquote(TP~(mu*g*'/'*L)))+
+    scale_y_continuous(limits=c(0,y.max_TP)))
+
+#CHL_A_COR specific graphs####
+labels_CHL_A_COR<-tibble(x=rep(-Inf,4),y.line=c(3,9,40,NA),y.label=c((3/2),(3+9)/2,(9+40)/2,43),
+                         y.label.text=c("0","M","E","HE"))
+y.max_CHL_A_COR<-max(45,max(PrivHistoricalLakes_merged_annual%>%filter(MULakeNumber==lake.id&parameterType=="CHL_A_COR")%>%
+                              mutate(upper=parameterValue_mean+parameterValue_sderr)%>%
+                              dplyr::select(upper)%>%ungroup()%>%pull(),na.rm=TRUE),na.rm=TRUE)
+(gg.CHL_A_COR.lake<-ggplot(data=PrivHistoricalLakes_merged_annual%>%filter(MULakeNumber==lake.id&parameterType=="CHL_A_COR"),aes(x=year,y=parameterValue_mean))+
+    geom_hline(yintercept=labels_CHL_A_COR$y.line,linetype=2,color="grey")+
+    geom_text(data=labels_CHL_A_COR,aes(x=x,y=y.label,label=y.label.text),hjust=-0.2,color="grey")+
+    geom_errorbar(aes(ymin = parameterValue_mean-parameterValue_sderr, ymax = parameterValue_mean+parameterValue_sderr))+
+    geom_point(size=2,shape=21,fill="light grey")+
+    theme_bw()+
+
+    xlab("Year")+
+    ylab(bquote(Chl~italic(a)~(mu*g*'/'*L)))+
+    scale_y_continuous(limits=c(0,y.max_CHL_A_COR)))
+
+#SECCHI specific graphs####
+labels_SECCHI<-tibble(x=rep(-Inf,4),y.line=c(0.45,1.3,2.6,NA),y.label=c((0.45/2),(0.45+1.3)/2,(1.3+2.6)/2,3),
+                      y.label.text=c("HE","E","M","O"))
+y.max_SECCHI<-max(3.2,max(PrivHistoricalLakes_merged_annual%>%filter(MULakeNumber==lake.id&parameterType=="SECCHI")%>%
+                            mutate(upper=parameterValue_mean+parameterValue_sderr)%>%
+                            dplyr::select(upper)%>%ungroup()%>%pull(),na.rm=TRUE),na.rm=TRUE)
+(gg.SECCHI.lake<-ggplot(data=PrivHistoricalLakes_merged_annual%>%filter(MULakeNumber==lake.id&parameterType=="SECCHI"),
+                        aes(x=year,y=parameterValue_mean))+
+    geom_hline(yintercept=labels_SECCHI$y.line,linetype=2,color="grey")+ #Lines for indicating trophic state
+    geom_text(data=labels_SECCHI,aes(x=x,y=y.label,label=y.label.text),hjust=-0.2,color="grey")+ #labels for trophic state
+    geom_errorbar(aes(ymin = parameterValue_mean-parameterValue_sderr, ymax = parameterValue_mean+parameterValue_sderr))+
+    geom_point(size=2,shape=21,fill="light grey")+
+    theme_bw()+
+    xlab("Year")+
+    ylab(bquote(Secchi~(m)))+
+    #scale_y_continuous()+
+    scale_y_reverse(limits=c(y.max_SECCHI,-0.2)))
+```
+
+Making 4 Plots into One Main Figure
+```{r}
+year.range<-PrivHistoricalLakes_merged_annual%>%filter(MULakeNumber==lake.id)%>%ungroup()%>%
+  summarize(min.year=min(year,na.rm=TRUE)-1,max.year=max(year,na.rm=TRUE)+1)%>%slice(1)%>%as.numeric()
+
+IndLakeFigureList<-list(gg.TN.lake+
+                      xlab("")+
+                      theme(axis.text.x=element_blank(),
+                      panel.grid.major = element_blank(), panel.grid.minor = element_blank()
+                      )+
+                      scale_x_continuous(limits=year.range)+
+                      annotate("text",x=Inf,y=Inf,label="A",hjust=1.2,vjust=1.2),
+                    gg.TP.lake+
+                      xlab("")+
+                      #ylab("")+
+                      theme(axis.text.x=element_blank(),
+                            #axis.text.y=element_blank(),
+                            #axis.ticks.x=element_blank(),
+                            panel.grid.major = element_blank(), panel.grid.minor = element_blank()
+                            )+
+                      scale_x_continuous(limits=year.range)+
+                      annotate("text",x=Inf,y=Inf,label="B",hjust=1.2,vjust=1.2),
+                    gg.CHL_A_COR.lake+
+                      #xlab("")+
+                      #ylab("")+
+                      theme( #axis.text.x=element_blank(),
+                        #axis.text.y=element_blank(),
+                        #axis.ticks.x=element_blank(),
+                        panel.grid.major = element_blank(), panel.grid.minor = element_blank()
+                          )+
+                      scale_x_continuous(limits=year.range)+
+                      annotate("text",x=Inf,y=Inf,label="C",hjust=1.2,vjust=1.2),
+                    gg.SECCHI.lake+
+                      #xlab("")+
+                      #ylab("")+
+                      theme(#axis.text.x=element_blank(),
+                        #axis.text.y=element_blank(),
+                        #axis.ticks.x=element_blank(),
+                        panel.grid.major = element_blank(), panel.grid.minor = element_blank()
+                        )+
+                      scale_x_continuous(limits=year.range)+
+                      annotate("text",x=Inf,y=-Inf,label="D",hjust=1.2,vjust=1.2)
+)
+```
+
+Putting plots on a 2*2 matrix
+```{r}
+if (!require(patchwork)) {install.packages("patchwork")}
+library(patchwork)
+(gg.fig3.lake<-patchwork::wrap_plots(IndLakeFigureList,ncol=2,nrow=2)&theme(plot.margin = unit(c(3,3,3,3),"pt")))
+```
+
