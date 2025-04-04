@@ -162,21 +162,22 @@ sec_14_new <- sec_14 %>%
 
 sec_14_avg <- sec_14_new %>%
   group_by(Date)%>%
-  summarise(Average_SEC = mean(parameterValue))  #units in m
+  summarise(Average_SEC = mean(parameterValue))%>% #units in m
+  mutate(Avg_SECft = Average_SEC*3.280839895)
 ```
 
 Plot of Secchi Depth
 ```{r}
 sec_14_avg %>%
-  ggplot( aes(x=Date, y=Average_SEC))+
-  geom_hline(yintercept = 1.11, size = 2, color = "darkorange4")+
+  ggplot( aes(x=Date, y=Avg_SECft))+
+  geom_hline(yintercept = 1.11*3.280839895, size = 2, color = "darkorange4")+
   geom_line(aes(group=1), color = "gray76", size = 1.5)+
   geom_point(shape=21, color="black", fill="darkorange4", size=8) +
     theme_bw()+
     theme(panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank())+
     xlab('Date')+
-    ylab('Depth (m)')+
+    ylab('Depth (ft)')+
     labs(title = "Average Secchi Depths for Summer 2024")
 ```
 
@@ -215,13 +216,15 @@ ysi_14 <- MO_YSIProfileData_2024.csv%>%
   filter(MULakeNumber == "014")
 
 ysi_14te <- ysi_14%>%
-  mutate(tempF = (9/5)*temp_degC+32)
+  mutate(tempF = (9/5)*temp_degC+32)%>%
+  mutate(doMicro = doConcentration_mgpL*1000)%>%
+  mutate(depth_ft = depth_m*3.280839895)
 ```
 
 Temperature vs Depth
 ```{r}
 #treat temp as a function of depth and then reverse later
-ggplot(ysi_14te,aes(x=depth_m,y=tempF, group=date))+
+ggplot(ysi_14te,aes(x=depth_ft,y=tempF, group=date))+
   #set up the asthetics, the line must be broken because this is technically discrete data
   geom_line(aes(color =date),size=1.5, linetype=1)+
   #geom_point(aes(color=date))+
@@ -234,16 +237,17 @@ ggplot(ysi_14te,aes(x=depth_m,y=tempF, group=date))+
   theme_bw()+
   theme(panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank())+
-  xlab('Depth (m)')+
+  xlab('Depth (ft)')+
   ylab('Temperature (°F)')+
-  theme(legend.position = "inside", legend.position.inside =  c(.90, .20)) #left to right #up and down
+  theme(legend.position = "inside", legend.position.inside =  c(.70, .20)) #left to right #up and down
+#350 * 600
 
 ```
 
 DO vs Depth
 ```{r}
 #treat temp as a function of depth and then reverse later
-ggplot(ysi_14te,aes(x=depth_m,y=doConcentration_mgpL, group=date))+
+ggplot(ysi_14te,aes(x=depth_ft,y=doMicro, group=date))+
   #set up the asthetics, the line must be broken because this is technically discrete data
   geom_line(aes(color =date),size=1.5, linetype=1)+
   #geom_point(aes(color=date))+
@@ -256,10 +260,10 @@ ggplot(ysi_14te,aes(x=depth_m,y=doConcentration_mgpL, group=date))+
   theme_bw()+
   theme(panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank())+
-  xlab('Depth (m)')+
-  ylab('Dissolved Oxygen Concentration (mg/L)')+
+  xlab('Depth (ft)')+
+  ylab('Dissolved Oxygen Concentration (µg/L)')+
   theme(legend.position = "inside", legend.position.inside =  c(.70, .20)) #left to right #up and down
-#300 by 450
+#350 by 600
 ```
 
 ## Historical Data
@@ -343,21 +347,66 @@ priv_20to24 <- combined_20to24_data%>%
            MULakeNumber == '011'|MULakeNumber == '134'|MULakeNumber == '274')%>%
   mutate(endDepth_m = as.numeric(endDepth_m))%>%
   filter(endDepth_m == 0)
+
+all.hist.USA <- combined_20to24_data%>%
+  ungroup()%>%
+  mutate(parameterValue = as.numeric(parameterValue))%>%
+  mutate(parValueUSA=case_when(
+                      unit=="m"~parameterValue*3.280839895,
+                      unit=="ug/L"~parameterValue/1000#,
+                      #.default = parameterValue
+                                          ))%>%
+                    #Change the unit labels####
+          mutate(unitUSA=case_when(
+                      unit=="m"~"ft",
+                      unit=="ug/L"~"mg/L"#,
+                      #.default = unit
+                    ))%>%
+                    #Change the crow pond date####
+          mutate(Date=case_when(
+                      Date=="6/11/2024"~"2024-06-11",
+                      .default = Date #this keeps the other values from original Date column. 
+                      #basically pastes the rest of the values that i haven't edited
+                    ))%>%
+  filter(parameterType == 'TN'|parameterType == 'TP'|parameterType == 'CHL_A_COR'|parameterType == 'SECCHI')%>% 
+  mutate(endDepth_m = as.numeric(endDepth_m))%>%
+  filter(endDepth_m == 0)
+
 ```
 
-Graphing Historical Data
+Gathering Annual Average Historical Data for Private Lakes
 ```{r}
+#making a new column with secchi m to ft
+#call value column parValueUSA
+#call unit column unitUSA
+PrivHistoricalLakes_merged_annual.US <- priv_20to24%>%
+  ungroup()%>%
+  mutate(parameterValue = as.numeric(parameterValue))%>%
+  mutate(parValueUSA=case_when(
+                      unit=="m"~parameterValue*3.280839895,
+                      unit=="ug/L"~parameterValue/1000#,
+                      #.default = parameterValue
+                                          ))%>%
+                    #Change the unit labels####
+          mutate(unitUSA=case_when(
+                      unit=="m"~"ft",
+                      unit=="ug/L"~"mg/L"#,
+                      #.default = unit
+                    ))
+
 #Take the annual average and SE of that average
 stderr <- function(x) sd(x)/sqrt(length(x))
 
-PrivHistoricalLakes_merged_annual<-priv_20to24%>%
+PrivHistoricalLakes_merged_annual<-PrivHistoricalLakes_merged_annual.US%>%
   ungroup()%>%
   mutate(year=year(Date))%>%
-  mutate(parameterValue = as.numeric(parameterValue))%>%
   group_by(year,MULakeNumber,waterBody,parameterType,unit)%>%
-  dplyr::summarise(parameterValue_mean=mean(parameterValue,na.rm=TRUE),
-              parameterValue_sderr=stderr(parameterValue),
+  dplyr::summarise(parameterValue_mean=mean(parameterValue,na.rm=TRUE), #metric
+                   parameterValue_sderr=stderr(parameterValue), #metric
+                   parValueUSA_mean=mean(parValueUSA,na.rm=TRUE), #us
+                   parValueUSA_sderr=stderr(parValueUSA), #us
               .groups="keep")
+
 
 #Find the sen slopes for these variables: CHL_A_COR, SECCHI, TN, TP
 #group by MULakeNumber, parameterType, unit
@@ -369,16 +418,39 @@ PrivHistoricalLakes_merged_annual%>%
             sensSlope_intercept=MTCC.sensSlope(year,parameterValue_mean)$coefficients["Intercept"],
             sensSlope_pval=MTCC.sensSlope(year,parameterValue_mean)$pval)%>%
   mutate(significance=ifelse(sensSlope_pval<0.05,"*",""))%>%print(n=Inf)
-
-
-#for each lake - do this set of 4 figures: TP, TN, CHl, Secchi
-
-#can do it on a loop or just run each one here
-lake.id<-"014" #specify the lake
 ```
+
+Gathering Annual Average Historical Data for ALL Lakes - Other Private + Lake 14
+```{r}
+#filtering out data
+pubHistPlus014 <- all.hist.USA%>%
+  filter(nchar(as.character(MULakeNumber))==3)%>% #only the MULake with 000 format no "-" or extra stuff
+  filter(MULakeNumber != '021'& MULakeNumber != '096' & MULakeNumber != '018'& 
+           MULakeNumber != '112'& MULakeNumber != '120'& MULakeNumber != '169'& MULakeNumber != '411'&
+           MULakeNumber != '011'& MULakeNumber != '134'& MULakeNumber != '274'& MULakeNumber != '401') #401 = field blank
+
+#change crow pond date format from 6/11/2024 to 2024-06-11
+#pubHistPlus014.2 <- within(pubHistPlus014, Date[Date == '6/11/2024'] <- "2024-06-11")
+#already done in line 365
+
+HistoricalLakes_merged_annual<-pubHistPlus014%>%
+  ungroup()%>%
+  mutate(year=year(Date))%>%
+  group_by(year,MULakeNumber,waterBody,parameterType,unit)%>%
+  dplyr::summarise(parameterValue_mean=mean(parameterValue,na.rm=TRUE), #metric
+                   parameterValue_sderr=stderr(parameterValue), #metric
+                   parValueUSA_mean=mean(parValueUSA,na.rm=TRUE), #us
+                   parValueUSA_sderr=stderr(parValueUSA), #us
+              .groups="keep")
+
+```
+
 
 Individual Historical Plots for Lake 14
 ```{r}
+#for each lake - do this set of 4 figures: TP, TN, CHl, Secchi
+lake.id<-"014" #specify the lake
+
 #TN specific graphs####
 labels_TN<-tibble(x=rep(-Inf,4),y.line=c(350,550,1200,NA),y.label=c((350/2),450,(550+1200)/2,1250),
                   y.label.text=c("0","M","E","HE"))
@@ -447,12 +519,35 @@ y.max_SECCHI<-max(3.2,max(PrivHistoricalLakes_merged_annual%>%filter(MULakeNumbe
     ylab(bquote(Secchi~(m)))+
     #scale_y_continuous()+
     scale_y_reverse(limits=c(y.max_SECCHI,-0.2)))
+
+#SECCHI with ft
+labels_SECCHI_ft<-tibble(x=rep(-Inf,4),y.line=c(0.45*3.280839895,1.3*3.280839895,2.6*3.280839895,NA),
+                      y.label=c((0.45*3.280839895/2),((0.45+1.3)*3.280839895)/2,((1.3+2.6)*3.280839895)/2,3*3.280839895),
+                      y.label.text=c("HE","E","M","O"))
+y.max_SECCHI_ft<-max(3.2*3.280839895,max(PrivHistoricalLakes_merged_annual%>%filter(MULakeNumber==lake.id&
+                                                                                   parameterType=="SECCHI")%>%
+                            mutate(upper=parValueUSA_mean+parValueUSA_sderr)%>%
+                            dplyr::select(upper)%>%ungroup()%>%pull(),na.rm=TRUE),na.rm=TRUE)
+(gg.SECCHI.lake_ft<-ggplot(data=PrivHistoricalLakes_merged_annual%>%filter(MULakeNumber==lake.id&parameterType=="SECCHI"),
+                        aes(x=year,y=parValueUSA_mean))+
+    geom_hline(yintercept=labels_SECCHI_ft$y.line,linetype=2,color="grey")+ #Lines for indicating trophic state
+    geom_text(data=labels_SECCHI_ft,aes(x=x,y=y.label,label=y.label.text),hjust=-0.2,color="grey")+ #labels for trophic state
+    geom_errorbar(aes(ymin = parValueUSA_mean-parValueUSA_sderr, ymax = parValueUSA_mean+parValueUSA_sderr))+
+    geom_point(size=2,shape=21,fill="light grey")+
+    theme_bw()+
+    xlab("Year")+
+    ylab(bquote(Secchi~(ft)))+
+    #scale_y_continuous()+
+    scale_y_reverse(limits=c(y.max_SECCHI_ft,-0.2)))
 ```
 
 Making 4 Plots into One Main Figure
 ```{r}
-year.range<-PrivHistoricalLakes_merged_annual%>%filter(MULakeNumber==lake.id)%>%ungroup()%>%
-  summarize(min.year=min(year,na.rm=TRUE)-1,max.year=max(year,na.rm=TRUE)+1)%>%slice(1)%>%as.numeric()
+year.range<-PrivHistoricalLakes_merged_annual%>%
+  filter(MULakeNumber==lake.id)%>%ungroup()%>%
+  summarize(min.year=min(year,na.rm=TRUE),max.year=max(year,na.rm=TRUE))%>%
+  slice(2)%>%
+  as.numeric()
 
 IndLakeFigureList<-list(gg.TN.lake+
                       xlab("")+
@@ -481,7 +576,7 @@ IndLakeFigureList<-list(gg.TN.lake+
                           )+
                       scale_x_continuous(limits=year.range)+
                       annotate("text",x=Inf,y=Inf,label="C",hjust=1.2,vjust=1.2),
-                    gg.SECCHI.lake+
+                    gg.SECCHI.lake_ft+
                       #xlab("")+
                       #ylab("")+
                       theme(#axis.text.x=element_blank(),
@@ -499,5 +594,82 @@ Putting plots on a 2*2 matrix
 if (!require(patchwork)) {install.packages("patchwork")}
 library(patchwork)
 (gg.fig3.lake<-patchwork::wrap_plots(IndLakeFigureList,ncol=2,nrow=2)&theme(plot.margin = unit(c(3,3,3,3),"pt")))
+#w:700 h:500
+```
+
+Making the Long Comparison for 4 Parameters
+Have to look at yearly averages 
+```{r}
+#size: 500 by 700
+gg.TN.all.and.14<-ggplot(data=HistoricalLakes_merged_annual%>%filter(year=="2024"&parameterType=="TN"),
+                    aes(x=reorder(waterBody, -parameterValue_mean),y=parameterValue_mean))+
+    geom_bar(stat = "identity", size=2,shape=21,fill="light grey")+
+    theme_bw()+
+    theme( # remove the horizontal grid lines
+           panel.grid.major.y = element_blank() ,
+           # explicitly set the vertical lines (or they will disappear too)
+           panel.grid.major.x = element_line(size=.75, linetype = "dashed"),
+           panel.grid.minor.x = element_blank()
+    )+
+    xlab("Reservoir Name")+
+    ylab(bquote(TN~(mu*g*'/'*L)))+
+    coord_flip()
+
+gg.TP.all.and.14<-ggplot(data=HistoricalLakes_merged_annual%>%filter(year=="2024"&parameterType=="TP"),
+                    aes(x=reorder(waterBody, -parameterValue_mean),y=parameterValue_mean))+
+    geom_bar(stat = "identity", size=2,shape=21,fill="light grey")+
+    theme_bw()+
+    theme( # remove the horizontal grid lines
+           panel.grid.major.y = element_blank() ,
+           # explicitly set the vertical lines (or they will disappear too)
+           panel.grid.major.x = element_line(size=.75, linetype = "dashed"),
+           panel.grid.minor.x = element_blank()
+    )+
+    xlab("Reservoir Name")+
+    ylab(bquote(TP~(mu*g*'/'*L)))+
+    coord_flip()
+
+gg.chlA.all.and.14<-ggplot(data=HistoricalLakes_merged_annual%>%filter(year=="2024"&parameterType=="CHL_A_COR"),
+                    aes(x=reorder(waterBody, -parameterValue_mean),y=parameterValue_mean))+
+    geom_bar(stat = "identity", size=2,shape=21,fill="light grey")+
+    theme_bw()+
+    theme( # remove the horizontal grid lines
+           panel.grid.major.y = element_blank() ,
+           # explicitly set the vertical lines (or they will disappear too)
+           panel.grid.major.x = element_line(size=.75, linetype = "dashed"),
+           panel.grid.minor.x = element_blank()
+    )+
+    xlab("Reservoir Name")+
+    ylab(bquote("Chlorophyll A"~(mu*g*'/'*L)))+
+    coord_flip()
+
+gg.SEC.all.and.14<-ggplot(data=HistoricalLakes_merged_annual%>%filter(year=="2024"&parameterType=="SECCHI"),
+                    aes(x=reorder(waterBody, parameterValue_mean),y=parameterValue_mean))+
+    geom_bar(stat = "identity", size=2,shape=21,fill="light grey")+
+    theme_bw()+
+    theme( # remove the horizontal grid lines
+           panel.grid.major.y = element_blank() ,
+           # explicitly set the vertical lines (or they will disappear too)
+           panel.grid.major.x = element_line(size=.75, linetype = "dashed"),
+           panel.grid.minor.x = element_blank()
+    )+
+    xlab("Reservoir Name")+
+    ylab(bquote(Secchi~(m)))+
+    coord_flip()
+
+gg.SEC.all.and.14<-ggplot(data=HistoricalLakes_merged_annual%>%filter(year=="2024"&parameterType=="SECCHI"),
+                    aes(x=reorder(waterBody, parValueUSA_mean),y=parValueUSA_mean))+
+    geom_bar(stat = "identity", size=2,shape=21,fill="light grey")+
+    theme_bw()+
+    theme( # remove the horizontal grid lines
+           panel.grid.major.y = element_blank() ,
+           # explicitly set the vertical lines (or they will disappear too)
+           panel.grid.major.x = element_line(size=.75, linetype = "dashed"),
+           panel.grid.minor.x = element_blank()
+    )+
+    scale_y_continuous(breaks=seq(0,20,2.5))+
+    xlab("Reservoir Name")+
+    ylab(bquote(Secchi~(ft)))+
+    coord_flip()
 ```
 
